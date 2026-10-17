@@ -1,0 +1,4 @@
+interface:
+  display_name: "Автор християнських листів"
+  short_description: "Автор християнських листів: біблійна допомога"
+  default_prompt: "Використай $christian-letter, щоб допомогти мені з цим завданням українською."

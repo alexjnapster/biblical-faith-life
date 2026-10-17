@@ -1,0 +1,4 @@
+interface:
+  display_name: "Пастирська підтримка"
+  short_description: "Пастирська підтримка: біблійна допомога"
+  default_prompt: "Використай $pastoral-care, щоб допомогти мені з цим завданням українською."

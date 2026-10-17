@@ -1,0 +1,4 @@
+interface:
+  display_name: "Біблійне дослідження"
+  short_description: "Біблійне дослідження: біблійна допомога"
+  default_prompt: "Використай $biblical-faith-life, щоб допомогти мені з цим завданням українською."

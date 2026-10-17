@@ -1,0 +1,4 @@
+interface:
+  display_name: "Автор християнських звітів"
+  short_description: "Автор християнських звітів: біблійна допомога"
+  default_prompt: "Використай $christian-report, щоб допомогти мені з цим завданням українською."

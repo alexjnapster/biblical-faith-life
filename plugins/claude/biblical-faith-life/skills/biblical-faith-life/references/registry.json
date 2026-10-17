@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "capabilities": [
+    {
+      "id": 1,
+      "slug": "deep-exegesis",
+      "title": "Deep Exegesis",
+      "description": "Analyze a biblical passage in depth, including disputed interpretations."
+    },
+    {
+      "id": 2,
+      "slug": "hebrew-greek-scholar",
+      "title": "Hebrew & Greek Scholar",
+      "description": "Investigate Hebrew or Greek words, syntax, discourse, and translation choices."
+    },
+    {
+      "id": 3,
+      "slug": "bible-cross-reference-atlas",
+      "title": "Bible Cross-Reference Atlas",
+      "description": "Trace quotations, allusions, and thematic connections between biblical passages."
+    },
+    {
+      "id": 4,
+      "slug": "textual-criticism",
+      "title": "Textual Criticism",
+      "description": "Assess biblical textual variants, witnesses, and their interpretive consequences."
+    },
+    {
+      "id": 5,
+      "slug": "biblical-archaeology",
+      "title": "Biblical Archaeology",
+      "description": "Evaluate archaeological evidence related to biblical places, events, and culture."
+    },
+    {
+      "id": 6,
+      "slug": "bible-chronology-geography",
+      "title": "Bible Chronology & Geography",
+      "description": "Reconstruct biblical dates, routes, places, and event sequences."
+    },
+    {
+      "id": 7,
+      "slug": "interpretation-review",
+      "title": "Interpretation Review",
+      "description": "Review an existing biblical interpretation for contextual and logical soundness."
+    },
+    {
+      "id": 8,
+      "slug": "early-christianity-historian",
+      "title": "Early Christianity Historian",
+      "description": "Research early Christian texts, communities, institutions, and historical developments."
+    },
+    {
+      "id": 9,
+      "slug": "master-sermon-writer",
+      "title": "Master Sermon Writer",
+      "description": "Write a complete sustained sermon grounded in careful exegesis."
+    },
+    {
+      "id": 10,
+      "slug": "sermon-red-team",
+      "title": "Sermon Red Team",
+      "description": "Independently critique and help revise a sermon manuscript."
+    },
+    {
+      "id": 11,
+      "slug": "bible-course-architect",
+      "title": "Bible Course Architect",
+      "description": "Build coherent Bible curricula with teaching objectives and assessments."
+    },
+    {
+      "id": 12,
+      "slug": "children-youth-teacher",
+      "title": "Children & Youth Teacher",
+      "description": "Teach biblical material to children or youth with age-appropriate activities."
+    },
+    {
+      "id": 13,
+      "slug": "visual-bible-educator",
+      "title": "Visual Bible Educator",
+      "description": "Design accurate accessible biblical maps, timelines, diagrams, and teaching visuals."
+    },
+    {
+      "id": 14,
+      "slug": "bible-study-discussion",
+      "title": "Bible Study Discussion",
+      "description": "Create and facilitate text-led Bible study discussions."
+    },
+    {
+      "id": 15,
+      "slug": "doctrinal-comparison",
+      "title": "Doctrinal Comparison",
+      "description": "Compare theological positions and their biblical arguments fairly."
+    },
+    {
+      "id": 16,
+      "slug": "christian-apologetics",
+      "title": "Christian Apologetics",
+      "description": "Develop and assess reasoned Christian arguments and serious objections."
+    },
+    {
+      "id": 17,
+      "slug": "debate-argument-auditor",
+      "title": "Debate & Argument Auditor",
+      "description": "Audit arguments, debates, and apologetic claims for validity and evidence."
+    },
+    {
+      "id": 18,
+      "slug": "christianity-timeline-builder",
+      "title": "Christianity Timeline Builder",
+      "description": "Build evidence-graded timelines of Christian history and doctrinal development."
+    },
+    {
+      "id": 19,
+      "slug": "pastoral-counseling-assistant",
+      "title": "Pastoral Counseling Assistant",
+      "description": "Offer biblical pastoral support for personal difficulties."
+    },
+    {
+      "id": 20,
+      "slug": "trauma-informed-ministry",
+      "title": "Trauma-Informed Ministry",
+      "description": "Adapt pastoral care and church practice for trauma, abuse, and serious distress."
+    },
+    {
+      "id": 21,
+      "slug": "evangelism-conversation-coach",
+      "title": "Evangelism Conversation Coach",
+      "description": "Prepare respectful gospel conversations and responses to questions."
+    },
+    {
+      "id": 22,
+      "slug": "new-christian-discipleship",
+      "title": "New Christian Discipleship",
+      "description": "Build practical Bible-grounded formation for new Christians."
+    },
+    {
+      "id": 23,
+      "slug": "marriage-family-teaching",
+      "title": "Marriage & Family Teaching",
+      "description": "Teach biblical marriage and family responsibilities with pastoral care."
+    },
+    {
+      "id": 24,
+      "slug": "church-leadership-advisor",
+      "title": "Church Leadership Advisor",
+      "description": "Advise on biblical congregation leadership, discipline, and ministry decisions."
+    },
+    {
+      "id": 25,
+      "slug": "church-program-planner",
+      "title": "Church Program Planner",
+      "description": "Plan church teaching, service, outreach, and ministry programs."
+    },
+    {
+      "id": 26,
+      "slug": "ministry-reports-partner-letters",
+      "title": "Ministry Reports & Partner Letters",
+      "description": "Write evidence-based ministry reports and partner correspondence."
+    },
+    {
+      "id": 27,
+      "slug": "christian-publication-editor",
+      "title": "Christian Publication Editor",
+      "description": "Edit Christian articles, books, and teaching manuscripts for argument and accuracy."
+    },
+    {
+      "id": 28,
+      "slug": "bible-content-librarian",
+      "title": "Bible Content Librarian",
+      "description": "Index, retrieve, version, and deduplicate personal biblical study materials."
+    },
+    {
+      "id": 29,
+      "slug": "ministry-research-monitor",
+      "title": "Ministry Research Monitor",
+      "description": "Review new research relevant to a ministry question and compare it with prior evidence."
+    },
+    {
+      "id": 30,
+      "slug": "church-ua-content-publisher",
+      "title": "Church UA Content Publisher",
+      "description": "Prepare and submit validated Church UA content drafts for human review."
+    }
+  ],
+  "engines": [
+    "biblical-accuracy",
+    "doctrinal-governance",
+    "source-based-research",
+    "multilingual-scripture",
+    "pastoral-safety",
+    "independent-quality-assurance"
+  ],
+  "workflows": {
+    "biblical-research-laboratory": {
+      "title": "Biblical Research Laboratory",
+      "stages": [
+        "deep-exegesis",
+        "hebrew-greek-scholar",
+        "textual-criticism",
+        "biblical-archaeology",
+        "interpretation-review"
+      ]
+    },
+    "sermon-studio": {
+      "title": "Sermon Studio",
+      "stages": [
+        "deep-exegesis",
+        "master-sermon-writer",
+        "sermon-red-team",
+        "christian-publication-editor"
+      ]
+    },
+    "personal-biblical-knowledge-base": {
+      "title": "Personal Biblical Knowledge Base",
+      "stages": [
+        "bible-content-librarian"
+      ]
+    },
+    "visual-education-studio": {
+      "title": "Visual Education Studio",
+      "stages": [
+        "visual-bible-educator",
+        "bible-chronology-geography",
+        "christianity-timeline-builder"
+      ]
+    },
+    "church-ua-integration": {
+      "title": "Church UA Integration",
+      "stages": [
+        "church-ua-content-publisher",
+        "christian-publication-editor"
+      ]
+    }
+  }
+}

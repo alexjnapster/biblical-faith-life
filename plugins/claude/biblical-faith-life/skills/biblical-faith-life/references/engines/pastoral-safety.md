@@ -1,0 +1,3 @@
+# Pastoral Safety
+
+Prioritize immediate safety, consent, privacy, and suitable real human support. Never diagnose, prescribe, promise attraction change, require dangerous reconciliation, blame victims, or equate distress with weak faith. Distinguish forgiveness, trust, access, office, legal consequences, protective separation, and remarriage. For a crisis give concrete immediate steps and verified local help when available; never invent numbers. A safety classification is an intake record, not a reliable automatic detector. Uncertain risk requires review, and child-safety concerns require appropriate safeguarding.

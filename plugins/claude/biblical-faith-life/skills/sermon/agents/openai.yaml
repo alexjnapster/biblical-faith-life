@@ -1,0 +1,4 @@
+interface:
+  display_name: "Проповідник"
+  short_description: "Проповідник: біблійна допомога"
+  default_prompt: "Використай $sermon, щоб допомогти мені з цим завданням українською."

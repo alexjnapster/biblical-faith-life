@@ -1,0 +1,4 @@
+interface:
+  display_name: "План читання Біблії"
+  short_description: "План читання Біблії: біблійна допомога"
+  default_prompt: "Використай $bible-reading-plan, щоб допомогти мені з цим завданням українською."

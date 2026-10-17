@@ -1,0 +1,4 @@
+interface:
+  display_name: "Автор християнських статей"
+  short_description: "Автор християнських статей: біблійна допомога"
+  default_prompt: "Використай $christian-article, щоб допомогти мені з цим завданням українською."

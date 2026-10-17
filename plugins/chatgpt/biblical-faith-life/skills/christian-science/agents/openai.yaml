@@ -1,0 +1,4 @@
+interface:
+  display_name: "Християнин і наука"
+  short_description: "Християнин і наука: біблійна допомога"
+  default_prompt: "Використай $christian-science, щоб допомогти мені з цим завданням українською."

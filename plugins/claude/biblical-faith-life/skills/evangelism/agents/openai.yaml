@@ -1,0 +1,4 @@
+interface:
+  display_name: "Євангеліст"
+  short_description: "Євангеліст: біблійна допомога"
+  default_prompt: "Використай $evangelism, щоб допомогти мені з цим завданням українською."

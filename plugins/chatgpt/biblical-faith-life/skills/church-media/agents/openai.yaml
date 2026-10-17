@@ -1,0 +1,4 @@
+interface:
+  display_name: "Церковні медіа"
+  short_description: "Церковні медіа: біблійна допомога"
+  default_prompt: "Використай $church-media, щоб допомогти мені з цим завданням українською."

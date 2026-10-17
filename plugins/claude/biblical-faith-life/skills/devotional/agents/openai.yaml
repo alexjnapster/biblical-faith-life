@@ -1,0 +1,4 @@
+interface:
+  display_name: "Автор роздумів"
+  short_description: "Автор роздумів: біблійна допомога"
+  default_prompt: "Використай $devotional, щоб допомогти мені з цим завданням українською."

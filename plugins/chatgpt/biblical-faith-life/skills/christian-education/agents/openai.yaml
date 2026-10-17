@@ -1,0 +1,4 @@
+interface:
+  display_name: "Автор навчальних матеріалів"
+  short_description: "Автор навчальних матеріалів: біблійна допомога"
+  default_prompt: "Використай $christian-education, щоб допомогти мені з цим завданням українською."

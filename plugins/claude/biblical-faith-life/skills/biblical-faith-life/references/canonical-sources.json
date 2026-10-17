@@ -1,0 +1,73 @@
+{
+  "canonical_directory": ".",
+  "sources": [
+    {
+      "file": "UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "bytes": 126056,
+      "sha256": "e325297a499da5687754dde4add85385ae32cd50c69aa40292f373b168ee649d"
+    },
+    {
+      "file": "DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "bytes": 17046,
+      "sha256": "f264d8291c44377031a3086a56206ac08e5fee3ba1e86828b70269b101e502c4"
+    },
+    {
+      "file": "05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 32899,
+      "sha256": "f9de84dbc1272748a2c81c4f8d42576057db6923d33ff57ebf4816ad64b294cf"
+    },
+    {
+      "file": "ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "bytes": 182944,
+      "sha256": "bf5d273e6ff036a57737600abe4e4cd09376158e3e95b5aede00ee08f6f46a7c"
+    },
+    {
+      "file": "CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 143513,
+      "sha256": "c9e46d903cdba9f1ed37f777b095f7b456b4631aeaf0ea2e70ddc6ed27be28af"
+    },
+    {
+      "file": "Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "bytes": 10111,
+      "sha256": "d0a89af81d726d94d460c569a32f7acceb5c36b3c406dc8b7680fc220096028f"
+    },
+    {
+      "file": "Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "bytes": 53936,
+      "sha256": "a20372ef1743cf31e5519e59f5fb9dd1190eeb49d83d08bdb50cc5bf79bf88f2"
+    },
+    {
+      "file": "Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "bytes": 16421,
+      "sha256": "05c3ff48cf90cca0932dec8856495d2b62f6ac79b393ca4011b76a92ba1d24de"
+    },
+    {
+      "file": "Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "bytes": 15639,
+      "sha256": "9b8bc237a60c0e5885f0725fe27cac2be63da7736f3de18d12ceb5502b419fa4"
+    },
+    {
+      "file": "Pastoral_Scholar_Knowledge_File_v14.md",
+      "bytes": 243988,
+      "sha256": "ce38c05e2f4ece5b8710f9244692710f3f8b83af35b54e2a6bed886f64b65d25"
+    },
+    {
+      "file": "Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "bytes": 68859,
+      "sha256": "3c537ab71daaef3e704bf69e1068d8bc6a2a7f647bfef48c123e26938ace6afe"
+    },
+    {
+      "file": "UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "bytes": 70579,
+      "sha256": "2975059ecd98409990682524537a42cd810f0be1a44bb6417f99473fd4ff3225"
+    }
+  ],
+  "preserved_copies": "All 20 original per-skill reference sets remain byte-identical; new workflows reference this canonical set.",
+  "backend_authenticated": true,
+  "authenticated_baseline": {
+    "plugin_id": "Plugin_b1c6103546e081918ec49ae254fa4b20",
+    "release_id": "pluginrel_6abe8b85d2788191ad576e10cd18da7b",
+    "version": "2.0.2",
+    "verification": "All 343 account files matched the installed baseline by SHA-256 before changes."
+  }
+}

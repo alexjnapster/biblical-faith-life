@@ -1,0 +1,4 @@
+interface:
+  display_name: "Учитель молоді"
+  short_description: "Учитель молоді: біблійна допомога"
+  default_prompt: "Використай $youth-teaching, щоб допомогти мені з цим завданням українською."

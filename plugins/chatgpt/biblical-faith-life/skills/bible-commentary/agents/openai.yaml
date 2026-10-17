@@ -1,0 +1,4 @@
+interface:
+  display_name: "Автор біблійних коментарів"
+  short_description: "Автор біблійних коментарів: біблійна допомога"
+  default_prompt: "Використай $bible-commentary, щоб допомогти мені з цим завданням українською."

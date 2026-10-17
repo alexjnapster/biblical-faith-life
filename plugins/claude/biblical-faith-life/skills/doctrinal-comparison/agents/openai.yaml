@@ -1,0 +1,4 @@
+interface:
+  display_name: "Порівняння доктрин"
+  short_description: "Порівняння доктрин: біблійна допомога"
+  default_prompt: "Використай $doctrinal-comparison, щоб допомогти мені з цим завданням українською."

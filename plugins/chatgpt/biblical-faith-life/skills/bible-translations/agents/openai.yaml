@@ -1,0 +1,4 @@
+interface:
+  display_name: "Переклади Біблії"
+  short_description: "Переклади Біблії: біблійна допомога"
+  default_prompt: "Використай $bible-translations, щоб допомогти мені з цим завданням українською."
