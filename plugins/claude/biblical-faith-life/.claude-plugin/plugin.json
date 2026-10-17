@@ -6,7 +6,13 @@
     "name": "Oleksandr Rodichev",
     "email": "alexandr.rodichev@gmail.com"
   },
+  "displayName": "Церква Христова",
   "homepage": "https://alexjnapster.github.io/biblical-faith-life/",
   "repository": "https://github.com/alexjnapster/biblical-faith-life",
-  "license": "MIT"
+  "license": "MIT",
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://alexjnapster.github.io/biblical-faith-life/",
+  "supportUrl": "https://alexjnapster.github.io/biblical-faith-life/support.html",
+  "privacyPolicyUrl": "https://alexjnapster.github.io/biblical-faith-life/privacy.html",
+  "termsOfServiceUrl": "https://alexjnapster.github.io/biblical-faith-life/terms.html"
 }

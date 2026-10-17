@@ -22,6 +22,10 @@ Select the plugin in a new conversation and request a Bible study, sermon, lesso
 
 No API key, congregation access, private library or ministry record is bundled. Church UA is optional and draft-first; supply only your own authorized access through the host's secure configuration and approve each actual submission. The package does not install a remote MCP service, scheduler or automatic publisher. The knowledge base stores version history locally; removing a current document does not automatically erase historical versions or backups. Review outputs before using or sharing them.
 
+## Credential boundary
+
+The optional command-line draft submission reads only the dedicated `CHURCH_UA_AGENT_KEY` environment value configured by the user for Church UA. It does not search keychains, credential files or other providers' tokens. A request must match its reviewed payload hash and include explicit draft authorization before it is sent to the configured HTTPS origin. This environment-based local CLI flow can require an Anthropic directory reviewer; a successful structural validation does not clear that policy review. No remote MCP connector or automatic secret injection is advertised. Do not put a key in a prompt or source file.
+
 ## Verification and limits
 
 The prior ChatGPT rc.4 and Claude .1 cores passed 102 local tests each. Claude .1 was installed in Desktop and generated actual Ukrainian/English report files through Claude Code. ChatGPT rc.4 generated an actual Ukrainian article and downloadable HTML in its web host. This public candidate changes listing, license, icon and documentation; it is not yet marketplace-approved. Authenticated live Church UA API and tenant-scope checks remain unverified because the authorized existing key was not available. No claim of perfect answers, complete live integration or platform approval is made.
