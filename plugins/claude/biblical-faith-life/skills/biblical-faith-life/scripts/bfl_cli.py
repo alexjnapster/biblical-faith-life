@@ -76,17 +76,7 @@ def main():
                 save_checkpoint(args.checkpoint,w.snapshot())
             print(json.dumps(w.snapshot(),ensure_ascii=False,indent=2))
         elif args.command=='draft-submit':
-            envelope=json.loads(Path(args.review_envelope).read_text());report=validate(envelope,refs)
-            if report['status']!='pass':raise ValueError('Review envelope has failed or pending gates')
-            # Prevent approving one body then transmitting another.
-            prepared=prepare(args.kind,data)
-            if envelope.get('church_ua_request')!={'kind':args.kind,'payload_sha256':prepared['payload_sha256']}:raise ValueError('Full request differs from reviewed payload hash')
-            client=DraftClient(args.origin,os.environ.get('CHURCH_UA_AGENT_KEY',''))
-            receipt=client.submit(args.kind,data,authorized=args.authorized_draft)
-            print(json.dumps(receipt))
-            try: print(json.dumps(client.verify(receipt)))
-            except RuntimeError:
-                print('Draft created; read-back pending. Do not resubmit. Retain the receipt above.',file=sys.stderr);return 3
+            raise PermissionError('Use the declared Biblical Faith Life MCP draft tool and secure plugin configuration in this distribution')
         return 0
     except (ValueError,KeyError,PermissionError,RuntimeError,OSError) as e:
         # Validation messages never echo source content, paths to private material, or credentials.

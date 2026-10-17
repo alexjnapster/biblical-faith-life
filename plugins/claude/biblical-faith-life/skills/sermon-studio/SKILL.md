@@ -23,4 +23,4 @@ Specialist entrypoints:
 
 ## Claude host execution
 
-Read the [Claude host integration](${CLAUDE_PLUGIN_ROOT}/CLAUDE_HOST.md) before executing local runtime,library, workflow, export or Church UA operations. The script entrypoint is `${CLAUDE_PLUGIN_ROOT}/skills/biblical-faith-life/scripts/bfl_cli.py`;full instructions are `${CLAUDE_PLUGIN_ROOT}/skills/biblical-faith-life/references/engines/RUNTIME.md`. Use only an actually available executor and ordinary host permissions;chat-only answers must not imply local execution.
+Read [Claude host integration](${CLAUDE_PLUGIN_ROOT}/CLAUDE_HOST.md) and [declared runtime](${CLAUDE_PLUGIN_ROOT}/MCP_RUNTIME.md) before local operations. Use only this plugin's declared MCP tools for executable engine, library, checkpoint, export and Church UA operations. Do not invoke the legacy CLI or an undeclared script to perform plugin functionality. If tools are unavailable, state the limitation without claiming execution.

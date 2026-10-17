@@ -11,7 +11,7 @@
     {
       "name": "biblical-faith-life",
       "source": "./plugins/claude/biblical-faith-life",
-      "version": "2.1.0-claude.2",
+      "version": "2.1.0-claude.3",
       "description": "Bible study, sermons, teaching and draft-first ministry workflows."
     }
   ]

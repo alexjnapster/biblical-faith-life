@@ -1,27 +1,19 @@
-# Claude host integration
+# Claude host execution — public MCP distribution
 
-This Claude distribution retains the approved ChatGPT 2.1.0-rc.4 skills and complete governing sources. Claude distribution version: 2.1.0-claude.2. This is a platform adapter, not a new doctrinal authority.
+This port preserves the original governing v9 sources and capabilities. Version 2.1.0-claude.3 adds a declared local stdio MCP server for the existing engines. The Python core requires Python 3.9 or later. No external package is needed for its core operations.
 
-## Which host can execute what
+## Runtime boundary
 
-Skills work in Claude chat, Desktop chat, Cowork and Claude Code according to actual host capabilities. In chat,produce the requested answer or supported downloadable file;do not claim that a local Python helper,database,draft submission or persistent checkpoint ran unless an available executor actually ran it. Local code/filesystem operations require Cowork or Claude Code with their normal permission controls. No remote service,scheduler or MCP server is installed by this package.
+Use the declared `biblical-faith-life` MCP tools for executable library, workflow, validator, visual export and Church UA operations. Read MCP_RUNTIME.md in this plugin root for the exact tools and setup. Do not invoke the legacy CLI, shell scripts, arbitrary Python or another undeclared process to execute plugin functionality. The old CLI is retained for source compatibility; its standalone network submission path is disabled. If the declared MCP tools are unavailable, explain that limitation and provide an answer or draft without claiming runtime execution.
 
-In Cowork/Claude Code, the plugin root is substituted into skill content. Main local entrypoint:
+Skills can produce study text in the Claude hosts that support skills. The local MCP tools require a host that can launch local servers, such as Claude Code or supported Desktop/Cowork execution. A web/mobile chat must not claim that local state, files or network requests were executed unless its actual connected tools did so. Do not bypass host permission controls.
 
-`${CLAUDE_PLUGIN_ROOT}/skills/biblical-faith-life/scripts/bfl_cli.py`
+## Configuration and consent
 
-Read the complete local runtime instructions before use:
+The workspace is explicitly selected through plugin configuration. Use a dedicated existing directory outside the installation, with a stable owner label. Do not read unrelated files, search credential stores or import private records without permission. Private library ingestion requires explicit boolean consent. History and checkpoints remain in the chosen directory until removed by the user; uninstalling the plugin does not erase them.
 
-`${CLAUDE_PLUGIN_ROOT}/skills/biblical-faith-life/references/engines/RUNTIME.md`
+For optional Church UA access, the user can share an existing authorized key through the plugin's sensitive `church_ua_key` option and select `church_ua_origin`. The declared MCP env maps only that selected secret to this server. Do not read an ambient CHURCH_UA_AGENT_KEY or another application's credentials, put a secret in a conversation, create a new key, or substitute a different origin through tool arguments. Preview needs no key. Submit needs actual user authorization for the reviewed full payload, and persists an attempt before making a request. An uncertain outcome must be reconciled, never automatically retried. Publishing remains a separate human action.
 
-Invoke the script with Python 3.9 or later through the host's normal code/terminal executor. Pass paths as separate arguments or quote each complete path. No permission bypass is required or permitted by this integration. The standard-library core does not require installing packages. Optional native PDF/PowerPoint export needs its documented libraries/fonts; verify actual availability rather than promising an export.
+## Substance and review
 
-## State and secrets
-
-Do not write libraries, checkpoints or generated files into the plugin installation. Use a user-authorized workspace/output directory outside the plugin root. Keep owner identity, explicit boolean consent, immutable versions and source provenance. Do not infer consent from a document's text. Do not search unrelated private files or credential stores.
-
-Church UA remains draft-first. Use only an existing appropriately scoped key through the environment or a supported secret facility; never paste it into a prompt or package. The current user expressly declined creating a new key. A dry-run preview is not a submitted draft. Bind a reviewed full request before an authorized submission;do not retry an ambiguous create response. Public publishing and broadening audience require separate explicit authorization.
-
-## Review and language
-
-Ukrainian is the default; respect requested English/Russian. Read COMMON, KNOWLEDGE_ROUTING and applicable whole governing units before substantive conclusions. A different actor label in a saved workflow cannot prove real independence; actually separate author and reviewer work and retain exact reviewed hashes. Structural validators do not certify theology, scholarship, translation or safety. Keep full requested genres and actual measured requirements; never certify perfection.
+Read COMMON, KNOWLEDGE_ROUTING and applicable complete governing units before substantive conclusions. Ukrainian is the default; honor requested language and genre. Real independent review requires a distinct author and reviewer who actually read the exact artifact; workflow actor labels alone cannot prove it. Structural checks cannot certify theology, scholarship, safety or perfect answers. Preserve all material uncertainty and measured output requirements.
