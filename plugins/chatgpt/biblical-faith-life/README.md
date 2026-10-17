@@ -4,7 +4,7 @@
 
 Bible study, sermons and teaching grounded in the preserved Church of Christ v9 doctrinal framework. Includes 54 skills, 30 specialist capabilities, six shared engines, a research laboratory, sermon studio, personal biblical knowledge base, visual education studio and draft-first Church UA integration. Ukrainian is the default; English and Russian are supported. Intended for adult teachers, ministers and authors. Local library, persistent workflows and Python exports require a host with an available code executor. Church UA submission requires separately configured authorized access; installation grants no congregation access. AI output needs review and does not guarantee theological, historical or factual accuracy.
 
-Publisher: Oleksandr Rodichev. Version: 2.1.0-rc.6. License: MIT for the publisher-provided software and documentation; quoted third-party material and trademarks retain their existing rights.
+Publisher: Oleksandr Rodichev. Version: 2.1.0-rc.7. License: MIT for the publisher-provided software and documentation; quoted third-party material and trademarks retain their existing rights.
 
 ## Installation
 
