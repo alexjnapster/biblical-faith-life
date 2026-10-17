@@ -1,0 +1,9 @@
+# Validation evidence and limits
+
+The Claude 2.1.0-claude.3 candidate contains a declared local MCP server, 54 skills and 311 unchanged reference files. All seven core Python modules are byte-identical to public candidate .2. The new adapter has 24 automated cases, passed on Python 3.9 and 3.12. Run `python3 tests/test_claude_mcp.py` from this repository. These tests use synthetic data and mock external draft transport; they do not make a live congregation request.
+
+Actual Claude Code runs connected the declared server through manifest userConfig, stored and retrieved synthetic documents, persisted a workflow, refused self-review, generated real SVG/HTML files and prepared an offline Church UA draft. The first run exposed two unclear input schemas. The final schema run succeeded on its first calls. The configured host reported claude-opus-5-5; this is a configured-provider test, not proof of an independently verified Anthropic network route. Seven core modules also passed the existing 102-case suite in the retained engineering workspace.
+
+OpenAI publisher identity is verified. The public skills-only draft has 54 passing skill checks, but OpenAI currently blocks new skills-only submissions. A separately deployed genuine hosted research service is undergoing connection and initial public review preparation. A deployment, package validation, public GitHub repository or project installation is not official marketplace approval.
+
+Live authenticated Church UA tests remain unverified because no existing authorized key was available. No new key was created. An output file or structural evidence-gate result does not certify semantic accuracy, sound exegesis, actual review independence, pastoral suitability, layout quality or perfect answers. Official directory legal attestations and review decisions remain separate gates.
