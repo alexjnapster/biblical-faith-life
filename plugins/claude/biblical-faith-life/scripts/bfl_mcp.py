@@ -125,7 +125,7 @@ class Adapter:
     def call(self,name,args):
         if name not in BY_NAME:raise ValueError('Unknown tool')
         check(args,BY_NAME[name]['inputSchema'])
-        if name=='bfl_status':return {'server':'biblical-faith-life','version':'2.1.0-claude.3','skills':54,'engines':6,'workflows':5,'workspace_configured':bool(self.workspace),'church_ua_configured':bool(self.origin and self._token),'network_used':False}
+        if name=='bfl_status':return {'server':'biblical-faith-life','version':'2.1.0-claude.4','skills':54,'engines':6,'workflows':5,'workspace_configured':bool(self.workspace),'church_ua_configured':bool(self.origin and self._token),'network_used':False}
         if name=='bfl_validate':return validate(args['envelope'],REF)
         if name=='bfl_draft_preview':return prepare(args['kind'],args['payload'])
         if name.startswith('bfl_library_'):
@@ -208,7 +208,7 @@ def serve(adapter,source=None,sink=None):
         response={'jsonrpc':'2.0','id':rid}
         if method=='initialize':
             requested=params.get('protocolVersion');version=requested if isinstance(requested,str) and requested in {'2024-11-05','2025-03-26','2025-06-18','2025-11-25'} else '2025-11-25'
-            response['result']={'protocolVersion':version,'capabilities':{'tools':{'listChanged':False}},'serverInfo':{'name':'biblical-faith-life','version':'2.1.0-claude.3'}};initialized=True
+            response['result']={'protocolVersion':version,'capabilities':{'tools':{'listChanged':False}},'serverInfo':{'name':'biblical-faith-life','version':'2.1.0-claude.4'}};initialized=True
         elif method=='ping':response['result']={}
         elif not initialized:response['error']={'code':-32002,'message':'Initialize the MCP session before calling tools'}
         elif method=='tools/list':response['result']={'tools':TOOLS}

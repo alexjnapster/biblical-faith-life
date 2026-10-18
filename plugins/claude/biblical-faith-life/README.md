@@ -4,7 +4,7 @@
 
 Bible study, sermons and teaching grounded in the preserved Church of Christ v9 doctrinal framework. Includes 54 skills, 30 specialist capabilities, six shared engines, a research laboratory, sermon studio, personal biblical knowledge base, visual education studio and draft-first Church UA integration. Ukrainian is the default; English and Russian are supported. Intended for adult teachers, ministers and authors. Local library, persistent workflows and Python exports require a host with an available code executor. Church UA submission requires separately configured authorized access; installation grants no congregation access. AI output needs review and does not guarantee theological, historical or factual accuracy.
 
-Publisher: Oleksandr Rodichev. Version: 2.1.0-claude.3. License: MIT for the publisher-provided software and documentation; quoted third-party material and trademarks retain their existing rights.
+Publisher: Oleksandr Rodichev. Version: 2.1.0-claude.4. License: MIT for the publisher-provided software and documentation; quoted third-party material and trademarks retain their existing rights.
 
 ## Installation
 
@@ -24,7 +24,7 @@ No API key, congregation access, private library or ministry record is bundled. 
 
 ## Declared local MCP tools and credentials
 
-Version 2.1.0-claude.3 adds 12 declared local MCP tools for the existing validation, library, workflow, visual and Church UA engines. Configure a dedicated existing workspace and stable local owner label through plugin options. The local server requires Python 3.9 or later and a supported local-execution host. Core operations need no additional package. Read MCP_RUNTIME.md for configuration, exact boundaries and optional native-export dependencies.
+Version 2.1.0-claude.4 adds 12 declared local MCP tools for the existing validation, library, workflow, visual and Church UA engines. Configure a dedicated existing workspace and stable local owner label through plugin options. The local server requires Python 3.9 or later and a supported local-execution host. Core operations need no additional package. Read MCP_RUNTIME.md for configuration, exact boundaries and optional native-export dependencies.
 
 The optional existing Church UA key is shared explicitly through the sensitive `church_ua_key` option. It is passed only through the declared server's configuration. No ambient API key, keychain or credential-file discovery is performed. Preview is offline. Submission uses the configured origin, explicit user authorization and an exact reviewed payload hash; a durable attempt marker prevents automatic retries after uncertain outcomes. The legacy CLI's direct network path is disabled in this public distribution. No remote MCP service, new credential or public publishing tool is installed.
 
@@ -37,3 +37,7 @@ The prior ChatGPT rc.4 and Claude .1 cores passed 102 local tests each. Claude .
 [Website](https://alexjnapster.github.io/biblical-faith-life/) · [Support](https://alexjnapster.github.io/biblical-faith-life/support.html) · [Privacy](https://alexjnapster.github.io/biblical-faith-life/privacy.html) · [Terms](https://alexjnapster.github.io/biblical-faith-life/terms.html) · [Source](https://github.com/alexjnapster/biblical-faith-life)
 
 Contact: alexandr.rodichev@gmail.com. This plugin is published by Oleksandr Rodichev, independently of OpenAI and Anthropic. All original governing reference copies are preserved. Original attribution and third-party quotation rights remain applicable.
+
+## Compact reference layout
+
+Version 2.1.0-claude.4 removes 285 duplicate copies of unchanged references. All 54 skills remain present. Each of the 12 governing documents is preserved byte-for-byte in skills/biblical-faith-life/references, together with the same shared instructions and routing files. Original skill entrypoints link to that readable shared library inside this plugin. REFERENCE_RELOCATION.json records every old location, current location, byte count and digest; SOURCE_MANIFEST.json retains the governing-source digests. No source is encrypted, hidden, downloaded dynamically or removed from the governing framework.
