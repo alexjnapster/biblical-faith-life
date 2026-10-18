@@ -36,6 +36,6 @@ The current Claude .4 candidate passes 102 core tests, 24 MCP adapter tests and 
 
 [Website](https://alexjnapster.github.io/biblical-faith-life/) · [Support](https://alexjnapster.github.io/biblical-faith-life/support.html) · [Privacy](https://alexjnapster.github.io/biblical-faith-life/privacy.html) · [Terms](https://alexjnapster.github.io/biblical-faith-life/terms.html) · [Source](https://github.com/alexjnapster/biblical-faith-life)
 
-Contact: alexandr.rodichev@gmail.com. This plugin is published by Oleksandr Rodichev, independently of OpenAI and Anthropic. All original governing reference copies are preserved. Original attribution and third-party quotation rights remain applicable.
+Contact: alexandr.rodichev@gmail.com. This plugin is published by Oleksandr Rodichev, independently of OpenAI and Anthropic. All original governing source documents are preserved byte-for-byte in the shared library. Original attribution and third-party quotation rights remain applicable.
 
 The ChatGPT source is in `plugins/chatgpt/biblical-faith-life`; the Claude source is in `plugins/claude/biblical-faith-life`.
