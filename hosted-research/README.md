@@ -11,3 +11,8 @@ The digest scheme is bfl-hosted-ecmascript-sorted-json-v1. JavaScript serializat
 Live demonstration: https://alexjnapster.github.io/biblical-faith-life/demo.html
 
 Official public marketplace publication remains pending. A deployed service or public source repository is not marketplace approval.
+
+
+## Separate public-source profile
+
+`lib/bfl-public-service.mjs` and `app/api/public-research/mcp/route.ts` expose only four already-public, read-only corpus operations at `/api/public-research/mcp`. They never forward audit, private-library, workflow or publishing calls and use no account identity. Requests are bounded to 32 KiB. The original `/mcp` and browser audit routes retain their existing managed authentication. Run `node test-public-service.mjs` for the 24 profile and HTTP-boundary checks. The public profile is distinct from the protected manuscript audit service; changing an authentication declaration does not make a protected endpoint public.
