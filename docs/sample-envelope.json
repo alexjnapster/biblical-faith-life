@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "fixture-1",
+  "language": "en",
+  "author": "fixture-author",
+  "content": "Test manuscript; synthetic fixture, not a published sermon.",
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Fixture paraphrase, not a Bible quotation",
+      "locator": "fixture:Luke15-context",
+      "accessed_at": "2026-10-16T12:00:00Z",
+      "text": "Jesus receives sinners and eats with them. Luke 15:2 is the complaint to which the parables respond.",
+      "sha256": "9cb183e2d023e48bfffabb5e8c81842633437e561d47f6dc4e371711028c7e8c",
+      "evidence_type": "user"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The parables address a complaint about receiving sinners.",
+      "status": "interpretation",
+      "source_id": "s1",
+      "excerpt": "Luke 15:2 is the complaint"
+    }
+  ],
+  "quotations": [],
+  "doctrine": [
+    {
+      "file": "UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "sha256": "e325297a499da5687754dde4add85385ae32cd50c69aa40292f373b168ee649d",
+      "start_line": 9,
+      "end_line": 35,
+      "status": "FIXED"
+    }
+  ],
+  "safety": {
+    "risk": "none",
+    "private_data": false,
+    "consent_to_store": false,
+    "human_reviewed": false,
+    "actions": []
+  },
+  "requirements": [
+    {
+      "id": "r1",
+      "expected": "Preserve context",
+      "evidence": "Fixture contains explicit complaint context"
+    }
+  ],
+  "exegesis": {
+    "context": "Luke 15:1–2 frames the three parables.",
+    "argument": "Lost, found, and joy sequence addresses the complaint.",
+    "meaning": "The shepherd rejoices at recovery.",
+    "limits": "This short fixture is not independent scholarly evidence.",
+    "application": "Receive repentant sinners without resentment."
+  },
+  "review": {
+    "reviewer": "fixture-reviewer",
+    "artifact_sha256": "a7881a2f4cf288df176953edc314082b8d056b530de6b9782e94b3135be028dc",
+    "findings": [],
+    "semantic_reviewed": true,
+    "fixture_only": true
+  }
+}
