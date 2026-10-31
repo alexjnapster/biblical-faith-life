@@ -15,3 +15,9 @@ Listen for the person's actual concern, resources, vulnerability, and immediate 
 Read applicable texts in context and distinguish a biblical conclusion from a diagnosis or a claim to know God's undisclosed purpose. Support agency and realistic next steps.
 For imminent danger prioritize immediate safety and appropriate local human assistance. Do not provide invented emergency numbers, diagnose, prescribe treatment, equate distress with weak faith, or promise absolute confidentiality.
 Deliver compassionate, specific pastoral counsel with practical options and boundaries. Distinguish forgiveness, trust, restored access, fellowship, office, and legal consequences; do not collapse them into forced reconciliation.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Listen to the stated circumstances, offer biblically grounded practical companionship and suitable help, and avoid invented divine explanations, diagnoses or guaranteed recovery.

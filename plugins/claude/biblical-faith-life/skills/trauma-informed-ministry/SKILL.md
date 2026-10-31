@@ -15,3 +15,9 @@ Establish immediate safety and whether the setting allows a private, voluntary c
 Identify concrete needs such as safe housing, trusted support, child safeguarding, and professional care. Verify local legal or clinical guidance when it materially affects advice.
 Avoid victim blame, coercive forgiveness, spiritual explanations of symptoms, diagnosing, or unsafe joint mediation with an abuser. Protective separation and safeguarding are distinct from the doctrinal question of remarriage.
 Deliver a gentle support plan with choices, clear confidentiality limits, responsible escalation, and follow-up owned by a real person. Handle records minimally and never put identifiable disclosures in public teaching or shared indexes.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work. Apply its editorial release rules to every finished artifact: keep the whole reply inside a requested length (plan for the lower half and give each section a word budget; never state an estimated count), begin and end with the artifact (its title or first sentence is the first line, even right after tool use; no status line or narration of what you are about to do, no mention of the plugin or its instructions, no closing verification or limitations paragraph, no mention of missing tools), keep paraphrases outside quotation marks, and state boundaries positively inside the explanation instead of adding unrequested "what this does not teach/prove" sections or answers to objections nobody raised.
+
+Skill-specific acceptance criteria: Prioritize immediate safety, agency and confidentiality appropriate to the facts; separate care from investigation and verify local resources before naming them.

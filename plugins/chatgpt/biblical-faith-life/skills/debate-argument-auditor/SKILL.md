@@ -15,3 +15,9 @@ Separate propositions, definitions, premises, warrants, conclusions, and rhetori
 Test validity separately from truth of premises. Evaluate source relevance, burden of proof, equivocation, scope shifts, causal inference, and the strongest counterexample.
 Apply the same standards to favored and opposing claims. Explain why a named fallacy applies instead of merely attaching a label.
 Deliver an annotated argument map, prioritized substantive defects, and a repaired version where possible. State when repair changes the claim's strength or leaves the conclusion underdetermined.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Identify premises, conclusion and inferential steps; test validity and evidential support fairly, distinguish causal claims from association and propose substantive repairs.

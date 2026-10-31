@@ -15,3 +15,9 @@ Start with the anchor passage's own claim. Classify each proposed link as explic
 Verify both sides and their contexts, translation, speaker, and covenant. Record the direction of influence and reasons for a stronger connection; shared vocabulary alone does not establish authorial dependence.
 Explain the contribution of each link to the argument. Include counterexamples where they constrain a theme and avoid flattening progressive revelation into isolated proof texts.
 Deliver an annotated atlas or comparison table with references, link types, contextual explanations, and confidence. For visual graphs retain these labels and accessible text equivalents.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work. Apply its editorial release rules to every finished artifact: keep the whole reply inside a requested length (plan for the lower half and give each section a word budget; never state an estimated count), begin and end with the artifact (its title or first sentence is the first line, even right after tool use; no status line or narration of what you are about to do, no mention of the plugin or its instructions, no closing verification or limitations paragraph, no mention of missing tools), keep paraphrases outside quotation marks, and state boundaries positively inside the explanation instead of adding unrequested "what this does not teach/prove" sections or answers to objections nobody raised.
+
+Skill-specific acceptance criteria: Distinguish direct quotations, allusions and thematic parallels; explain each connection in both literary contexts and qualify uncertain dependence.

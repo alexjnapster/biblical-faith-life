@@ -14,3 +14,9 @@ Use tools actually available in the host for verification and measurable constra
 Почуй конкретну ситуацію, не став діагнозу і не вимагай зайвих приватних подробиць. Розрізняй богословське питання, емоційний стан, практичний ризик і потрібну професійну допомогу. За небезпеки чи насильства починай із безпеки та доступної місцевої допомоги; не вимагай примирення з небезпечним кривдником як доказу віри. Відділяй прощення, довіру, доступ, спільність, служіння і правові наслідки. Збережи правила шлюбу, розлучення й повторного шлюбу; захисне відокремлення не є автоматичним дозволом нового шлюбу. Для страху смерті пояснюй тілесне воскресіння, особисту тяглість та межі невідкритого без вигаданої амнезії. Не обіцяй зникнення спокус, нових чудес або гарантованого результату. Дай конкретні здійсненні кроки й не називай звернення по допомогу безвір'ям.
 
 Before release audit doctrinal fidelity, context, evidence, genre, language, requested items, length and practical usefulness. Rebuild substantive defects before polishing; never assign a fabricated 100/100 score. Return the requested usable artifact or answer, not process commentary.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Respond to the actual difficulty with contextual biblical care, concrete proportionate support and agency; distinguish involuntary experiences from choices and avoid diagnosis or repetitive reassurance prescriptions.

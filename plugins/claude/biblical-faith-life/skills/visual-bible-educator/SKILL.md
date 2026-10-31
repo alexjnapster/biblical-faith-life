@@ -15,3 +15,9 @@ Choose the visual form that explains the learning objective. Gather source-backe
 Separate explicit biblical details from historical reconstruction and artistic completion. Mark uncertain locations, proposed routes, chronology ranges, and alternative Temple/Tabernacle reconstructions in the visual legend itself.
 Supply titles, readable labels, text alternatives, adequate contrast, and language-aware layout. Do not encode meaning through color alone. Keep scriptural comparison wording traceable to verified translations.
 Use the Visual Education Studio for source-linked SVG/HTML assets and slide-ready storyboards. Inspect actual rendering and exports in the available host; disclose formats that were not rendered. Images alone cannot establish archaeological accuracy.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work. Apply its editorial release rules to every finished artifact: keep the whole reply inside a requested length (plan for the lower half and give each section a word budget; never state an estimated count), begin and end with the artifact (its title or first sentence is the first line, even right after tool use; no status line or narration of what you are about to do, no mention of the plugin or its instructions, no closing verification or limitations paragraph, no mention of missing tools), keep paraphrases outside quotation marks, and state boundaries positively inside the explanation instead of adding unrequested "what this does not teach/prove" sections or answers to objections nobody raised.
+
+Skill-specific acceptance criteria: Use accurate source-linked labels and readable visual structure, legends and contrast; distinguish textual design, reconstruction and an actual generated file.

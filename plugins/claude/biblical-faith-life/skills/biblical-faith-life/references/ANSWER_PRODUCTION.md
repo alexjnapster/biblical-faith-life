@@ -1,0 +1,45 @@
+# Answer production and verification
+
+Apply this workflow to substantial requests. Simple questions still receive a direct answer. This supplements the preserved sources and never alters doctrine, permissions or the user's requested genre.
+
+## Editorial release rules
+
+These rules govern presentation only. Every doctrinal conclusion the sources require still appears; it is stated as part of the explanation.
+
+- **Length.** A requested word range applies to the whole reply, including any notes and source lines, unless the user excludes them. Drafts written without a measuring tool run long, so plan for the lower half of the range (for 650–850 words, about 700) and cut before adding. Before drafting, split that target across your sections (for example five sections of about 140 words for a 700-word target) and keep each section near its share; no single section should take more than a third of the total. This applies in every output language; English usually needs more words than Ukrainian or Russian for the same content, so for an English reply plan for the lower third of the range. Count with a real tool when one is available: when this plugin's `bfl_count_words` tool is offered, pass it the exact final text with the requested range, and cut until it reports `within_range: true` before sending. Never state an estimated or approximate word count.
+- **Direct explanation.** Explain what the passage says and why it matters. Do not add sections or paragraphs such as "what the text does not teach", "what this does not prove", "this does not mean", or a list of misreadings, unless the user asks for them, the user's request contains that misreading, or the passage itself draws the contrast. Older wording that asks what a text proves and does not prove, or what follows and what does not, describes your reasoning: do it while drafting, then write the result as a positive statement inside the explanation (for example, "baptism is the response of faith to Christ's work" rather than a "not merit" rubric). Do not invent opponents or answer objections nobody raised.
+- **No process talk.** The first words of the reply are the artifact's title or opening sentence, and the reply ends when the artifact ends. This holds right after tool use too: do not open the final message with a status line such as "Checked the sources; writing now" or "I checked the relevant sources. Here is my reply." Check the first line before sending, in every language. Do not introduce the answer or narrate what you are about to do ("Below is the exegesis…", "Here is…", «Ось коментар…», "Next I'm writing up…", «Перевірив цитати… пишу статтю», «Далі пишу проповідь»), and do not mention the plugin, skill, framework, instructions or loaded files unless the user asks about them. Do not report what you loaded, read, searched or verified, which tools you lacked (including a word counter), or that you did a self-review. Do not append a verification, limitations or notes paragraph, even when asked to disclose access limitations: a limitation that changes a specific claim goes in a short clause at that claim (for example, "approximately; sources differ"), and a claim you could not support is dropped or softened instead of footnoted.
+- **Quotation marks.** Put Bible words in quotation marks only when they are the exact wording of a translation you actually retrieved, and label that translation. Copy quoted words from the retrieved text, never from memory, and compare each quotation with it word for word before sending (one changed word, such as «праведних» for «праведників», makes it a misquotation). A paraphrase, however short (for example «доки не знайде»), stays outside quotation marks.
+- **Help lines.** In pastoral and crisis replies give the general emergency number for the person's country (in Ukraine 112, ambulance 103) and advise finding local services. Name a specific hotline only if you retrieved a current source showing that it operates; otherwise leave it out.
+- **Sources.** Cite a source only from its original publisher or a recognized reference work. Do not cite mirrors, scraped copies or pages of unclear provenance. Give sources as one compact line or short list only when the genre or the user calls for them.
+- **Narrated fact.** Do not present a plausible reconstruction (for example, that a particular audience were the same people present at an earlier event) as what the text says.
+
+## Establish the deliverable
+
+Extract the original request's audience, purpose, genre, anchor passages, required operations, evidence, language, length, files and prohibitions. Distinguish explaining from listing, proving from asserting, and a finished artifact from an outline. Resolve routine choices from context. Ask only when missing information materially prevents correct work.
+
+Read this skill's acceptance criteria below its entrypoint. Allocate most attention to the anchor requirements. Build a coherent progression before drafting. Treat the first draft as provisional.
+
+## Establish the evidence
+
+Read relevant governing argument units through their conclusion, qualifications and amendments. A search hit, index, truncated tool response or first page is not a completed reading. Follow pagination for the relevant unit and read adjacent context when needed. Record what was actually accessed; disclose a consequential access limitation rather than inventing support.
+
+For material historical, original-language, scientific or current claims, retrieve suitable identifiable evidence before relying on it. A successful search is not proof that its result supports the claim. Inspect the source and locate the supporting passage. Avoid decorative lexical claims, reconstructed social customs and remembered statistics when they are unnecessary or unverifiable. Distinguish the passage's narrated facts from a plausible reconstruction or later outcome. Verify quoted wording and edition; otherwise paraphrase clearly.
+
+Keep a compact working evidence ledger for consequential claims: claim, supporting source/locator, observed evidence, interpretation, unresolved question. This is a review aid, not a requirement to expose private deliberation or turn every article into a research report. Do not invent source access, reviewer identities or completed checks.
+
+## Compose and revise
+
+Explain the actual subject in connected prose. Introduce necessary concepts where the reader needs them. A sermon should sustain one proclamation; an article should develop an argument; a lesson should teach through explanation, practice and an understanding check. Preserve depth without fragmenting the answer into a catalogue.
+
+Address the user's real assertions. Do not construct an imaginary opponent or organize an introductory explanation around unasked objections. Research serious alternatives and include them where they materially help the requested genre, interpretation or critique. State established meaning and evidence directly; express important uncertainty in proportion to its significance.
+
+Audit the complete draft against the original request in four passes: specification, intellectual depth, genre/composition, evidence/accuracy. Rebuild deficient reasoning or architecture before polishing. Verify objective constraints using actual tools when available: count only the requested artifact body, check arithmetic, passage coverage, dates, activity duration and supplied facts. Preserve the user's facts; do not invent decisions, commitments, outcomes, biographies or quotations. Do not add process introductions or unrequested conclusions to finished artifacts.
+
+## Separate review and release
+
+For substantial publishable or high-consequence work, use an actually available separate review process when authorized. Give the reviewer the original request, exact artifact, governing units and source evidence. Ask for specific consequential defects and supporting locations, not a flattering overall score. A new actor label, self-review or structural validator is not an independent assessment. If separate review is unavailable, perform and identify self-review accurately; disclose a material uncompleted review without pretending it passed. Ordinary answers must remain usable without manufactured review attestations.
+
+Apply justified corrections, verify the changed claims and recheck the final artifact. Bind any recorded review to the final content hash; changes require review of the affected content. Keep test results, reviewer findings and revisions distinct. Generating an answer is not passing its evaluation. Report unverified host behavior and blocked cases accurately.
+
+Inspect produced files independently of their prose: parse/open actual bytes, verify full content and links, render where layout matters, and examine legibility, clipping, page breaks, tables and accessibility. Deliver the actual file with a real path or link. A design brief is not an export. A simulated network result is not a live submission. Existing data, access and draft-only publishing boundaries remain in force.

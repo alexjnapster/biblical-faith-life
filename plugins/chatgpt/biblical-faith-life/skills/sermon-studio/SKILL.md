@@ -19,3 +19,9 @@ Specialist entrypoints:
 - [master-sermon-writer](../master-sermon-writer/SKILL.md)
 - [sermon-red-team](../sermon-red-team/SKILL.md)
 - [christian-publication-editor](../christian-publication-editor/SKILL.md)
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Develop actual research, manuscript, critique and revision artifacts; bind review to the content reviewed and distinguish genuine separate review from actor labels or unexecuted stages.

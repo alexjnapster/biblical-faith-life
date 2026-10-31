@@ -15,3 +15,9 @@ Recover occasion, audience, passage, duration or word limit, and pastoral need f
 Build one continuous movement from the congregation's real question through the text's argument to faithful response. Give the anchor its intellectual burden; supporting passages should advance the same movement.
 Use truthful illustrations and distinguish hypothetical examples. Verify every quotation and translation. Apply grace, obedient faith, repentance, baptism, and assurance accurately when relevant, without adding a stock invitation to unrelated texts.
 Draft the full spoken manuscript in the requested language and length. Review theology, evidence, oral clarity, psychological implications, and genre; substantively revise weak transitions or unsupported claims. Return the sermon itself, with requested references placed naturally.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Sustain one proclamation through genuine exegesis, coherent development and warranted application; preserve requested length and avoid disconnected outlines or invented illustrative history.

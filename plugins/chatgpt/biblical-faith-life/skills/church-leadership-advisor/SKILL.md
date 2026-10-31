@@ -15,3 +15,9 @@ Identify the decision, congregation context, stakeholders, authority, and facts.
 Distinguish elders/overseers/shepherds as one qualified office, preaching work, individual duties, and congregation action. Do not manufacture credentials or assume a preacher automatically holds the pastoral office.
 Evaluate options through contextual texts, necessary inferences, practical consequences, and the congregation's autonomy. For discipline distinguish restoration, safeguarding, office eligibility, legal reporting, and confidentiality.
 Deliver reasoned advice with decision ownership, accountable next steps, risks, and open questions. Do not impersonate an elder, issue binding church judgments, or expose private member information.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Combine fair fact-finding, proportionate protection and governing leadership requirements; distinguish forgiveness, trust, access, fellowship, office and legal responsibilities.

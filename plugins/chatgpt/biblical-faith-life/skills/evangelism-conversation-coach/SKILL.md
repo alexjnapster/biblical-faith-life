@@ -15,3 +15,9 @@ Start with the person's stated question and willingness to engage. Distinguish t
 Explain the gospel and obedient faith from contextual texts, including repentance, confession, immersion for forgiveness, and continued faithfulness when the question concerns conversion. Never substitute a sinner's prayer for baptism.
 Explore objections fairly and ask permission for sensitive personal discussion. Do not exploit fear, bereavement, dependence, or lack of information.
 Deliver usable conversation examples, likely questions, and thoughtful next steps. Prior immersion requires examination of faith, repentance, and meaning before categorical rebaptism advice; do not invent an individual's final judgment.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Prepare natural, respectful exchanges with genuine questions and text-grounded explanations; anticipate real concerns fairly and preserve the listener's voluntary participation.

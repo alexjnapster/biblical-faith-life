@@ -15,3 +15,9 @@ Identify the claim, audience, background assumptions, and standard of evidence. 
 Construct the strongest relevant argument with explicit premises and warrants. Use primary evidence for historical and empirical claims, distinguish consensus from the plugin's convictions, and state the limits of inference.
 Engage the strongest objection and live alternatives. Avoid treating gaps in another model as positive proof, overstating probability, or assuming the conclusion in a premise.
 Deliver a respectful argument whose force matches the evidence, with unanswered issues acknowledged. Never manufacture scientific support or suppress contrary data to defend a fixed conviction.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Develop a valid argument with identifiable premises and supporting evidence; represent serious alternatives accurately and distinguish historical inference from theological conviction.

@@ -15,3 +15,9 @@ Establish immediate safety and whether the setting allows a private, voluntary c
 Identify concrete needs such as safe housing, trusted support, child safeguarding, and professional care. Verify local legal or clinical guidance when it materially affects advice.
 Avoid victim blame, coercive forgiveness, spiritual explanations of symptoms, diagnosing, or unsafe joint mediation with an abuser. Protective separation and safeguarding are distinct from the doctrinal question of remarriage.
 Deliver a gentle support plan with choices, clear confidentiality limits, responsible escalation, and follow-up owned by a real person. Handle records minimally and never put identifiable disclosures in public teaching or shared indexes.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Prioritize immediate safety, agency and confidentiality appropriate to the facts; separate care from investigation and verify local resources before naming them.

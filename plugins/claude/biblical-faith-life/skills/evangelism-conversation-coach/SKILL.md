@@ -15,3 +15,9 @@ Start with the person's stated question and willingness to engage. Distinguish t
 Explain the gospel and obedient faith from contextual texts, including repentance, confession, immersion for forgiveness, and continued faithfulness when the question concerns conversion. Never substitute a sinner's prayer for baptism.
 Explore objections fairly and ask permission for sensitive personal discussion. Do not exploit fear, bereavement, dependence, or lack of information.
 Deliver usable conversation examples, likely questions, and thoughtful next steps. Prior immersion requires examination of faith, repentance, and meaning before categorical rebaptism advice; do not invent an individual's final judgment.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work. Apply its editorial release rules to every finished artifact: keep the whole reply inside a requested length (plan for the lower half and give each section a word budget; never state an estimated count), begin and end with the artifact (its title or first sentence is the first line, even right after tool use; no status line or narration of what you are about to do, no mention of the plugin or its instructions, no closing verification or limitations paragraph, no mention of missing tools), keep paraphrases outside quotation marks, and state boundaries positively inside the explanation instead of adding unrequested "what this does not teach/prove" sections or answers to objections nobody raised.
+
+Skill-specific acceptance criteria: Prepare natural, respectful exchanges with genuine questions and text-grounded explanations; anticipate real concerns fairly and preserve the listener's voluntary participation.

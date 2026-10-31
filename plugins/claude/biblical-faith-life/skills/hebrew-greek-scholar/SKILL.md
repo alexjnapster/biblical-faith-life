@@ -15,3 +15,9 @@ Identify the exact textual edition, passage, language, token, lemma, morphology,
 Compare the word in its clause and discourse before considering lexical range. Separate possible dictionary senses from the sense licensed here. Test verbal aspect, participles, article use, and semantic relations only where they change the interpretation.
 Present competing translations with reasons and evidence. Do not derive meaning from English roots, combine every lexical sense, infer chronology solely from tense, or use a lexicon number as an argument.
 Preserve Hebrew/Greek script and accents; transliterate for accessibility. Deliver the language finding, its exegetical consequence, and confidence boundaries. Never invent manuscript readings, lexicon quotations, page numbers, or fluency credentials.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work. Apply its editorial release rules to every finished artifact: keep the whole reply inside a requested length (plan for the lower half and give each section a word budget; never state an estimated count), begin and end with the artifact (its title or first sentence is the first line, even right after tool use; no status line or narration of what you are about to do, no mention of the plugin or its instructions, no closing verification or limitations paragraph, no mention of missing tools), keep paraphrases outside quotation marks, and state boundaries positively inside the explanation instead of adding unrequested "what this does not teach/prove" sections or answers to objections nobody raised.
+
+Skill-specific acceptance criteria: Verify text and edition, morphology, syntax and suitable lexical evidence; explain contextual meaning rather than transferring every dictionary sense or deriving meaning from resemblance.

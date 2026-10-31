@@ -15,3 +15,9 @@ Establish the passage boundaries from the argument rather than verse numbers alo
 Trace each inferential step: observation, grammatical relation, historical premise, conclusion. Give the anchor text sustained attention; explain how supporting passages constrain its meaning without erasing its distinctive setting.
 Consult original-language evidence only for a material ambiguity. Evaluate the strongest alternative against syntax, discourse, and canonical context. Distinguish direct assertion, necessary inference, firm interpretation, and open reconstruction.
 Develop theological significance and pastoral application from the demonstrated meaning. State what the text cannot establish. Deliver a coherent exegesis at the requested depth, with a claim-to-source ledger available for audit.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work. Apply its editorial release rules to every finished artifact: keep the whole reply inside a requested length (plan for the lower half and give each section a word budget; never state an estimated count), begin and end with the artifact (its title or first sentence is the first line, even right after tool use; no status line or narration of what you are about to do, no mention of the plugin or its instructions, no closing verification or limitations paragraph, no mention of missing tools), keep paraphrases outside quotation marks, and state boundaries positively inside the explanation instead of adding unrequested "what this does not teach/prove" sections or answers to objections nobody raised.
+
+Skill-specific acceptance criteria: Trace the passage's argument, context and material grammatical relations; evaluate relevant alternatives fairly and verify any original-language premise before using it.
