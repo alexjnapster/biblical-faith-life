@@ -15,3 +15,9 @@ Identify the group, time, passage, and learning purpose. Develop questions in a 
 For each interpretive question supply facilitator guidance grounded in the passage, a follow-up that tests reasoning, and likely alternatives. Avoid questions with hidden desired personal disclosures.
 Make room for disagreement while distinguishing evidence from preference. Correct factual errors gently and do not impose an unresolved interpretation as settled doctrine.
 Deliver a timed discussion guide with opening orientation, text work, substantive questions, synthesis, and realistic next practice. Preserve participant privacy and offer ways to participate without speaking about trauma.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work. Apply its editorial release rules to every finished artifact: keep the whole reply inside a requested length (plan for the lower half and give each section a word budget; never state an estimated count), begin and end with the artifact (its title or first sentence is the first line, even right after tool use; no status line or narration of what you are about to do, no mention of the plugin or its instructions, no closing verification or limitations paragraph, no mention of missing tools), keep paraphrases outside quotation marks, and state boundaries positively inside the explanation instead of adding unrequested "what this does not teach/prove" sections or answers to objections nobody raised.
+
+Skill-specific acceptance criteria: Make activities fit the stated duration and audience; progress from textual observation through interpretation to application, with facilitator guidance and understanding checks.

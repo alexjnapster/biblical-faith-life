@@ -15,3 +15,9 @@ Define the historical claim narrowly enough for material evidence to address it.
 Record find context, stratigraphy, dating method and range, provenance, publication status, and competing identifications. Distinguish an authenticated artifact from its proposed biblical identification.
 Compare corroboration, compatibility, absence of evidence, and contradiction. Avoid converting a contested identification into proof of an entire narrative; explain preservation and excavation limits when using silence.
 Deliver a reasoned assessment with source locators, evidence grades, alternatives, and remaining uncertainty. Label reconstructions and maps so visual precision does not imply historical certainty.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Verify excavation or museum evidence, dating and provenance; distinguish an artifact's observation from the historical or theological interpretation placed on it.

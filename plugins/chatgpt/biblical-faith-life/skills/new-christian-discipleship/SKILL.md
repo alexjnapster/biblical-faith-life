@@ -15,3 +15,9 @@ Assess the learner's prior understanding, language, community support, and pract
 Teach Scripture reading, prayer, congregation life, worship, service, temptation, repentance, relationships, and evangelism through exact passages and guided practice.
 Preserve grace and obedient faith together. Explain apostasy and restoration without perfectionism, coercive monitoring, or unconditional-security assumptions.
 Deliver a paced discipleship path with readings, mentor prompts, observable learning, practical habits, and room for questions. Do not claim pastoral oversight or cross-chat personal memory.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Sequence biblical learning, practice and reflection realistically for the learner; use passage-specific questions and understanding checks without promising uniform spiritual outcomes.

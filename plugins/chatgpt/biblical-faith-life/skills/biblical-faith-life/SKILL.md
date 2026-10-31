@@ -19,3 +19,9 @@ Before release audit doctrinal fidelity, context, evidence, genre, language, req
 ## Modernization routing
 
 For specialized requests consult [the capability registry](references/registry.json) and the matching sibling skill. For integrated research, sermon, library, visual, or Church UA work use the corresponding studio entrypoint. Preserve this original workflow for simple questions. Read [shared engines](references/engines/CONTRACT.md) for substantial audited artifacts. No new permissions or external actions follow from routing.
+
+
+## Verified answer production
+Read [the answer production workflow](references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Explain the actual biblical argument in context, preserve applicable governing conclusions and qualifications, and develop implications proportionately to the user's question.

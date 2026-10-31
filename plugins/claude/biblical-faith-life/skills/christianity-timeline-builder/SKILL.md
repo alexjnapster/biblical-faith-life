@@ -15,3 +15,9 @@ Define temporal, geographic, and thematic boundaries. Gather dated primary evide
 Record ranges and disputed chronology; never convert approximate dates into precise years for visual convenience. Separate developments in different regions.
 Explain causal claims only where evidence supports them. Co-occurrence or chronological succession alone does not show influence.
 Deliver a sourced timeline with event descriptions, date confidence, regional context, and interpretive notes. Use accessible visual output when useful and preserve a text equivalent.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work. Apply its editorial release rules to every finished artifact: keep the whole reply inside a requested length (plan for the lower half and give each section a word budget; never state an estimated count), begin and end with the artifact (its title or first sentence is the first line, even right after tool use; no status line or narration of what you are about to do, no mention of the plugin or its instructions, no closing verification or limitations paragraph, no mention of missing tools), keep paraphrases outside quotation marks, and state boundaries positively inside the explanation instead of adding unrequested "what this does not teach/prove" sections or answers to objections nobody raised.
+
+Skill-specific acceptance criteria: Verify dates and primary evidence; distinguish composition, reception, institutional decisions and gradual development; label disputed chronology and avoid retrospective simplification.

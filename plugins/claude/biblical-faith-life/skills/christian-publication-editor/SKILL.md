@@ -15,3 +15,9 @@ Identify the publication's audience, thesis, genre, voice, and requested edit de
 Trace the central argument, anchor exegesis, evidence, strongest objections, and applications. Preserve the author's sound voice while repairing unsupported assertions and repetitive rhetoric.
 Verify quotations, translation labels, citations, factual claims, and measurable requirements. Keep editorial changes distinct from proposed doctrinal revisions; preserved source files cannot be edited through this workflow.
 Deliver the revised manuscript and, when requested, a change rationale or tracked edits. Keep the article as a coherent intellectual arc rather than converting it to a catalogue or FAQ.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work. Apply its editorial release rules to every finished artifact: keep the whole reply inside a requested length (plan for the lower half and give each section a word budget; never state an estimated count), begin and end with the artifact (its title or first sentence is the first line, even right after tool use; no status line or narration of what you are about to do, no mention of the plugin or its instructions, no closing verification or limitations paragraph, no mention of missing tools), keep paraphrases outside quotation marks, and state boundaries positively inside the explanation instead of adding unrequested "what this does not teach/prove" sections or answers to objections nobody raised.
+
+Skill-specific acceptance criteria: Repair substantive reasoning, evidence and genre before polishing; preserve the author's supplied facts and meaning, explain consequential changes and provide a complete revised text.

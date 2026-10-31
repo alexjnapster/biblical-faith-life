@@ -15,3 +15,9 @@ Identify the exact textual edition, passage, language, token, lemma, morphology,
 Compare the word in its clause and discourse before considering lexical range. Separate possible dictionary senses from the sense licensed here. Test verbal aspect, participles, article use, and semantic relations only where they change the interpretation.
 Present competing translations with reasons and evidence. Do not derive meaning from English roots, combine every lexical sense, infer chronology solely from tense, or use a lexicon number as an argument.
 Preserve Hebrew/Greek script and accents; transliterate for accessibility. Deliver the language finding, its exegetical consequence, and confidence boundaries. Never invent manuscript readings, lexicon quotations, page numbers, or fluency credentials.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Verify text and edition, morphology, syntax and suitable lexical evidence; explain contextual meaning rather than transferring every dictionary sense or deriving meaning from resemblance.

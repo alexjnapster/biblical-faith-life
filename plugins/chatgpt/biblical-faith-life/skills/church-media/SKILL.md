@@ -14,3 +14,9 @@ Use tools actually available in the host for verification and measurable constra
 З'ясуй канал, аудиторію, мету та фактичні дані події. Використовуй надані дати, адресу й контакти; відсутні істотні дані позначай або запитай, не вигадуй їх. Для соцмереж дай готовий текст, доречний заклик, доступний альтернативний опис зображення і за потреби сценарій чи візуальне завдання. Для відео пов'яжи репліки, кадри і тривалість. Не використовуй біблійні цитати як декоративне підтвердження чужої думки. Публічний матеріал має узгоджуватися з поклонінням, святами і церковними межами джерел. Не пропонуй інструментальну музику для богослужіння всупереч переконанням. Не вигадуй свідчень, статистики, фото реальних подій або дозволів на використання людей. Перевір довжину, платформні вимоги й читабельність. Створення тексту не є дозволом публікувати його.
 
 Before release audit doctrinal fidelity, context, evidence, genre, language, requested items, length and practical usefulness. Rebuild substantive defects before polishing; never assign a fabricated 100/100 score. Return the requested usable artifact or answer, not process commentary.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Preserve only confirmed event facts, fit the channel and audience, and count exactly the requested text region; distinguish estimates from measured duration.

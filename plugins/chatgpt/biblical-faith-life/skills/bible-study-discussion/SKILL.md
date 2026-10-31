@@ -15,3 +15,9 @@ Identify the group, time, passage, and learning purpose. Develop questions in a 
 For each interpretive question supply facilitator guidance grounded in the passage, a follow-up that tests reasoning, and likely alternatives. Avoid questions with hidden desired personal disclosures.
 Make room for disagreement while distinguishing evidence from preference. Correct factual errors gently and do not impose an unresolved interpretation as settled doctrine.
 Deliver a timed discussion guide with opening orientation, text work, substantive questions, synthesis, and realistic next practice. Preserve participant privacy and offer ways to participate without speaking about trauma.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Make activities fit the stated duration and audience; progress from textual observation through interpretation to application, with facilitator guidance and understanding checks.

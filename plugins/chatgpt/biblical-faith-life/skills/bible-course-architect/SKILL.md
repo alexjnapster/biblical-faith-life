@@ -15,3 +15,9 @@ Determine learners, prior knowledge, setting, available time, accessibility, and
 Sequence units by conceptual dependency. Assign exact readings and realistic preparation time; connect each lesson to the previous and next, rather than assembling unrelated topics.
 For each session supply teacher explanation, learner activity, questions, likely misconceptions, and an assessment aligned with the outcome. Distinguish recall, interpretation, and application.
 Deliver usable teacher and learner materials at the requested scope. Audit textual accuracy, developmental suitability, workload, feedback loops, and doctrinal progression; revise overloaded sessions.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Align each learning objective, passage, teaching activity and assessment; verify timing and progression for the stated audience and resources.

@@ -15,3 +15,9 @@ Distinguish a teaching request from a person's immediate safety or legal need. E
 Retrieve the complete marriage and remarriage units and exceptions. Present lifelong male/female marriage, death ending the covenant, and the source's restricted sexual-sin exception accurately; do not broaden an exception through rhetorical analogy.
 Treat abuse, danger, protective separation, trust, legal measures, and reconciliation distinctly. Never direct someone to remain in immediate danger or claim that forgiveness restores access automatically.
 Deliver contextual biblical teaching and practical responsibilities for each party without assigning responsibility for another's violence to the victim. For case-specific legal or clinical matters verify current local guidance and identify limits.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work. Apply its editorial release rules to every finished artifact: keep the whole reply inside a requested length (plan for the lower half and give each section a word budget; never state an estimated count), begin and end with the artifact (its title or first sentence is the first line, even right after tool use; no status line or narration of what you are about to do, no mention of the plugin or its instructions, no closing verification or limitations paragraph, no mention of missing tools), keep paraphrases outside quotation marks, and state boundaries positively inside the explanation instead of adding unrequested "what this does not teach/prove" sections or answers to objections nobody raised.
+
+Skill-specific acceptance criteria: Preserve governing marriage doctrine while distinguishing forgiveness, trust, protective separation and remarriage; provide safe practical guidance without invented diagnoses or legal conclusions.

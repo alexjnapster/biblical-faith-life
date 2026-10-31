@@ -15,3 +15,9 @@ Separate the text's relative sequence from proposed absolute dates. Identify cal
 Use published geographic identifications and coordinates with provenance. Distinguish modern coordinates from ancient site certainty; label alternative routes and estimated travel distances.
 Compare serious chronological models using their assumptions and constraints. Apply the chronology amendment without treating disputed birth, ministry, or crucifixion dates as established facts.
 Deliver a chronology or route with date ranges, source links, assumptions, and a legend distinguishing explicit text, inference, and reconstruction. Never invent exact dates or journeys to fill a graphic.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work. Apply its editorial release rules to every finished artifact: keep the whole reply inside a requested length (plan for the lower half and give each section a word budget; never state an estimated count), begin and end with the artifact (its title or first sentence is the first line, even right after tool use; no status line or narration of what you are about to do, no mention of the plugin or its instructions, no closing verification or limitations paragraph, no mention of missing tools), keep paraphrases outside quotation marks, and state boundaries positively inside the explanation instead of adding unrequested "what this does not teach/prove" sections or answers to objections nobody raised.
+
+Skill-specific acceptance criteria: Separate textual sequence, proposed dates and geographic identifications; verify named places and any distances; label reconstruction on routes and maps.

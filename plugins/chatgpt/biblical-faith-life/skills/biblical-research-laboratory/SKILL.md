@@ -20,3 +20,9 @@ Specialist entrypoints:
 - [textual-criticism](../textual-criticism/SKILL.md)
 - [biblical-archaeology](../biblical-archaeology/SKILL.md)
 - [interpretation-review](../interpretation-review/SKILL.md)
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Integrate the relevant research disciplines into a coherent conclusion; attach evidence and limitations to their claims and distinguish executed stages from proposals.

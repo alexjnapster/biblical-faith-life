@@ -28,3 +28,9 @@ Define the exact doctrinal question and each tradition's strongest documented po
 Compare authority, interpretation, textual argument, historical development, internal diversity, and practical consequences. Distinguish the plugin's preserved convictions from claims about what other Christians hold.
 Test the strongest counterargument against the anchor passages in context. Preserve explicit amendments and unresolved questions; explain why a conclusion follows without caricature.
 Deliver a coherent comparison and reasoned assessment with direct sources. If useful, use a table for mapping positions but develop the central dispute in prose.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Represent each tradition through suitable primary statements and its strongest actual argument before explaining disagreements within the preserved governing framework.

@@ -16,3 +16,9 @@ Read runtime usage before ingestion. Use owner-bound local storage, never multi-
 Specialist entrypoints:
 
 - [bible-content-librarian](../bible-content-librarian/SKILL.md)
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Preserve source provenance, version history, owner boundaries and storage consent; retrieve actual stored evidence and distinguish proposed records from executed operations.

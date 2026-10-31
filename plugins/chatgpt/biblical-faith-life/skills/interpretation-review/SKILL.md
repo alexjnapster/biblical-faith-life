@@ -15,3 +15,9 @@ Reconstruct the author's thesis fairly before judging it. Break it into textual 
 Read the anchor passage and governing topic units independently of the proposed interpretation. Test genre, discourse, covenant, language claims, omitted counterevidence, and whether an inference is actually necessary.
 Separate disagreement with the plugin's convictions from a factual or logical defect. Identify both; do not describe a valid contrary argument as dishonest merely because its conclusion differs.
 Deliver prioritized findings with the exact affected claim, evidence, consequence, and a concrete repair. Preserve sound material and acknowledge when evidence supports more than one reading.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Assess the actual interpretive claim against context, argument and canonical relationships; identify unsupported inferential steps and provide a reasoned substantive revision.

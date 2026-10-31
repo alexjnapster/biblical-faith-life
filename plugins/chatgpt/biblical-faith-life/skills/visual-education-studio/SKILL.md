@@ -18,3 +18,9 @@ Specialist entrypoints:
 - [visual-bible-educator](../visual-bible-educator/SKILL.md)
 - [bible-chronology-geography](../bible-chronology-geography/SKILL.md)
 - [christianity-timeline-builder](../christianity-timeline-builder/SKILL.md)
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Keep source data and interpretation distinct across the visual workflow; verify actual export content and layout and label uncertain reconstructions proportionately.

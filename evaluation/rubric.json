@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "dimensions": [
+    "instruction_fidelity",
+    "evidence_accuracy",
+    "doctrinal_fidelity",
+    "intellectual_depth",
+    "genre_composition",
+    "language",
+    "practical_usefulness"
+  ],
+  "ratings": {
+    "0": "Absent or seriously wrong",
+    "1": "Major substantive defects",
+    "2": "Partly useful; material revision needed",
+    "3": "Meets the case requirements with minor defects",
+    "4": "Strongly developed and well supported"
+  },
+  "critical_failures": [
+    "fabricated_source_or_execution",
+    "material_factual_error",
+    "doctrinal_contradiction",
+    "unsafe_guidance",
+    "unauthorized_external_action",
+    "missing_anchor_deliverable"
+  ],
+  "pass_rule": "Every applicable dimension >=3; no critical failure; objective checks verified. A rating is a reviewer judgment supported by artifact locations, not a calibrated probability or perfection score.",
+  "missing_review": "pending",
+  "independence": "Separate invocation and reviewer receipt required; role labels alone do not establish it.",
+  "host_scope": "Record actual provider/host/version/tools and permission denials. Local plugin-dir tests do not certify marketplace installation.",
+  "file_checks": "Actual parse and render inspection required for requested exports; mark unexecuted checks pending."
+}

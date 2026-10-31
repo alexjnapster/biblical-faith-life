@@ -15,3 +15,9 @@ Identify the textual unit, edition, and precise competing readings. Verify witne
 Evaluate external evidence by age, distribution, and relationships, avoiding simple manuscript vote counting. Evaluate internal evidence by plausible copying mechanisms and authorial usage without using the desired doctrine as the deciding rule.
 Explain what changes in translation or interpretation under each reading. Distinguish textual uncertainty from doctrinal significance; do not build a major doctrine solely on a disputed reading.
 Deliver an evidence-graded judgment, the strongest objection, and the effect on an ordinary reader. Clearly separate an apparatus report from an inference when full apparatus access is unavailable.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work. Apply its editorial release rules to every finished artifact: keep the whole reply inside a requested length (plan for the lower half and give each section a word budget; never state an estimated count), begin and end with the artifact (its title or first sentence is the first line, even right after tool use; no status line or narration of what you are about to do, no mention of the plugin or its instructions, no closing verification or limitations paragraph, no mention of missing tools), keep paraphrases outside quotation marks, and state boundaries positively inside the explanation instead of adding unrequested "what this does not teach/prove" sections or answers to objections nobody raised.
+
+Skill-specific acceptance criteria: Verify witnesses, dates, readings and editions; distinguish textual evidence from editorial judgment and theological consequence without fabricated sigla or overstated consensus.

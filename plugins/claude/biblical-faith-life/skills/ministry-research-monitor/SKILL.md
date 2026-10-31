@@ -15,3 +15,9 @@ Define research questions, authoritative sources, date window, relevance criteri
 Compare new findings with the baseline, including corrected, retracted, or contradicted evidence. Evaluate methods, uncertainty, and implications without treating novelty as importance.
 Deliver an evidence-backed change report separating confirmed updates, preliminary findings, and no meaningful change. Preserve fixed doctrine while correcting empirical support within the governing amendments.
 Perform the current review immediately when requested. Create a recurring monitor only when the user actually requests future monitoring, using the host scheduler; stay quiet on unchanged or non-actionable runs unless periodic updates were requested. Never pretend a persistent worker is running.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work. Apply its editorial release rules to every finished artifact: keep the whole reply inside a requested length (plan for the lower half and give each section a word budget; never state an estimated count), begin and end with the artifact (its title or first sentence is the first line, even right after tool use; no status line or narration of what you are about to do, no mention of the plugin or its instructions, no closing verification or limitations paragraph, no mention of missing tools), keep paraphrases outside quotation marks, and state boundaries positively inside the explanation instead of adding unrequested "what this does not teach/prove" sections or answers to objections nobody raised.
+
+Skill-specific acceptance criteria: Compare retrieved evidence against an identified dated baseline; distinguish a new publication from a rediscovered source and an executed search from a proposed schedule.

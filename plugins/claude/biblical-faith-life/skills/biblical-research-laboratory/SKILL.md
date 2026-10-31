@@ -25,3 +25,9 @@ Specialist entrypoints:
 ## Claude host execution
 
 Read [Claude host integration](${CLAUDE_PLUGIN_ROOT}/CLAUDE_HOST.md) and [declared runtime](${CLAUDE_PLUGIN_ROOT}/MCP_RUNTIME.md) before local operations. Use only this plugin's declared MCP tools for executable engine, library, checkpoint, export and Church UA operations. Do not invoke the legacy CLI or an undeclared script to perform plugin functionality. If tools are unavailable, state the limitation without claiming execution.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work. Apply its editorial release rules to every finished artifact: keep the whole reply inside a requested length (plan for the lower half and give each section a word budget; never state an estimated count), begin and end with the artifact (its title or first sentence is the first line, even right after tool use; no status line or narration of what you are about to do, no mention of the plugin or its instructions, no closing verification or limitations paragraph, no mention of missing tools), keep paraphrases outside quotation marks, and state boundaries positively inside the explanation instead of adding unrequested "what this does not teach/prove" sections or answers to objections nobody raised.
+
+Skill-specific acceptance criteria: Integrate the relevant research disciplines into a coherent conclusion; attach evidence and limitations to their claims and distinguish executed stages from proposals.

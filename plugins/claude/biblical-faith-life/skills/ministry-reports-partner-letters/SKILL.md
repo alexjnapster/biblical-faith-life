@@ -15,3 +15,9 @@ Build a fact ledger from provided records: period, activities, participants, out
 Develop one narrative around what the evidence demonstrates and what partners need to understand. Never invent conversion counts, testimonials, financial needs, biographies, or donor promises.
 Protect identities and obtain appropriate permission before using sensitive stories or images. Distinguish individual testimony from evidence of program causation.
 Deliver the requested report or letter with accurate figures, a natural tone, and specific substantiated next steps. Drafting does not authorize sending, sharing, or publishing.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work. Apply its editorial release rules to every finished artifact: keep the whole reply inside a requested length (plan for the lower half and give each section a word budget; never state an estimated count), begin and end with the artifact (its title or first sentence is the first line, even right after tool use; no status line or narration of what you are about to do, no mention of the plugin or its instructions, no closing verification or limitations paragraph, no mention of missing tools), keep paraphrases outside quotation marks, and state boundaries positively inside the explanation instead of adding unrequested "what this does not teach/prove" sections or answers to objections nobody raised.
+
+Skill-specific acceptance criteria: Reconcile figures, preserve provenance and distinguish attendance, unique participants and demonstrated outcomes; report needs and plans without inventing funding or commitments.

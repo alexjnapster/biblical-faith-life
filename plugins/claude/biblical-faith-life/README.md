@@ -24,6 +24,8 @@ No API key, congregation access, private library or ministry record is bundled. 
 
 ## Declared local MCP tools and credentials
 
+Version 2.1.0-claude.6 adds a read-only `bfl_count_words` tool (13 declared local MCP tools) and editorial release rules for length, direct explanation, quotation and help-line accuracy; the preserved sources are unchanged.
+
 Version 2.1.0-claude.4 adds 12 declared local MCP tools for the existing validation, library, workflow, visual and Church UA engines. Configure a dedicated existing workspace and stable local owner label through plugin options. The local server requires Python 3.9 or later and a supported local-execution host. Core operations need no additional package. Read MCP_RUNTIME.md for configuration, exact boundaries and optional native-export dependencies.
 
 The optional existing Church UA key is shared explicitly through the sensitive `church_ua_key` option. It is passed only through the declared server's configuration. No ambient API key, keychain or credential-file discovery is performed. Preview is offline. Submission uses the configured origin, explicit user authorization and an exact reviewed payload hash; a durable attempt marker prevents automatic retries after uncertain outcomes. The legacy CLI's direct network path is disabled in this public distribution. No remote MCP service, new credential or public publishing tool is installed.
