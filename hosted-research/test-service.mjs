@@ -30,6 +30,14 @@ await test('Authenticated MCP calls return actual audit result',async()=>{const 
 await test('Year zero is refused as an invalid source date',async()=>{const a=structuredClone(fixtures[0].artifact);a.sources[0].accessed_at='0000-01-01';assert((await audit(a)).findings.some(f=>f.code==='source_date'));});
 await test('Unpaired surrogate content cannot produce a replacement-character digest',async()=>{await assert.rejects(()=>artifactHash({content:'\ud800'}));});
 await test('Hosted hash scheme and compatibility limits are explicit',async()=>{const a=structuredClone(fixtures[0].artifact);a.measurement=1e-6;const r=await audit(a);assert.equal(r.hash_scheme,'bfl-hosted-ecmascript-sorted-json-v1');assert(r.hash_compatibility.includes('floating-point'));assert(r.findings.some(f=>f.code==='stale_review'));});
+await test('Reviewer identity must be nonblank text distinct from the trimmed author',async()=>{
+  for(const reviewer of [true,42,{},[],'   ',' '+fixtures[0].artifact.author+' ']) {
+    const a=structuredClone(fixtures[0].artifact);a.review.reviewer=reviewer;
+    a.review.artifact_sha256=await artifactHash(a);
+    const r=await audit(a);assert.notEqual(r.status,'pass');
+    assert(r.findings.some(f=>f.code==='independent_review_pending'));
+  }
+});
 const evidence={tests:results.length,failures:0,checks:results,scope:'31 paired synthetic Python/hosted audit fixtures plus public-corpus, pagination, schema, identity, Unicode, digest-compatibility and MCP protocol checks. This does not certify source authenticity or semantic quality.'};
 await fs.writeFile(new URL('./test-results.json',import.meta.url),JSON.stringify(evidence,null,2));
 console.log(JSON.stringify({tests:results.length,failures:0}));

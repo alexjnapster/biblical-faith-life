@@ -4,7 +4,7 @@
 
 Bible study, sermons and teaching grounded in the preserved Church of Christ v9 doctrinal framework. Includes 54 skills, 30 specialist capabilities, six shared engines, a research laboratory, sermon studio, personal biblical knowledge base, visual education studio and draft-first Church UA integration. Ukrainian is the default; English and Russian are supported. Intended for adult teachers, ministers and authors. Local library, persistent workflows and Python exports require a host with an available code executor. Church UA submission requires separately configured authorized access; installation grants no congregation access. AI output needs review and does not guarantee theological, historical or factual accuracy.
 
-Publisher: Oleksandr Rodichev. Version: 2.1.0-claude.4. License: MIT for the publisher-provided software and documentation; quoted third-party material and trademarks retain their existing rights.
+Publisher: Oleksandr Rodichev. Version: 2.1.0-claude.5. License: MIT for the publisher-provided software and documentation; quoted third-party material and trademarks retain their existing rights.
 
 ## Installation
 
@@ -41,3 +41,9 @@ Contact: alexandr.rodichev@gmail.com. This plugin is published by Oleksandr Rodi
 ## Compact reference layout
 
 Version 2.1.0-claude.4 removes 285 duplicate copies of unchanged references. All 54 skills remain present. Each of the 12 governing documents is preserved byte-for-byte in skills/biblical-faith-life/references, together with the same shared instructions and routing files. Original skill entrypoints link to that readable shared library inside this plugin. REFERENCE_RELOCATION.json records every old location, current location, byte count and digest; SOURCE_MANIFEST.json retains the governing-source digests. No source is encrypted, hidden, downloaded dynamically or removed from the governing framework.
+
+## November 10 source candidate
+
+The next repository candidates are ChatGPT 2.1.0-rc.8 and Claude 2.1.0-claude.5. Both clarify host-aware execution and honest pending review; validators now require a nonblank text reviewer identity distinct from the author after trimming. ChatGPT also removes 285 identical reference copies, preserving all 54 skill identities and every governing source byte. Run `python3 -m unittest discover -s tests -v`, both hosted-service Node test files, and `python3 tools/build_release.py --output /tmp/bfl-release` from the repository. The current run passes 33 Python tests, 47 hosted-service tests and 24 public-interface checks. Historical 102-case results above were not independently rerun because that suite is not included in this repository.
+
+The public OpenAI source-retrieval package is a different identity/version: 2.2.0-rc.6 is In review and Not published in the publisher portal. Its MCP configuration is Configured and all 54 skills show Checks passed. Do not replace or cancel that active submission with this skills-only source candidate. The saved 2.2.0-rc.6 bundle could not be exported in this audit, so source parity is unverified. Claude showed zero directory submissions in this account; an earlier validation report is not proof of a current directory submission.

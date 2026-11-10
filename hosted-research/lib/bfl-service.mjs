@@ -128,7 +128,7 @@ export async function audit(a) {
   const r=a.review,hash=await artifactHash(a);
   if(!object(r))add('independent-quality-assurance','review_shape','Review must be an object');
   else {
-    if(!r.reviewer||r.reviewer===a.author)add('independent-quality-assurance','independent_review_pending','Reviewer must differ from author','pending');
+    if(!nonempty(r.reviewer)||r.reviewer.trim()===a.author.trim())add('independent-quality-assurance','independent_review_pending','Reviewer must differ from author','pending');
     if(r.semantic_reviewed!==true)add('independent-quality-assurance','semantic_review_pending','Independent semantic review has not been attested','pending');
     if(r.artifact_sha256!==hash)add('independent-quality-assurance','stale_review','Review does not match current artifact');
     if(!Array.isArray(r.findings))add('independent-quality-assurance','review_findings','Findings must be an array');
