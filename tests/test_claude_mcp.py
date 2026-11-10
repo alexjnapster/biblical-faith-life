@@ -11,6 +11,11 @@ class MCPTests(unittest.TestCase):
         self.tmp=tempfile.TemporaryDirectory();self.root=Path(self.tmp.name).resolve();self.a=M.Adapter(str(self.root),'test-owner')
     def tearDown(self):self.tmp.cleanup()
     def doc(self):return {'title':'Synthetic study','content':'A supplied synthetic evidence document about Luke fifteen.','language':'en','locator':'fixture:local'}
+    def test_runtime_identity_matches_package(self):
+        version=json.loads((P/'.claude-plugin/plugin.json').read_text())['version']
+        self.assertEqual(self.a.call('bfl_status',{})['version'],version)
+        r=self.frames([{'jsonrpc':'2.0','id':1,'method':'initialize','params':{}}])
+        self.assertEqual(r[0]['result']['serverInfo']['version'],version)
     def test_status_no_secret(self):
         a=M.Adapter(token='synthetic-private-value');r=a.call('bfl_status',{});self.assertFalse(r['church_ua_configured']);self.assertNotIn(a._token,json.dumps(r))
     def test_all_tools_have_strict_schemas_and_annotations(self):

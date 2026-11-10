@@ -10,7 +10,7 @@ OpenAI Support case 17580361 last replied November 7 asking for Review/Submissio
 
 Canonical starting repository commit: `dc2e1c29ebff3b19afe3dd97f1485e460fbf2b34`. Next source candidates: ChatGPT 2.1.0-rc.8 and Claude 2.1.0-claude.5. This older source lineage is not represented as the source of the public 2.2.0-rc.6 package.
 
-- 33 Python tests pass: local adapter, source preservation, every skill link, ChatGPT reference compaction, and invalid reviewer identities in both Python runtimes.
+- 34 Python tests pass: local adapter, source preservation, every skill link, ChatGPT reference compaction, and invalid reviewer identities in both Python runtimes.
 - 47 hosted-service tests pass, including malformed reviewer identities and whitespace-only attempts to distinguish the author from the reviewer.
 - 24 public-only profile and HTTP-boundary checks pass.
 - All 12 independently pinned governing-source SHA-256 hashes match in both packages; all 54 skill entrypoints remain. ChatGPT removes exactly 285 byte-identical reference copies and rewires only their links. No governing belief text was edited.
