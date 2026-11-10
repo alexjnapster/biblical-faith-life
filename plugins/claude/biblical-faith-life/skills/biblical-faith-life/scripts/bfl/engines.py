@@ -124,7 +124,7 @@ def pastoral_safety(a, root):
 def independent_quality_assurance(a, root):
     issues=[];engine='independent-quality-assurance';r=a.get('review',{})
     if not isinstance(r,dict): return [finding(engine,'review_shape','Review must be an object')]
-    if not r.get('reviewer') or r.get('reviewer')==a.get('author'): issues.append(finding(engine,'independent_review_pending','Reviewer must differ from author','pending'))
+    if not isinstance(r.get('reviewer'),str) or not r['reviewer'].strip() or r['reviewer'].strip()==str(a.get('author','')).strip(): issues.append(finding(engine,'independent_review_pending','Reviewer must differ from author','pending'))
     if r.get('semantic_reviewed') is not True: issues.append(finding(engine,'semantic_review_pending','Independent semantic review has not been attested','pending'))
     if r.get('artifact_sha256')!=content_hash(a): issues.append(finding(engine,'stale_review','Review does not match current artifact'))
     if not isinstance(r.get('findings'),list): issues.append(finding(engine,'review_findings','Findings must be an array'))
