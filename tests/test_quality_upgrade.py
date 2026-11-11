@@ -5,13 +5,18 @@ ROOT=Path(__file__).resolve().parents[1]
 WORK=ROOT.parent
 BASE=WORK/'baseline'
 CANDIDATE=WORK/'workspace-candidate'
+# The baseline and workspace candidate are sibling folders on the author's machine, not part of this
+# repository. Checks that compare against them run where they exist and are skipped in CI.
+HAS_WORKSPACE=BASE.is_dir() and CANDIDATE.is_dir()
+needs_workspace=unittest.skipUnless(HAS_WORKSPACE,'needs ../baseline and ../workspace-candidate (author workspace)')
 MARK='\n\n## Verified answer production\n'
 EDITORIAL=(ROOT/'evaluation/EDITORIAL_RULES_CLAUDE.md').read_text()
 
 class QualityUpgradeTests(unittest.TestCase):
     def test_exactly_three_distinct_cases_for_every_skill(self):
         cases=json.loads((ROOT/'evaluation/cases.json').read_text())['cases']
-        slugs={p.parent.name for p in (BASE/'skills').glob('*/SKILL.md')}
+        source=BASE if HAS_WORKSPACE else ROOT/'plugins/chatgpt/biblical-faith-life'
+        slugs={p.parent.name for p in (source/'skills').glob('*/SKILL.md')}
         self.assertEqual(len(slugs),54);self.assertEqual(len(cases),162)
         self.assertEqual(len({c['id'] for c in cases}),162)
         self.assertEqual({c['skill'] for c in cases},slugs)
@@ -22,7 +27,7 @@ class QualityUpgradeTests(unittest.TestCase):
             self.assertTrue(all(r['status']=='not_run' for r in rows))
 
     def test_all_three_packages_have_matching_quality_rules_and_54_profiles(self):
-        roots=[CANDIDATE,ROOT/'plugins/chatgpt/biblical-faith-life',ROOT/'plugins/claude/biblical-faith-life']
+        roots=([CANDIDATE] if HAS_WORKSPACE else [])+[ROOT/'plugins/chatgpt/biblical-faith-life',ROOT/'plugins/claude/biblical-faith-life']
         workflow=(ROOT/'evaluation/QUALITY_WORKFLOW.md').read_bytes()
         profiles=json.loads((ROOT/'evaluation/skill_acceptance.json').read_text())
         for package in roots:
@@ -46,6 +51,7 @@ class QualityUpgradeTests(unittest.TestCase):
         manifest=json.loads((ROOT/'plugins/claude/biblical-faith-life/.claude-plugin/plugin.json').read_text())
         self.assertEqual(marketplace['plugins'][0]['version'],manifest['version'])
 
+    @needs_workspace
     def test_workspace_retains_every_file_except_explicit_changes(self):
         old={p.relative_to(BASE).as_posix():p for p in BASE.rglob('*') if p.is_file()}
         new={p.relative_to(CANDIDATE).as_posix():p for p in CANDIDATE.rglob('*') if p.is_file()}
@@ -57,6 +63,7 @@ class QualityUpgradeTests(unittest.TestCase):
             elif path not in {'plugin.json','.codex-plugin/plugin.json'}:
                 self.assertEqual(new[path].read_bytes(),p.read_bytes(),path)
 
+    @needs_workspace
     def test_workspace_identity_scope_prompts_and_integrations_preserved(self):
         for rel in ['plugin.json','.codex-plugin/plugin.json']:
             before=json.loads((BASE/rel).read_text());after=json.loads((CANDIDATE/rel).read_text())
@@ -68,6 +75,7 @@ class QualityUpgradeTests(unittest.TestCase):
             after['version']=before['version'];a['longDescription']=b['longDescription']
             self.assertEqual(after,before)
 
+    @needs_workspace
     def test_all_workspace_governing_copies_remain_byte_identical(self):
         manifest=json.loads((BASE/'SOURCE_MANIFEST.json').read_text())
         self.assertEqual(len(manifest),12)
