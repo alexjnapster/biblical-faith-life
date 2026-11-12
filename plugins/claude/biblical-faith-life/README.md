@@ -4,7 +4,7 @@
 
 Bible study, sermons and teaching grounded in the preserved Church of Christ v9 doctrinal framework. Includes 54 skills, 30 specialist capabilities, six shared engines, a research laboratory, sermon studio, personal biblical knowledge base, visual education studio and draft-first Church UA integration. Ukrainian is the default; English and Russian are supported. Intended for adult teachers, ministers and authors. AI output needs review and does not guarantee theological, historical or factual accuracy.
 
-Publisher: Oleksandr Rodichev. Version: 2.1.0-claude.6. License: MIT for the publisher-provided software and documentation; quoted third-party material and trademarks retain their existing rights.
+Publisher: Oleksandr Rodichev. Version: 2.1.0-claude.7. License: MIT for the publisher-provided software and documentation; quoted third-party material and trademarks retain their existing rights.
 
 ## Installation
 
@@ -46,7 +46,7 @@ Library versions, checkpoints and exports stay in your workspace until you remov
 
 ## Verification and limits
 
-Version 2.1.0-claude.6 passes 41 repository Python tests (31 for the MCP adapter, including real stdio subprocess sessions, plus source-preservation and link checks) and the plugin validator in Claude Code 2.1.322. A live stdio session exercised all 12 tools, including SVG, HTML, PDF and PowerPoint export. Tests use synthetic data and a mocked draft transport. Authenticated live Church UA requests remain unverified. Structural checks do not certify theology, scholarship, review independence or pastoral suitability. No claim of perfect answers or directory approval is made. See VALIDATION.md in the repository for history.
+Version 2.1.0-claude.7 passes 43 repository Python tests (33 for the MCP adapter, including real stdio subprocess sessions, plus source-preservation and link checks) and the plugin validator in Claude Code 2.1.322. A live stdio session exercised all 12 tools, including SVG, HTML, PDF and PowerPoint export. Tests use synthetic data and a mocked draft transport. Authenticated live Church UA requests remain unverified. Structural checks do not certify theology, scholarship, review independence or pastoral suitability. No claim of perfect answers or directory approval is made. See VALIDATION.md in the repository for history.
 
 ## Compact reference layout
 
