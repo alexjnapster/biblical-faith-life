@@ -10,6 +10,8 @@ import sqlite3
 from pathlib import Path
 import sys
 
+sys.dont_write_bytecode = True  # never write caches into the installed plugin
+
 PLUGIN = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PLUGIN/'skills/biblical-faith-life/scripts'))
 from bfl.engines import validate
@@ -22,7 +24,7 @@ from bfl_cli import save_checkpoint
 REF = PLUGIN/'skills/biblical-faith-life/references'
 REGISTRY = json.loads((REF/'registry.json').read_text(encoding='utf-8'))
 MAX_MESSAGE = 2*1024*1024
-VERSION = json.loads((PLUGIN/'.claude-plugin/plugin.json').read_text(encoding='utf-8'))['version']
+VERSION = '2.1.0-claude.7'  # tests assert this equals the manifest version
 DEFAULT_OWNER = 'local-owner'
 DEFAULT_ORIGIN = 'https://churches.tools'
 
@@ -270,6 +272,7 @@ def serve(adapter,source=None,sink=None):
         write(response)
 
 if __name__=='__main__':
-    # These exact variables are set only by the declared MCP server env bindings.
+    # These exact variables are set only by the declared MCP server env bindings,
+    # each a direct reference to the plugin option of the same name.
     # No ambient provider, shell-profile, keychain or credential-file lookup is used.
-    serve(Adapter(os.environ.get('BFL_WORKSPACE',''),os.environ.get('BFL_OWNER',DEFAULT_OWNER),setting(os.environ.get('BFL_CHURCH_UA_ORIGIN',''),DEFAULT_ORIGIN),os.environ.get('BFL_CHURCH_UA_KEY','')))
+    serve(Adapter(os.environ.get('CLAUDE_PLUGIN_OPTION_WORKSPACE',''),os.environ.get('CLAUDE_PLUGIN_OPTION_OWNER',DEFAULT_OWNER),setting(os.environ.get('CLAUDE_PLUGIN_OPTION_CHURCH_UA_ORIGIN',''),DEFAULT_ORIGIN),os.environ.get('CLAUDE_PLUGIN_OPTION_CHURCH_UA_KEY','')))
