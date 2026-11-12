@@ -106,6 +106,45 @@ class MCPTests(unittest.TestCase):
             with self.assertRaises(ValueError):self.a.call('bfl_draft_submit',{'kind':'article','payload':{'title':'Synthetic changed draft'},'review_envelope':{'church_ua_request':{'kind':'article','payload_sha256':'wrong'}},'authorized_draft':True})
             self.assertFalse((self.root/'.bfl').exists())
         finally:M.validate=original
+    def test_unsubstituted_or_blank_options_mean_unconfigured(self):
+        for raw in ['${user_config.workspace}','   ','']:
+            a=M.Adapter(raw,'${user_config.owner}','${user_config.church_ua_origin}','${user_config.church_ua_key}');r=a.call('bfl_status',{})
+            self.assertFalse(r['workspace_configured']);self.assertFalse(r['workspace_ready']);self.assertFalse(r['church_ua_configured']);self.assertEqual(a.owner,'local-owner')
+            with self.assertRaises(ValueError):a.call('bfl_library_ingest',{'library':'library','document':self.doc()})
+            with self.assertRaises(ValueError):a.client()
+    def test_subprocess_placeholders_and_default_origin(self):
+        frames=[{'jsonrpc':'2.0','id':1,'method':'initialize','params':{}},{'jsonrpc':'2.0','id':2,'method':'tools/call','params':{'name':'bfl_status','arguments':{}}}]
+        env=dict(os.environ,BFL_WORKSPACE='${user_config.workspace}',BFL_OWNER='${user_config.owner}',BFL_CHURCH_UA_ORIGIN='${user_config.church_ua_origin}',BFL_CHURCH_UA_KEY='${user_config.church_ua_key}')
+        r=subprocess.run([sys.executable,'-B',str(P/'scripts/bfl_mcp.py')],input=''.join(json.dumps(f)+'\n' for f in frames),text=True,capture_output=True,env=env,timeout=15)
+        status=json.loads(json.loads(r.stdout.splitlines()[1])['result']['content'][0]['text'])
+        self.assertFalse(status['workspace_configured']);self.assertFalse(status['church_ua_configured']);self.assertEqual(r.stderr,'')
+    def test_status_reports_usable_and_unusable_workspace_without_paths(self):
+        r=self.a.call('bfl_status',{});self.assertTrue(r['workspace_ready']);self.assertIsNone(r['workspace_problem']);self.assertTrue(r['export_formats']['svg'])
+        bad=M.Adapter(str(self.root/'absent'),'test-owner').call('bfl_status',{})
+        self.assertTrue(bad['workspace_configured']);self.assertFalse(bad['workspace_ready']);self.assertNotIn(str(self.root),json.dumps(bad))
+    def test_search_returns_excerpt_unless_content_requested(self):
+        d=dict(self.doc(),content='Luke fifteen. '+'filler '*5000);self.a.call('bfl_library_ingest',{'library':'library','document':d})
+        m=self.a.call('bfl_library_search',{'library':'library','query':'Luke'})['matches'][0]
+        self.assertNotIn('content',m);self.assertEqual(m['content_chars'],len(d['content']));self.assertLessEqual(len(m['excerpt']),500)
+        full=self.a.call('bfl_library_search',{'library':'library','query':'Luke','include_content':True})['matches'][0];self.assertEqual(full['content'],d['content'])
+    def test_missing_document_error_is_actionable(self):
+        self.a.call('bfl_library_ingest',{'library':'library','document':self.doc()})
+        for name,args in [('bfl_library_get',{'library':'library','doc_id':'absent'}),('bfl_library_ingest',{'library':'library','document':dict(self.doc(),doc_id='absent')})]:
+            with self.assertRaisesRegex(ValueError,'No such document'):self.a.call(name,args)
+    def test_receipt_schema_rejected_before_credential_or_network(self):
+        for receipt in [{},{'id':'x'},{'id':'x','kind':'unknown'},{'id':7,'kind':'article'}]:
+            with self.assertRaisesRegex(ValueError,'argument|Argument'):self.a.call('bfl_draft_verify',{'receipt':receipt})
+    def test_failed_export_leaves_no_blocking_directory(self):
+        s={'kind':'comparison','language':'en','title':'Synthetic visual','description':'Synthetic acceptance fixture.','items':[{'label':'A','detail':'B','source':'fixture:one','certainty':'uncertain'}]}
+        import builtins;real=builtins.__import__
+        def blocked(name,*a,**k):
+            if name=='bfl.native_exports':raise ImportError(name)
+            return real(name,*a,**k)
+        builtins.__import__=blocked
+        try:r=self.a.call('bfl_visual_export',{'spec':s,'output_dir':'native','formats':['pdf']})
+        finally:builtins.__import__=real
+        self.assertEqual(r['status'],'failed');self.assertFalse((self.root/'native').exists())
+        self.assertEqual(self.a.call('bfl_visual_export',{'spec':s,'output_dir':'native','formats':['svg']})['status'],'created')
     def frames(self,frames):
         source=io.BytesIO(b''.join(json.dumps(f).encode()+b'\n' for f in frames));sink=io.BytesIO();M.serve(self.a,source,sink);return [json.loads(x) for x in sink.getvalue().splitlines()]
     def test_protocol_handshake_and_tool_call(self):
