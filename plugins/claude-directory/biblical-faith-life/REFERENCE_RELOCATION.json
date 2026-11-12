@@ -1,0 +1,1716 @@
+{
+  "reason": "Deduplicate identical readable reference files so marketplace validation can finish. No governing source bytes or doctrines changed.",
+  "shared_reference_directory": "skills/biblical-faith-life/references",
+  "relocations": [
+    {
+      "old_path": "skills/bible-commentary/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 32899,
+      "sha256": "f9de84dbc1272748a2c81c4f8d42576057db6923d33ff57ebf4816ad64b294cf"
+    },
+    {
+      "old_path": "skills/bible-commentary/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "canonical_path": "skills/biblical-faith-life/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "bytes": 182944,
+      "sha256": "bf5d273e6ff036a57737600abe4e4cd09376158e3e95b5aede00ee08f6f46a7c"
+    },
+    {
+      "old_path": "skills/bible-commentary/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 143513,
+      "sha256": "c9e46d903cdba9f1ed37f777b095f7b456b4631aeaf0ea2e70ddc6ed27be28af"
+    },
+    {
+      "old_path": "skills/bible-commentary/references/COMMON.md",
+      "canonical_path": "skills/biblical-faith-life/references/COMMON.md",
+      "bytes": 8068,
+      "sha256": "4a2bf792a610742eb1b3e0b78efc253025a21b1649148d55ebc4aaca71a2d24a"
+    },
+    {
+      "old_path": "skills/bible-commentary/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "canonical_path": "skills/biblical-faith-life/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "bytes": 17046,
+      "sha256": "f264d8291c44377031a3086a56206ac08e5fee3ba1e86828b70269b101e502c4"
+    },
+    {
+      "old_path": "skills/bible-commentary/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "bytes": 10111,
+      "sha256": "d0a89af81d726d94d460c569a32f7acceb5c36b3c406dc8b7680fc220096028f"
+    },
+    {
+      "old_path": "skills/bible-commentary/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "bytes": 53936,
+      "sha256": "a20372ef1743cf31e5519e59f5fb9dd1190eeb49d83d08bdb50cc5bf79bf88f2"
+    },
+    {
+      "old_path": "skills/bible-commentary/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "bytes": 16421,
+      "sha256": "05c3ff48cf90cca0932dec8856495d2b62f6ac79b393ca4011b76a92ba1d24de"
+    },
+    {
+      "old_path": "skills/bible-commentary/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "bytes": 15639,
+      "sha256": "9b8bc237a60c0e5885f0725fe27cac2be63da7736f3de18d12ceb5502b419fa4"
+    },
+    {
+      "old_path": "skills/bible-commentary/references/KNOWLEDGE_ROUTING.md",
+      "canonical_path": "skills/biblical-faith-life/references/KNOWLEDGE_ROUTING.md",
+      "bytes": 3783,
+      "sha256": "4a915cd53cfd2471260a75e0ec71d0785f23174697a4b6b7da301794edb76c60"
+    },
+    {
+      "old_path": "skills/bible-commentary/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "canonical_path": "skills/biblical-faith-life/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "bytes": 243988,
+      "sha256": "ce38c05e2f4ece5b8710f9244692710f3f8b83af35b54e2a6bed886f64b65d25"
+    },
+    {
+      "old_path": "skills/bible-commentary/references/ROLE_WORKFLOWS.md",
+      "canonical_path": "skills/biblical-faith-life/references/ROLE_WORKFLOWS.md",
+      "bytes": 26260,
+      "sha256": "a10813291d8dc2d50442816a5c7d84b0d743a9b66fb68416d8b7e7f5275c36d9"
+    },
+    {
+      "old_path": "skills/bible-commentary/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "bytes": 68859,
+      "sha256": "3c537ab71daaef3e704bf69e1068d8bc6a2a7f647bfef48c123e26938ace6afe"
+    },
+    {
+      "old_path": "skills/bible-commentary/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "bytes": 70579,
+      "sha256": "2975059ecd98409990682524537a42cd810f0be1a44bb6417f99473fd4ff3225"
+    },
+    {
+      "old_path": "skills/bible-commentary/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "bytes": 126056,
+      "sha256": "e325297a499da5687754dde4add85385ae32cd50c69aa40292f373b168ee649d"
+    },
+    {
+      "old_path": "skills/bible-history/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 32899,
+      "sha256": "f9de84dbc1272748a2c81c4f8d42576057db6923d33ff57ebf4816ad64b294cf"
+    },
+    {
+      "old_path": "skills/bible-history/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "canonical_path": "skills/biblical-faith-life/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "bytes": 182944,
+      "sha256": "bf5d273e6ff036a57737600abe4e4cd09376158e3e95b5aede00ee08f6f46a7c"
+    },
+    {
+      "old_path": "skills/bible-history/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 143513,
+      "sha256": "c9e46d903cdba9f1ed37f777b095f7b456b4631aeaf0ea2e70ddc6ed27be28af"
+    },
+    {
+      "old_path": "skills/bible-history/references/COMMON.md",
+      "canonical_path": "skills/biblical-faith-life/references/COMMON.md",
+      "bytes": 8068,
+      "sha256": "4a2bf792a610742eb1b3e0b78efc253025a21b1649148d55ebc4aaca71a2d24a"
+    },
+    {
+      "old_path": "skills/bible-history/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "canonical_path": "skills/biblical-faith-life/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "bytes": 17046,
+      "sha256": "f264d8291c44377031a3086a56206ac08e5fee3ba1e86828b70269b101e502c4"
+    },
+    {
+      "old_path": "skills/bible-history/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "bytes": 10111,
+      "sha256": "d0a89af81d726d94d460c569a32f7acceb5c36b3c406dc8b7680fc220096028f"
+    },
+    {
+      "old_path": "skills/bible-history/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "bytes": 53936,
+      "sha256": "a20372ef1743cf31e5519e59f5fb9dd1190eeb49d83d08bdb50cc5bf79bf88f2"
+    },
+    {
+      "old_path": "skills/bible-history/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "bytes": 16421,
+      "sha256": "05c3ff48cf90cca0932dec8856495d2b62f6ac79b393ca4011b76a92ba1d24de"
+    },
+    {
+      "old_path": "skills/bible-history/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "bytes": 15639,
+      "sha256": "9b8bc237a60c0e5885f0725fe27cac2be63da7736f3de18d12ceb5502b419fa4"
+    },
+    {
+      "old_path": "skills/bible-history/references/KNOWLEDGE_ROUTING.md",
+      "canonical_path": "skills/biblical-faith-life/references/KNOWLEDGE_ROUTING.md",
+      "bytes": 3783,
+      "sha256": "4a915cd53cfd2471260a75e0ec71d0785f23174697a4b6b7da301794edb76c60"
+    },
+    {
+      "old_path": "skills/bible-history/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "canonical_path": "skills/biblical-faith-life/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "bytes": 243988,
+      "sha256": "ce38c05e2f4ece5b8710f9244692710f3f8b83af35b54e2a6bed886f64b65d25"
+    },
+    {
+      "old_path": "skills/bible-history/references/ROLE_WORKFLOWS.md",
+      "canonical_path": "skills/biblical-faith-life/references/ROLE_WORKFLOWS.md",
+      "bytes": 26260,
+      "sha256": "a10813291d8dc2d50442816a5c7d84b0d743a9b66fb68416d8b7e7f5275c36d9"
+    },
+    {
+      "old_path": "skills/bible-history/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "bytes": 68859,
+      "sha256": "3c537ab71daaef3e704bf69e1068d8bc6a2a7f647bfef48c123e26938ace6afe"
+    },
+    {
+      "old_path": "skills/bible-history/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "bytes": 70579,
+      "sha256": "2975059ecd98409990682524537a42cd810f0be1a44bb6417f99473fd4ff3225"
+    },
+    {
+      "old_path": "skills/bible-history/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "bytes": 126056,
+      "sha256": "e325297a499da5687754dde4add85385ae32cd50c69aa40292f373b168ee649d"
+    },
+    {
+      "old_path": "skills/bible-reading-plan/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 32899,
+      "sha256": "f9de84dbc1272748a2c81c4f8d42576057db6923d33ff57ebf4816ad64b294cf"
+    },
+    {
+      "old_path": "skills/bible-reading-plan/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "canonical_path": "skills/biblical-faith-life/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "bytes": 182944,
+      "sha256": "bf5d273e6ff036a57737600abe4e4cd09376158e3e95b5aede00ee08f6f46a7c"
+    },
+    {
+      "old_path": "skills/bible-reading-plan/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 143513,
+      "sha256": "c9e46d903cdba9f1ed37f777b095f7b456b4631aeaf0ea2e70ddc6ed27be28af"
+    },
+    {
+      "old_path": "skills/bible-reading-plan/references/COMMON.md",
+      "canonical_path": "skills/biblical-faith-life/references/COMMON.md",
+      "bytes": 8068,
+      "sha256": "4a2bf792a610742eb1b3e0b78efc253025a21b1649148d55ebc4aaca71a2d24a"
+    },
+    {
+      "old_path": "skills/bible-reading-plan/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "canonical_path": "skills/biblical-faith-life/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "bytes": 17046,
+      "sha256": "f264d8291c44377031a3086a56206ac08e5fee3ba1e86828b70269b101e502c4"
+    },
+    {
+      "old_path": "skills/bible-reading-plan/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "bytes": 10111,
+      "sha256": "d0a89af81d726d94d460c569a32f7acceb5c36b3c406dc8b7680fc220096028f"
+    },
+    {
+      "old_path": "skills/bible-reading-plan/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "bytes": 53936,
+      "sha256": "a20372ef1743cf31e5519e59f5fb9dd1190eeb49d83d08bdb50cc5bf79bf88f2"
+    },
+    {
+      "old_path": "skills/bible-reading-plan/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "bytes": 16421,
+      "sha256": "05c3ff48cf90cca0932dec8856495d2b62f6ac79b393ca4011b76a92ba1d24de"
+    },
+    {
+      "old_path": "skills/bible-reading-plan/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "bytes": 15639,
+      "sha256": "9b8bc237a60c0e5885f0725fe27cac2be63da7736f3de18d12ceb5502b419fa4"
+    },
+    {
+      "old_path": "skills/bible-reading-plan/references/KNOWLEDGE_ROUTING.md",
+      "canonical_path": "skills/biblical-faith-life/references/KNOWLEDGE_ROUTING.md",
+      "bytes": 3783,
+      "sha256": "4a915cd53cfd2471260a75e0ec71d0785f23174697a4b6b7da301794edb76c60"
+    },
+    {
+      "old_path": "skills/bible-reading-plan/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "canonical_path": "skills/biblical-faith-life/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "bytes": 243988,
+      "sha256": "ce38c05e2f4ece5b8710f9244692710f3f8b83af35b54e2a6bed886f64b65d25"
+    },
+    {
+      "old_path": "skills/bible-reading-plan/references/ROLE_WORKFLOWS.md",
+      "canonical_path": "skills/biblical-faith-life/references/ROLE_WORKFLOWS.md",
+      "bytes": 26260,
+      "sha256": "a10813291d8dc2d50442816a5c7d84b0d743a9b66fb68416d8b7e7f5275c36d9"
+    },
+    {
+      "old_path": "skills/bible-reading-plan/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "bytes": 68859,
+      "sha256": "3c537ab71daaef3e704bf69e1068d8bc6a2a7f647bfef48c123e26938ace6afe"
+    },
+    {
+      "old_path": "skills/bible-reading-plan/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "bytes": 70579,
+      "sha256": "2975059ecd98409990682524537a42cd810f0be1a44bb6417f99473fd4ff3225"
+    },
+    {
+      "old_path": "skills/bible-reading-plan/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "bytes": 126056,
+      "sha256": "e325297a499da5687754dde4add85385ae32cd50c69aa40292f373b168ee649d"
+    },
+    {
+      "old_path": "skills/bible-translations/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 32899,
+      "sha256": "f9de84dbc1272748a2c81c4f8d42576057db6923d33ff57ebf4816ad64b294cf"
+    },
+    {
+      "old_path": "skills/bible-translations/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "canonical_path": "skills/biblical-faith-life/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "bytes": 182944,
+      "sha256": "bf5d273e6ff036a57737600abe4e4cd09376158e3e95b5aede00ee08f6f46a7c"
+    },
+    {
+      "old_path": "skills/bible-translations/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 143513,
+      "sha256": "c9e46d903cdba9f1ed37f777b095f7b456b4631aeaf0ea2e70ddc6ed27be28af"
+    },
+    {
+      "old_path": "skills/bible-translations/references/COMMON.md",
+      "canonical_path": "skills/biblical-faith-life/references/COMMON.md",
+      "bytes": 8068,
+      "sha256": "4a2bf792a610742eb1b3e0b78efc253025a21b1649148d55ebc4aaca71a2d24a"
+    },
+    {
+      "old_path": "skills/bible-translations/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "canonical_path": "skills/biblical-faith-life/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "bytes": 17046,
+      "sha256": "f264d8291c44377031a3086a56206ac08e5fee3ba1e86828b70269b101e502c4"
+    },
+    {
+      "old_path": "skills/bible-translations/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "bytes": 10111,
+      "sha256": "d0a89af81d726d94d460c569a32f7acceb5c36b3c406dc8b7680fc220096028f"
+    },
+    {
+      "old_path": "skills/bible-translations/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "bytes": 53936,
+      "sha256": "a20372ef1743cf31e5519e59f5fb9dd1190eeb49d83d08bdb50cc5bf79bf88f2"
+    },
+    {
+      "old_path": "skills/bible-translations/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "bytes": 16421,
+      "sha256": "05c3ff48cf90cca0932dec8856495d2b62f6ac79b393ca4011b76a92ba1d24de"
+    },
+    {
+      "old_path": "skills/bible-translations/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "bytes": 15639,
+      "sha256": "9b8bc237a60c0e5885f0725fe27cac2be63da7736f3de18d12ceb5502b419fa4"
+    },
+    {
+      "old_path": "skills/bible-translations/references/KNOWLEDGE_ROUTING.md",
+      "canonical_path": "skills/biblical-faith-life/references/KNOWLEDGE_ROUTING.md",
+      "bytes": 3783,
+      "sha256": "4a915cd53cfd2471260a75e0ec71d0785f23174697a4b6b7da301794edb76c60"
+    },
+    {
+      "old_path": "skills/bible-translations/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "canonical_path": "skills/biblical-faith-life/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "bytes": 243988,
+      "sha256": "ce38c05e2f4ece5b8710f9244692710f3f8b83af35b54e2a6bed886f64b65d25"
+    },
+    {
+      "old_path": "skills/bible-translations/references/ROLE_WORKFLOWS.md",
+      "canonical_path": "skills/biblical-faith-life/references/ROLE_WORKFLOWS.md",
+      "bytes": 26260,
+      "sha256": "a10813291d8dc2d50442816a5c7d84b0d743a9b66fb68416d8b7e7f5275c36d9"
+    },
+    {
+      "old_path": "skills/bible-translations/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "bytes": 68859,
+      "sha256": "3c537ab71daaef3e704bf69e1068d8bc6a2a7f647bfef48c123e26938ace6afe"
+    },
+    {
+      "old_path": "skills/bible-translations/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "bytes": 70579,
+      "sha256": "2975059ecd98409990682524537a42cd810f0be1a44bb6417f99473fd4ff3225"
+    },
+    {
+      "old_path": "skills/bible-translations/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "bytes": 126056,
+      "sha256": "e325297a499da5687754dde4add85385ae32cd50c69aa40292f373b168ee649d"
+    },
+    {
+      "old_path": "skills/christian-article/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 32899,
+      "sha256": "f9de84dbc1272748a2c81c4f8d42576057db6923d33ff57ebf4816ad64b294cf"
+    },
+    {
+      "old_path": "skills/christian-article/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "canonical_path": "skills/biblical-faith-life/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "bytes": 182944,
+      "sha256": "bf5d273e6ff036a57737600abe4e4cd09376158e3e95b5aede00ee08f6f46a7c"
+    },
+    {
+      "old_path": "skills/christian-article/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 143513,
+      "sha256": "c9e46d903cdba9f1ed37f777b095f7b456b4631aeaf0ea2e70ddc6ed27be28af"
+    },
+    {
+      "old_path": "skills/christian-article/references/COMMON.md",
+      "canonical_path": "skills/biblical-faith-life/references/COMMON.md",
+      "bytes": 8068,
+      "sha256": "4a2bf792a610742eb1b3e0b78efc253025a21b1649148d55ebc4aaca71a2d24a"
+    },
+    {
+      "old_path": "skills/christian-article/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "canonical_path": "skills/biblical-faith-life/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "bytes": 17046,
+      "sha256": "f264d8291c44377031a3086a56206ac08e5fee3ba1e86828b70269b101e502c4"
+    },
+    {
+      "old_path": "skills/christian-article/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "bytes": 10111,
+      "sha256": "d0a89af81d726d94d460c569a32f7acceb5c36b3c406dc8b7680fc220096028f"
+    },
+    {
+      "old_path": "skills/christian-article/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "bytes": 53936,
+      "sha256": "a20372ef1743cf31e5519e59f5fb9dd1190eeb49d83d08bdb50cc5bf79bf88f2"
+    },
+    {
+      "old_path": "skills/christian-article/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "bytes": 16421,
+      "sha256": "05c3ff48cf90cca0932dec8856495d2b62f6ac79b393ca4011b76a92ba1d24de"
+    },
+    {
+      "old_path": "skills/christian-article/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "bytes": 15639,
+      "sha256": "9b8bc237a60c0e5885f0725fe27cac2be63da7736f3de18d12ceb5502b419fa4"
+    },
+    {
+      "old_path": "skills/christian-article/references/KNOWLEDGE_ROUTING.md",
+      "canonical_path": "skills/biblical-faith-life/references/KNOWLEDGE_ROUTING.md",
+      "bytes": 3783,
+      "sha256": "4a915cd53cfd2471260a75e0ec71d0785f23174697a4b6b7da301794edb76c60"
+    },
+    {
+      "old_path": "skills/christian-article/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "canonical_path": "skills/biblical-faith-life/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "bytes": 243988,
+      "sha256": "ce38c05e2f4ece5b8710f9244692710f3f8b83af35b54e2a6bed886f64b65d25"
+    },
+    {
+      "old_path": "skills/christian-article/references/ROLE_WORKFLOWS.md",
+      "canonical_path": "skills/biblical-faith-life/references/ROLE_WORKFLOWS.md",
+      "bytes": 26260,
+      "sha256": "a10813291d8dc2d50442816a5c7d84b0d743a9b66fb68416d8b7e7f5275c36d9"
+    },
+    {
+      "old_path": "skills/christian-article/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "bytes": 68859,
+      "sha256": "3c537ab71daaef3e704bf69e1068d8bc6a2a7f647bfef48c123e26938ace6afe"
+    },
+    {
+      "old_path": "skills/christian-article/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "bytes": 70579,
+      "sha256": "2975059ecd98409990682524537a42cd810f0be1a44bb6417f99473fd4ff3225"
+    },
+    {
+      "old_path": "skills/christian-article/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "bytes": 126056,
+      "sha256": "e325297a499da5687754dde4add85385ae32cd50c69aa40292f373b168ee649d"
+    },
+    {
+      "old_path": "skills/christian-education/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 32899,
+      "sha256": "f9de84dbc1272748a2c81c4f8d42576057db6923d33ff57ebf4816ad64b294cf"
+    },
+    {
+      "old_path": "skills/christian-education/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "canonical_path": "skills/biblical-faith-life/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "bytes": 182944,
+      "sha256": "bf5d273e6ff036a57737600abe4e4cd09376158e3e95b5aede00ee08f6f46a7c"
+    },
+    {
+      "old_path": "skills/christian-education/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 143513,
+      "sha256": "c9e46d903cdba9f1ed37f777b095f7b456b4631aeaf0ea2e70ddc6ed27be28af"
+    },
+    {
+      "old_path": "skills/christian-education/references/COMMON.md",
+      "canonical_path": "skills/biblical-faith-life/references/COMMON.md",
+      "bytes": 8068,
+      "sha256": "4a2bf792a610742eb1b3e0b78efc253025a21b1649148d55ebc4aaca71a2d24a"
+    },
+    {
+      "old_path": "skills/christian-education/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "canonical_path": "skills/biblical-faith-life/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "bytes": 17046,
+      "sha256": "f264d8291c44377031a3086a56206ac08e5fee3ba1e86828b70269b101e502c4"
+    },
+    {
+      "old_path": "skills/christian-education/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "bytes": 10111,
+      "sha256": "d0a89af81d726d94d460c569a32f7acceb5c36b3c406dc8b7680fc220096028f"
+    },
+    {
+      "old_path": "skills/christian-education/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "bytes": 53936,
+      "sha256": "a20372ef1743cf31e5519e59f5fb9dd1190eeb49d83d08bdb50cc5bf79bf88f2"
+    },
+    {
+      "old_path": "skills/christian-education/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "bytes": 16421,
+      "sha256": "05c3ff48cf90cca0932dec8856495d2b62f6ac79b393ca4011b76a92ba1d24de"
+    },
+    {
+      "old_path": "skills/christian-education/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "bytes": 15639,
+      "sha256": "9b8bc237a60c0e5885f0725fe27cac2be63da7736f3de18d12ceb5502b419fa4"
+    },
+    {
+      "old_path": "skills/christian-education/references/KNOWLEDGE_ROUTING.md",
+      "canonical_path": "skills/biblical-faith-life/references/KNOWLEDGE_ROUTING.md",
+      "bytes": 3783,
+      "sha256": "4a915cd53cfd2471260a75e0ec71d0785f23174697a4b6b7da301794edb76c60"
+    },
+    {
+      "old_path": "skills/christian-education/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "canonical_path": "skills/biblical-faith-life/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "bytes": 243988,
+      "sha256": "ce38c05e2f4ece5b8710f9244692710f3f8b83af35b54e2a6bed886f64b65d25"
+    },
+    {
+      "old_path": "skills/christian-education/references/ROLE_WORKFLOWS.md",
+      "canonical_path": "skills/biblical-faith-life/references/ROLE_WORKFLOWS.md",
+      "bytes": 26260,
+      "sha256": "a10813291d8dc2d50442816a5c7d84b0d743a9b66fb68416d8b7e7f5275c36d9"
+    },
+    {
+      "old_path": "skills/christian-education/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "bytes": 68859,
+      "sha256": "3c537ab71daaef3e704bf69e1068d8bc6a2a7f647bfef48c123e26938ace6afe"
+    },
+    {
+      "old_path": "skills/christian-education/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "bytes": 70579,
+      "sha256": "2975059ecd98409990682524537a42cd810f0be1a44bb6417f99473fd4ff3225"
+    },
+    {
+      "old_path": "skills/christian-education/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "bytes": 126056,
+      "sha256": "e325297a499da5687754dde4add85385ae32cd50c69aa40292f373b168ee649d"
+    },
+    {
+      "old_path": "skills/christian-letter/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 32899,
+      "sha256": "f9de84dbc1272748a2c81c4f8d42576057db6923d33ff57ebf4816ad64b294cf"
+    },
+    {
+      "old_path": "skills/christian-letter/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "canonical_path": "skills/biblical-faith-life/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "bytes": 182944,
+      "sha256": "bf5d273e6ff036a57737600abe4e4cd09376158e3e95b5aede00ee08f6f46a7c"
+    },
+    {
+      "old_path": "skills/christian-letter/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 143513,
+      "sha256": "c9e46d903cdba9f1ed37f777b095f7b456b4631aeaf0ea2e70ddc6ed27be28af"
+    },
+    {
+      "old_path": "skills/christian-letter/references/COMMON.md",
+      "canonical_path": "skills/biblical-faith-life/references/COMMON.md",
+      "bytes": 8068,
+      "sha256": "4a2bf792a610742eb1b3e0b78efc253025a21b1649148d55ebc4aaca71a2d24a"
+    },
+    {
+      "old_path": "skills/christian-letter/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "canonical_path": "skills/biblical-faith-life/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "bytes": 17046,
+      "sha256": "f264d8291c44377031a3086a56206ac08e5fee3ba1e86828b70269b101e502c4"
+    },
+    {
+      "old_path": "skills/christian-letter/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "bytes": 10111,
+      "sha256": "d0a89af81d726d94d460c569a32f7acceb5c36b3c406dc8b7680fc220096028f"
+    },
+    {
+      "old_path": "skills/christian-letter/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "bytes": 53936,
+      "sha256": "a20372ef1743cf31e5519e59f5fb9dd1190eeb49d83d08bdb50cc5bf79bf88f2"
+    },
+    {
+      "old_path": "skills/christian-letter/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "bytes": 16421,
+      "sha256": "05c3ff48cf90cca0932dec8856495d2b62f6ac79b393ca4011b76a92ba1d24de"
+    },
+    {
+      "old_path": "skills/christian-letter/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "bytes": 15639,
+      "sha256": "9b8bc237a60c0e5885f0725fe27cac2be63da7736f3de18d12ceb5502b419fa4"
+    },
+    {
+      "old_path": "skills/christian-letter/references/KNOWLEDGE_ROUTING.md",
+      "canonical_path": "skills/biblical-faith-life/references/KNOWLEDGE_ROUTING.md",
+      "bytes": 3783,
+      "sha256": "4a915cd53cfd2471260a75e0ec71d0785f23174697a4b6b7da301794edb76c60"
+    },
+    {
+      "old_path": "skills/christian-letter/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "canonical_path": "skills/biblical-faith-life/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "bytes": 243988,
+      "sha256": "ce38c05e2f4ece5b8710f9244692710f3f8b83af35b54e2a6bed886f64b65d25"
+    },
+    {
+      "old_path": "skills/christian-letter/references/ROLE_WORKFLOWS.md",
+      "canonical_path": "skills/biblical-faith-life/references/ROLE_WORKFLOWS.md",
+      "bytes": 26260,
+      "sha256": "a10813291d8dc2d50442816a5c7d84b0d743a9b66fb68416d8b7e7f5275c36d9"
+    },
+    {
+      "old_path": "skills/christian-letter/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "bytes": 68859,
+      "sha256": "3c537ab71daaef3e704bf69e1068d8bc6a2a7f647bfef48c123e26938ace6afe"
+    },
+    {
+      "old_path": "skills/christian-letter/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "bytes": 70579,
+      "sha256": "2975059ecd98409990682524537a42cd810f0be1a44bb6417f99473fd4ff3225"
+    },
+    {
+      "old_path": "skills/christian-letter/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "bytes": 126056,
+      "sha256": "e325297a499da5687754dde4add85385ae32cd50c69aa40292f373b168ee649d"
+    },
+    {
+      "old_path": "skills/christian-material/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 32899,
+      "sha256": "f9de84dbc1272748a2c81c4f8d42576057db6923d33ff57ebf4816ad64b294cf"
+    },
+    {
+      "old_path": "skills/christian-material/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "canonical_path": "skills/biblical-faith-life/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "bytes": 182944,
+      "sha256": "bf5d273e6ff036a57737600abe4e4cd09376158e3e95b5aede00ee08f6f46a7c"
+    },
+    {
+      "old_path": "skills/christian-material/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 143513,
+      "sha256": "c9e46d903cdba9f1ed37f777b095f7b456b4631aeaf0ea2e70ddc6ed27be28af"
+    },
+    {
+      "old_path": "skills/christian-material/references/COMMON.md",
+      "canonical_path": "skills/biblical-faith-life/references/COMMON.md",
+      "bytes": 8068,
+      "sha256": "4a2bf792a610742eb1b3e0b78efc253025a21b1649148d55ebc4aaca71a2d24a"
+    },
+    {
+      "old_path": "skills/christian-material/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "canonical_path": "skills/biblical-faith-life/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "bytes": 17046,
+      "sha256": "f264d8291c44377031a3086a56206ac08e5fee3ba1e86828b70269b101e502c4"
+    },
+    {
+      "old_path": "skills/christian-material/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "bytes": 10111,
+      "sha256": "d0a89af81d726d94d460c569a32f7acceb5c36b3c406dc8b7680fc220096028f"
+    },
+    {
+      "old_path": "skills/christian-material/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "bytes": 53936,
+      "sha256": "a20372ef1743cf31e5519e59f5fb9dd1190eeb49d83d08bdb50cc5bf79bf88f2"
+    },
+    {
+      "old_path": "skills/christian-material/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "bytes": 16421,
+      "sha256": "05c3ff48cf90cca0932dec8856495d2b62f6ac79b393ca4011b76a92ba1d24de"
+    },
+    {
+      "old_path": "skills/christian-material/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "bytes": 15639,
+      "sha256": "9b8bc237a60c0e5885f0725fe27cac2be63da7736f3de18d12ceb5502b419fa4"
+    },
+    {
+      "old_path": "skills/christian-material/references/KNOWLEDGE_ROUTING.md",
+      "canonical_path": "skills/biblical-faith-life/references/KNOWLEDGE_ROUTING.md",
+      "bytes": 3783,
+      "sha256": "4a915cd53cfd2471260a75e0ec71d0785f23174697a4b6b7da301794edb76c60"
+    },
+    {
+      "old_path": "skills/christian-material/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "canonical_path": "skills/biblical-faith-life/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "bytes": 243988,
+      "sha256": "ce38c05e2f4ece5b8710f9244692710f3f8b83af35b54e2a6bed886f64b65d25"
+    },
+    {
+      "old_path": "skills/christian-material/references/ROLE_WORKFLOWS.md",
+      "canonical_path": "skills/biblical-faith-life/references/ROLE_WORKFLOWS.md",
+      "bytes": 26260,
+      "sha256": "a10813291d8dc2d50442816a5c7d84b0d743a9b66fb68416d8b7e7f5275c36d9"
+    },
+    {
+      "old_path": "skills/christian-material/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "bytes": 68859,
+      "sha256": "3c537ab71daaef3e704bf69e1068d8bc6a2a7f647bfef48c123e26938ace6afe"
+    },
+    {
+      "old_path": "skills/christian-material/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "bytes": 70579,
+      "sha256": "2975059ecd98409990682524537a42cd810f0be1a44bb6417f99473fd4ff3225"
+    },
+    {
+      "old_path": "skills/christian-material/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "bytes": 126056,
+      "sha256": "e325297a499da5687754dde4add85385ae32cd50c69aa40292f373b168ee649d"
+    },
+    {
+      "old_path": "skills/christian-news/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 32899,
+      "sha256": "f9de84dbc1272748a2c81c4f8d42576057db6923d33ff57ebf4816ad64b294cf"
+    },
+    {
+      "old_path": "skills/christian-news/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "canonical_path": "skills/biblical-faith-life/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "bytes": 182944,
+      "sha256": "bf5d273e6ff036a57737600abe4e4cd09376158e3e95b5aede00ee08f6f46a7c"
+    },
+    {
+      "old_path": "skills/christian-news/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 143513,
+      "sha256": "c9e46d903cdba9f1ed37f777b095f7b456b4631aeaf0ea2e70ddc6ed27be28af"
+    },
+    {
+      "old_path": "skills/christian-news/references/COMMON.md",
+      "canonical_path": "skills/biblical-faith-life/references/COMMON.md",
+      "bytes": 8068,
+      "sha256": "4a2bf792a610742eb1b3e0b78efc253025a21b1649148d55ebc4aaca71a2d24a"
+    },
+    {
+      "old_path": "skills/christian-news/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "canonical_path": "skills/biblical-faith-life/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "bytes": 17046,
+      "sha256": "f264d8291c44377031a3086a56206ac08e5fee3ba1e86828b70269b101e502c4"
+    },
+    {
+      "old_path": "skills/christian-news/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "bytes": 10111,
+      "sha256": "d0a89af81d726d94d460c569a32f7acceb5c36b3c406dc8b7680fc220096028f"
+    },
+    {
+      "old_path": "skills/christian-news/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "bytes": 53936,
+      "sha256": "a20372ef1743cf31e5519e59f5fb9dd1190eeb49d83d08bdb50cc5bf79bf88f2"
+    },
+    {
+      "old_path": "skills/christian-news/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "bytes": 16421,
+      "sha256": "05c3ff48cf90cca0932dec8856495d2b62f6ac79b393ca4011b76a92ba1d24de"
+    },
+    {
+      "old_path": "skills/christian-news/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "bytes": 15639,
+      "sha256": "9b8bc237a60c0e5885f0725fe27cac2be63da7736f3de18d12ceb5502b419fa4"
+    },
+    {
+      "old_path": "skills/christian-news/references/KNOWLEDGE_ROUTING.md",
+      "canonical_path": "skills/biblical-faith-life/references/KNOWLEDGE_ROUTING.md",
+      "bytes": 3783,
+      "sha256": "4a915cd53cfd2471260a75e0ec71d0785f23174697a4b6b7da301794edb76c60"
+    },
+    {
+      "old_path": "skills/christian-news/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "canonical_path": "skills/biblical-faith-life/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "bytes": 243988,
+      "sha256": "ce38c05e2f4ece5b8710f9244692710f3f8b83af35b54e2a6bed886f64b65d25"
+    },
+    {
+      "old_path": "skills/christian-news/references/ROLE_WORKFLOWS.md",
+      "canonical_path": "skills/biblical-faith-life/references/ROLE_WORKFLOWS.md",
+      "bytes": 26260,
+      "sha256": "a10813291d8dc2d50442816a5c7d84b0d743a9b66fb68416d8b7e7f5275c36d9"
+    },
+    {
+      "old_path": "skills/christian-news/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "bytes": 68859,
+      "sha256": "3c537ab71daaef3e704bf69e1068d8bc6a2a7f647bfef48c123e26938ace6afe"
+    },
+    {
+      "old_path": "skills/christian-news/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "bytes": 70579,
+      "sha256": "2975059ecd98409990682524537a42cd810f0be1a44bb6417f99473fd4ff3225"
+    },
+    {
+      "old_path": "skills/christian-news/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "bytes": 126056,
+      "sha256": "e325297a499da5687754dde4add85385ae32cd50c69aa40292f373b168ee649d"
+    },
+    {
+      "old_path": "skills/christian-report/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 32899,
+      "sha256": "f9de84dbc1272748a2c81c4f8d42576057db6923d33ff57ebf4816ad64b294cf"
+    },
+    {
+      "old_path": "skills/christian-report/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "canonical_path": "skills/biblical-faith-life/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "bytes": 182944,
+      "sha256": "bf5d273e6ff036a57737600abe4e4cd09376158e3e95b5aede00ee08f6f46a7c"
+    },
+    {
+      "old_path": "skills/christian-report/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 143513,
+      "sha256": "c9e46d903cdba9f1ed37f777b095f7b456b4631aeaf0ea2e70ddc6ed27be28af"
+    },
+    {
+      "old_path": "skills/christian-report/references/COMMON.md",
+      "canonical_path": "skills/biblical-faith-life/references/COMMON.md",
+      "bytes": 8068,
+      "sha256": "4a2bf792a610742eb1b3e0b78efc253025a21b1649148d55ebc4aaca71a2d24a"
+    },
+    {
+      "old_path": "skills/christian-report/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "canonical_path": "skills/biblical-faith-life/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "bytes": 17046,
+      "sha256": "f264d8291c44377031a3086a56206ac08e5fee3ba1e86828b70269b101e502c4"
+    },
+    {
+      "old_path": "skills/christian-report/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "bytes": 10111,
+      "sha256": "d0a89af81d726d94d460c569a32f7acceb5c36b3c406dc8b7680fc220096028f"
+    },
+    {
+      "old_path": "skills/christian-report/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "bytes": 53936,
+      "sha256": "a20372ef1743cf31e5519e59f5fb9dd1190eeb49d83d08bdb50cc5bf79bf88f2"
+    },
+    {
+      "old_path": "skills/christian-report/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "bytes": 16421,
+      "sha256": "05c3ff48cf90cca0932dec8856495d2b62f6ac79b393ca4011b76a92ba1d24de"
+    },
+    {
+      "old_path": "skills/christian-report/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "bytes": 15639,
+      "sha256": "9b8bc237a60c0e5885f0725fe27cac2be63da7736f3de18d12ceb5502b419fa4"
+    },
+    {
+      "old_path": "skills/christian-report/references/KNOWLEDGE_ROUTING.md",
+      "canonical_path": "skills/biblical-faith-life/references/KNOWLEDGE_ROUTING.md",
+      "bytes": 3783,
+      "sha256": "4a915cd53cfd2471260a75e0ec71d0785f23174697a4b6b7da301794edb76c60"
+    },
+    {
+      "old_path": "skills/christian-report/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "canonical_path": "skills/biblical-faith-life/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "bytes": 243988,
+      "sha256": "ce38c05e2f4ece5b8710f9244692710f3f8b83af35b54e2a6bed886f64b65d25"
+    },
+    {
+      "old_path": "skills/christian-report/references/ROLE_WORKFLOWS.md",
+      "canonical_path": "skills/biblical-faith-life/references/ROLE_WORKFLOWS.md",
+      "bytes": 26260,
+      "sha256": "a10813291d8dc2d50442816a5c7d84b0d743a9b66fb68416d8b7e7f5275c36d9"
+    },
+    {
+      "old_path": "skills/christian-report/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "bytes": 68859,
+      "sha256": "3c537ab71daaef3e704bf69e1068d8bc6a2a7f647bfef48c123e26938ace6afe"
+    },
+    {
+      "old_path": "skills/christian-report/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "bytes": 70579,
+      "sha256": "2975059ecd98409990682524537a42cd810f0be1a44bb6417f99473fd4ff3225"
+    },
+    {
+      "old_path": "skills/christian-report/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "bytes": 126056,
+      "sha256": "e325297a499da5687754dde4add85385ae32cd50c69aa40292f373b168ee649d"
+    },
+    {
+      "old_path": "skills/christian-science/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 32899,
+      "sha256": "f9de84dbc1272748a2c81c4f8d42576057db6923d33ff57ebf4816ad64b294cf"
+    },
+    {
+      "old_path": "skills/christian-science/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "canonical_path": "skills/biblical-faith-life/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "bytes": 182944,
+      "sha256": "bf5d273e6ff036a57737600abe4e4cd09376158e3e95b5aede00ee08f6f46a7c"
+    },
+    {
+      "old_path": "skills/christian-science/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 143513,
+      "sha256": "c9e46d903cdba9f1ed37f777b095f7b456b4631aeaf0ea2e70ddc6ed27be28af"
+    },
+    {
+      "old_path": "skills/christian-science/references/COMMON.md",
+      "canonical_path": "skills/biblical-faith-life/references/COMMON.md",
+      "bytes": 8068,
+      "sha256": "4a2bf792a610742eb1b3e0b78efc253025a21b1649148d55ebc4aaca71a2d24a"
+    },
+    {
+      "old_path": "skills/christian-science/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "canonical_path": "skills/biblical-faith-life/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "bytes": 17046,
+      "sha256": "f264d8291c44377031a3086a56206ac08e5fee3ba1e86828b70269b101e502c4"
+    },
+    {
+      "old_path": "skills/christian-science/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "bytes": 10111,
+      "sha256": "d0a89af81d726d94d460c569a32f7acceb5c36b3c406dc8b7680fc220096028f"
+    },
+    {
+      "old_path": "skills/christian-science/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "bytes": 53936,
+      "sha256": "a20372ef1743cf31e5519e59f5fb9dd1190eeb49d83d08bdb50cc5bf79bf88f2"
+    },
+    {
+      "old_path": "skills/christian-science/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "bytes": 16421,
+      "sha256": "05c3ff48cf90cca0932dec8856495d2b62f6ac79b393ca4011b76a92ba1d24de"
+    },
+    {
+      "old_path": "skills/christian-science/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "bytes": 15639,
+      "sha256": "9b8bc237a60c0e5885f0725fe27cac2be63da7736f3de18d12ceb5502b419fa4"
+    },
+    {
+      "old_path": "skills/christian-science/references/KNOWLEDGE_ROUTING.md",
+      "canonical_path": "skills/biblical-faith-life/references/KNOWLEDGE_ROUTING.md",
+      "bytes": 3783,
+      "sha256": "4a915cd53cfd2471260a75e0ec71d0785f23174697a4b6b7da301794edb76c60"
+    },
+    {
+      "old_path": "skills/christian-science/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "canonical_path": "skills/biblical-faith-life/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "bytes": 243988,
+      "sha256": "ce38c05e2f4ece5b8710f9244692710f3f8b83af35b54e2a6bed886f64b65d25"
+    },
+    {
+      "old_path": "skills/christian-science/references/ROLE_WORKFLOWS.md",
+      "canonical_path": "skills/biblical-faith-life/references/ROLE_WORKFLOWS.md",
+      "bytes": 26260,
+      "sha256": "a10813291d8dc2d50442816a5c7d84b0d743a9b66fb68416d8b7e7f5275c36d9"
+    },
+    {
+      "old_path": "skills/christian-science/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "bytes": 68859,
+      "sha256": "3c537ab71daaef3e704bf69e1068d8bc6a2a7f647bfef48c123e26938ace6afe"
+    },
+    {
+      "old_path": "skills/christian-science/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "bytes": 70579,
+      "sha256": "2975059ecd98409990682524537a42cd810f0be1a44bb6417f99473fd4ff3225"
+    },
+    {
+      "old_path": "skills/christian-science/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "bytes": 126056,
+      "sha256": "e325297a499da5687754dde4add85385ae32cd50c69aa40292f373b168ee649d"
+    },
+    {
+      "old_path": "skills/church-media/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 32899,
+      "sha256": "f9de84dbc1272748a2c81c4f8d42576057db6923d33ff57ebf4816ad64b294cf"
+    },
+    {
+      "old_path": "skills/church-media/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "canonical_path": "skills/biblical-faith-life/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "bytes": 182944,
+      "sha256": "bf5d273e6ff036a57737600abe4e4cd09376158e3e95b5aede00ee08f6f46a7c"
+    },
+    {
+      "old_path": "skills/church-media/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 143513,
+      "sha256": "c9e46d903cdba9f1ed37f777b095f7b456b4631aeaf0ea2e70ddc6ed27be28af"
+    },
+    {
+      "old_path": "skills/church-media/references/COMMON.md",
+      "canonical_path": "skills/biblical-faith-life/references/COMMON.md",
+      "bytes": 8068,
+      "sha256": "4a2bf792a610742eb1b3e0b78efc253025a21b1649148d55ebc4aaca71a2d24a"
+    },
+    {
+      "old_path": "skills/church-media/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "canonical_path": "skills/biblical-faith-life/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "bytes": 17046,
+      "sha256": "f264d8291c44377031a3086a56206ac08e5fee3ba1e86828b70269b101e502c4"
+    },
+    {
+      "old_path": "skills/church-media/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "bytes": 10111,
+      "sha256": "d0a89af81d726d94d460c569a32f7acceb5c36b3c406dc8b7680fc220096028f"
+    },
+    {
+      "old_path": "skills/church-media/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "bytes": 53936,
+      "sha256": "a20372ef1743cf31e5519e59f5fb9dd1190eeb49d83d08bdb50cc5bf79bf88f2"
+    },
+    {
+      "old_path": "skills/church-media/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "bytes": 16421,
+      "sha256": "05c3ff48cf90cca0932dec8856495d2b62f6ac79b393ca4011b76a92ba1d24de"
+    },
+    {
+      "old_path": "skills/church-media/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "bytes": 15639,
+      "sha256": "9b8bc237a60c0e5885f0725fe27cac2be63da7736f3de18d12ceb5502b419fa4"
+    },
+    {
+      "old_path": "skills/church-media/references/KNOWLEDGE_ROUTING.md",
+      "canonical_path": "skills/biblical-faith-life/references/KNOWLEDGE_ROUTING.md",
+      "bytes": 3783,
+      "sha256": "4a915cd53cfd2471260a75e0ec71d0785f23174697a4b6b7da301794edb76c60"
+    },
+    {
+      "old_path": "skills/church-media/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "canonical_path": "skills/biblical-faith-life/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "bytes": 243988,
+      "sha256": "ce38c05e2f4ece5b8710f9244692710f3f8b83af35b54e2a6bed886f64b65d25"
+    },
+    {
+      "old_path": "skills/church-media/references/ROLE_WORKFLOWS.md",
+      "canonical_path": "skills/biblical-faith-life/references/ROLE_WORKFLOWS.md",
+      "bytes": 26260,
+      "sha256": "a10813291d8dc2d50442816a5c7d84b0d743a9b66fb68416d8b7e7f5275c36d9"
+    },
+    {
+      "old_path": "skills/church-media/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "bytes": 68859,
+      "sha256": "3c537ab71daaef3e704bf69e1068d8bc6a2a7f647bfef48c123e26938ace6afe"
+    },
+    {
+      "old_path": "skills/church-media/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "bytes": 70579,
+      "sha256": "2975059ecd98409990682524537a42cd810f0be1a44bb6417f99473fd4ff3225"
+    },
+    {
+      "old_path": "skills/church-media/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "bytes": 126056,
+      "sha256": "e325297a499da5687754dde4add85385ae32cd50c69aa40292f373b168ee649d"
+    },
+    {
+      "old_path": "skills/devotional/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 32899,
+      "sha256": "f9de84dbc1272748a2c81c4f8d42576057db6923d33ff57ebf4816ad64b294cf"
+    },
+    {
+      "old_path": "skills/devotional/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "canonical_path": "skills/biblical-faith-life/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "bytes": 182944,
+      "sha256": "bf5d273e6ff036a57737600abe4e4cd09376158e3e95b5aede00ee08f6f46a7c"
+    },
+    {
+      "old_path": "skills/devotional/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 143513,
+      "sha256": "c9e46d903cdba9f1ed37f777b095f7b456b4631aeaf0ea2e70ddc6ed27be28af"
+    },
+    {
+      "old_path": "skills/devotional/references/COMMON.md",
+      "canonical_path": "skills/biblical-faith-life/references/COMMON.md",
+      "bytes": 8068,
+      "sha256": "4a2bf792a610742eb1b3e0b78efc253025a21b1649148d55ebc4aaca71a2d24a"
+    },
+    {
+      "old_path": "skills/devotional/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "canonical_path": "skills/biblical-faith-life/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "bytes": 17046,
+      "sha256": "f264d8291c44377031a3086a56206ac08e5fee3ba1e86828b70269b101e502c4"
+    },
+    {
+      "old_path": "skills/devotional/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "bytes": 10111,
+      "sha256": "d0a89af81d726d94d460c569a32f7acceb5c36b3c406dc8b7680fc220096028f"
+    },
+    {
+      "old_path": "skills/devotional/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "bytes": 53936,
+      "sha256": "a20372ef1743cf31e5519e59f5fb9dd1190eeb49d83d08bdb50cc5bf79bf88f2"
+    },
+    {
+      "old_path": "skills/devotional/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "bytes": 16421,
+      "sha256": "05c3ff48cf90cca0932dec8856495d2b62f6ac79b393ca4011b76a92ba1d24de"
+    },
+    {
+      "old_path": "skills/devotional/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "bytes": 15639,
+      "sha256": "9b8bc237a60c0e5885f0725fe27cac2be63da7736f3de18d12ceb5502b419fa4"
+    },
+    {
+      "old_path": "skills/devotional/references/KNOWLEDGE_ROUTING.md",
+      "canonical_path": "skills/biblical-faith-life/references/KNOWLEDGE_ROUTING.md",
+      "bytes": 3783,
+      "sha256": "4a915cd53cfd2471260a75e0ec71d0785f23174697a4b6b7da301794edb76c60"
+    },
+    {
+      "old_path": "skills/devotional/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "canonical_path": "skills/biblical-faith-life/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "bytes": 243988,
+      "sha256": "ce38c05e2f4ece5b8710f9244692710f3f8b83af35b54e2a6bed886f64b65d25"
+    },
+    {
+      "old_path": "skills/devotional/references/ROLE_WORKFLOWS.md",
+      "canonical_path": "skills/biblical-faith-life/references/ROLE_WORKFLOWS.md",
+      "bytes": 26260,
+      "sha256": "a10813291d8dc2d50442816a5c7d84b0d743a9b66fb68416d8b7e7f5275c36d9"
+    },
+    {
+      "old_path": "skills/devotional/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "bytes": 68859,
+      "sha256": "3c537ab71daaef3e704bf69e1068d8bc6a2a7f647bfef48c123e26938ace6afe"
+    },
+    {
+      "old_path": "skills/devotional/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "bytes": 70579,
+      "sha256": "2975059ecd98409990682524537a42cd810f0be1a44bb6417f99473fd4ff3225"
+    },
+    {
+      "old_path": "skills/devotional/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "bytes": 126056,
+      "sha256": "e325297a499da5687754dde4add85385ae32cd50c69aa40292f373b168ee649d"
+    },
+    {
+      "old_path": "skills/doctrinal-comparison/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 32899,
+      "sha256": "f9de84dbc1272748a2c81c4f8d42576057db6923d33ff57ebf4816ad64b294cf"
+    },
+    {
+      "old_path": "skills/doctrinal-comparison/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "canonical_path": "skills/biblical-faith-life/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "bytes": 182944,
+      "sha256": "bf5d273e6ff036a57737600abe4e4cd09376158e3e95b5aede00ee08f6f46a7c"
+    },
+    {
+      "old_path": "skills/doctrinal-comparison/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 143513,
+      "sha256": "c9e46d903cdba9f1ed37f777b095f7b456b4631aeaf0ea2e70ddc6ed27be28af"
+    },
+    {
+      "old_path": "skills/doctrinal-comparison/references/COMMON.md",
+      "canonical_path": "skills/biblical-faith-life/references/COMMON.md",
+      "bytes": 8068,
+      "sha256": "4a2bf792a610742eb1b3e0b78efc253025a21b1649148d55ebc4aaca71a2d24a"
+    },
+    {
+      "old_path": "skills/doctrinal-comparison/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "canonical_path": "skills/biblical-faith-life/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "bytes": 17046,
+      "sha256": "f264d8291c44377031a3086a56206ac08e5fee3ba1e86828b70269b101e502c4"
+    },
+    {
+      "old_path": "skills/doctrinal-comparison/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "bytes": 10111,
+      "sha256": "d0a89af81d726d94d460c569a32f7acceb5c36b3c406dc8b7680fc220096028f"
+    },
+    {
+      "old_path": "skills/doctrinal-comparison/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "bytes": 53936,
+      "sha256": "a20372ef1743cf31e5519e59f5fb9dd1190eeb49d83d08bdb50cc5bf79bf88f2"
+    },
+    {
+      "old_path": "skills/doctrinal-comparison/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "bytes": 16421,
+      "sha256": "05c3ff48cf90cca0932dec8856495d2b62f6ac79b393ca4011b76a92ba1d24de"
+    },
+    {
+      "old_path": "skills/doctrinal-comparison/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "bytes": 15639,
+      "sha256": "9b8bc237a60c0e5885f0725fe27cac2be63da7736f3de18d12ceb5502b419fa4"
+    },
+    {
+      "old_path": "skills/doctrinal-comparison/references/KNOWLEDGE_ROUTING.md",
+      "canonical_path": "skills/biblical-faith-life/references/KNOWLEDGE_ROUTING.md",
+      "bytes": 3783,
+      "sha256": "4a915cd53cfd2471260a75e0ec71d0785f23174697a4b6b7da301794edb76c60"
+    },
+    {
+      "old_path": "skills/doctrinal-comparison/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "canonical_path": "skills/biblical-faith-life/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "bytes": 243988,
+      "sha256": "ce38c05e2f4ece5b8710f9244692710f3f8b83af35b54e2a6bed886f64b65d25"
+    },
+    {
+      "old_path": "skills/doctrinal-comparison/references/ROLE_WORKFLOWS.md",
+      "canonical_path": "skills/biblical-faith-life/references/ROLE_WORKFLOWS.md",
+      "bytes": 26260,
+      "sha256": "a10813291d8dc2d50442816a5c7d84b0d743a9b66fb68416d8b7e7f5275c36d9"
+    },
+    {
+      "old_path": "skills/doctrinal-comparison/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "bytes": 68859,
+      "sha256": "3c537ab71daaef3e704bf69e1068d8bc6a2a7f647bfef48c123e26938ace6afe"
+    },
+    {
+      "old_path": "skills/doctrinal-comparison/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "bytes": 70579,
+      "sha256": "2975059ecd98409990682524537a42cd810f0be1a44bb6417f99473fd4ff3225"
+    },
+    {
+      "old_path": "skills/doctrinal-comparison/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "bytes": 126056,
+      "sha256": "e325297a499da5687754dde4add85385ae32cd50c69aa40292f373b168ee649d"
+    },
+    {
+      "old_path": "skills/evangelism/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 32899,
+      "sha256": "f9de84dbc1272748a2c81c4f8d42576057db6923d33ff57ebf4816ad64b294cf"
+    },
+    {
+      "old_path": "skills/evangelism/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "canonical_path": "skills/biblical-faith-life/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "bytes": 182944,
+      "sha256": "bf5d273e6ff036a57737600abe4e4cd09376158e3e95b5aede00ee08f6f46a7c"
+    },
+    {
+      "old_path": "skills/evangelism/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 143513,
+      "sha256": "c9e46d903cdba9f1ed37f777b095f7b456b4631aeaf0ea2e70ddc6ed27be28af"
+    },
+    {
+      "old_path": "skills/evangelism/references/COMMON.md",
+      "canonical_path": "skills/biblical-faith-life/references/COMMON.md",
+      "bytes": 8068,
+      "sha256": "4a2bf792a610742eb1b3e0b78efc253025a21b1649148d55ebc4aaca71a2d24a"
+    },
+    {
+      "old_path": "skills/evangelism/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "canonical_path": "skills/biblical-faith-life/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "bytes": 17046,
+      "sha256": "f264d8291c44377031a3086a56206ac08e5fee3ba1e86828b70269b101e502c4"
+    },
+    {
+      "old_path": "skills/evangelism/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "bytes": 10111,
+      "sha256": "d0a89af81d726d94d460c569a32f7acceb5c36b3c406dc8b7680fc220096028f"
+    },
+    {
+      "old_path": "skills/evangelism/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "bytes": 53936,
+      "sha256": "a20372ef1743cf31e5519e59f5fb9dd1190eeb49d83d08bdb50cc5bf79bf88f2"
+    },
+    {
+      "old_path": "skills/evangelism/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "bytes": 16421,
+      "sha256": "05c3ff48cf90cca0932dec8856495d2b62f6ac79b393ca4011b76a92ba1d24de"
+    },
+    {
+      "old_path": "skills/evangelism/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "bytes": 15639,
+      "sha256": "9b8bc237a60c0e5885f0725fe27cac2be63da7736f3de18d12ceb5502b419fa4"
+    },
+    {
+      "old_path": "skills/evangelism/references/KNOWLEDGE_ROUTING.md",
+      "canonical_path": "skills/biblical-faith-life/references/KNOWLEDGE_ROUTING.md",
+      "bytes": 3783,
+      "sha256": "4a915cd53cfd2471260a75e0ec71d0785f23174697a4b6b7da301794edb76c60"
+    },
+    {
+      "old_path": "skills/evangelism/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "canonical_path": "skills/biblical-faith-life/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "bytes": 243988,
+      "sha256": "ce38c05e2f4ece5b8710f9244692710f3f8b83af35b54e2a6bed886f64b65d25"
+    },
+    {
+      "old_path": "skills/evangelism/references/ROLE_WORKFLOWS.md",
+      "canonical_path": "skills/biblical-faith-life/references/ROLE_WORKFLOWS.md",
+      "bytes": 26260,
+      "sha256": "a10813291d8dc2d50442816a5c7d84b0d743a9b66fb68416d8b7e7f5275c36d9"
+    },
+    {
+      "old_path": "skills/evangelism/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "bytes": 68859,
+      "sha256": "3c537ab71daaef3e704bf69e1068d8bc6a2a7f647bfef48c123e26938ace6afe"
+    },
+    {
+      "old_path": "skills/evangelism/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "bytes": 70579,
+      "sha256": "2975059ecd98409990682524537a42cd810f0be1a44bb6417f99473fd4ff3225"
+    },
+    {
+      "old_path": "skills/evangelism/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "bytes": 126056,
+      "sha256": "e325297a499da5687754dde4add85385ae32cd50c69aa40292f373b168ee649d"
+    },
+    {
+      "old_path": "skills/pastoral-care/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 32899,
+      "sha256": "f9de84dbc1272748a2c81c4f8d42576057db6923d33ff57ebf4816ad64b294cf"
+    },
+    {
+      "old_path": "skills/pastoral-care/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "canonical_path": "skills/biblical-faith-life/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "bytes": 182944,
+      "sha256": "bf5d273e6ff036a57737600abe4e4cd09376158e3e95b5aede00ee08f6f46a7c"
+    },
+    {
+      "old_path": "skills/pastoral-care/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 143513,
+      "sha256": "c9e46d903cdba9f1ed37f777b095f7b456b4631aeaf0ea2e70ddc6ed27be28af"
+    },
+    {
+      "old_path": "skills/pastoral-care/references/COMMON.md",
+      "canonical_path": "skills/biblical-faith-life/references/COMMON.md",
+      "bytes": 8068,
+      "sha256": "4a2bf792a610742eb1b3e0b78efc253025a21b1649148d55ebc4aaca71a2d24a"
+    },
+    {
+      "old_path": "skills/pastoral-care/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "canonical_path": "skills/biblical-faith-life/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "bytes": 17046,
+      "sha256": "f264d8291c44377031a3086a56206ac08e5fee3ba1e86828b70269b101e502c4"
+    },
+    {
+      "old_path": "skills/pastoral-care/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "bytes": 10111,
+      "sha256": "d0a89af81d726d94d460c569a32f7acceb5c36b3c406dc8b7680fc220096028f"
+    },
+    {
+      "old_path": "skills/pastoral-care/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "bytes": 53936,
+      "sha256": "a20372ef1743cf31e5519e59f5fb9dd1190eeb49d83d08bdb50cc5bf79bf88f2"
+    },
+    {
+      "old_path": "skills/pastoral-care/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "bytes": 16421,
+      "sha256": "05c3ff48cf90cca0932dec8856495d2b62f6ac79b393ca4011b76a92ba1d24de"
+    },
+    {
+      "old_path": "skills/pastoral-care/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "bytes": 15639,
+      "sha256": "9b8bc237a60c0e5885f0725fe27cac2be63da7736f3de18d12ceb5502b419fa4"
+    },
+    {
+      "old_path": "skills/pastoral-care/references/KNOWLEDGE_ROUTING.md",
+      "canonical_path": "skills/biblical-faith-life/references/KNOWLEDGE_ROUTING.md",
+      "bytes": 3783,
+      "sha256": "4a915cd53cfd2471260a75e0ec71d0785f23174697a4b6b7da301794edb76c60"
+    },
+    {
+      "old_path": "skills/pastoral-care/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "canonical_path": "skills/biblical-faith-life/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "bytes": 243988,
+      "sha256": "ce38c05e2f4ece5b8710f9244692710f3f8b83af35b54e2a6bed886f64b65d25"
+    },
+    {
+      "old_path": "skills/pastoral-care/references/ROLE_WORKFLOWS.md",
+      "canonical_path": "skills/biblical-faith-life/references/ROLE_WORKFLOWS.md",
+      "bytes": 26260,
+      "sha256": "a10813291d8dc2d50442816a5c7d84b0d743a9b66fb68416d8b7e7f5275c36d9"
+    },
+    {
+      "old_path": "skills/pastoral-care/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "bytes": 68859,
+      "sha256": "3c537ab71daaef3e704bf69e1068d8bc6a2a7f647bfef48c123e26938ace6afe"
+    },
+    {
+      "old_path": "skills/pastoral-care/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "bytes": 70579,
+      "sha256": "2975059ecd98409990682524537a42cd810f0be1a44bb6417f99473fd4ff3225"
+    },
+    {
+      "old_path": "skills/pastoral-care/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "bytes": 126056,
+      "sha256": "e325297a499da5687754dde4add85385ae32cd50c69aa40292f373b168ee649d"
+    },
+    {
+      "old_path": "skills/sermon/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 32899,
+      "sha256": "f9de84dbc1272748a2c81c4f8d42576057db6923d33ff57ebf4816ad64b294cf"
+    },
+    {
+      "old_path": "skills/sermon/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "canonical_path": "skills/biblical-faith-life/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "bytes": 182944,
+      "sha256": "bf5d273e6ff036a57737600abe4e4cd09376158e3e95b5aede00ee08f6f46a7c"
+    },
+    {
+      "old_path": "skills/sermon/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 143513,
+      "sha256": "c9e46d903cdba9f1ed37f777b095f7b456b4631aeaf0ea2e70ddc6ed27be28af"
+    },
+    {
+      "old_path": "skills/sermon/references/COMMON.md",
+      "canonical_path": "skills/biblical-faith-life/references/COMMON.md",
+      "bytes": 8068,
+      "sha256": "4a2bf792a610742eb1b3e0b78efc253025a21b1649148d55ebc4aaca71a2d24a"
+    },
+    {
+      "old_path": "skills/sermon/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "canonical_path": "skills/biblical-faith-life/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "bytes": 17046,
+      "sha256": "f264d8291c44377031a3086a56206ac08e5fee3ba1e86828b70269b101e502c4"
+    },
+    {
+      "old_path": "skills/sermon/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "bytes": 10111,
+      "sha256": "d0a89af81d726d94d460c569a32f7acceb5c36b3c406dc8b7680fc220096028f"
+    },
+    {
+      "old_path": "skills/sermon/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "bytes": 53936,
+      "sha256": "a20372ef1743cf31e5519e59f5fb9dd1190eeb49d83d08bdb50cc5bf79bf88f2"
+    },
+    {
+      "old_path": "skills/sermon/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "bytes": 16421,
+      "sha256": "05c3ff48cf90cca0932dec8856495d2b62f6ac79b393ca4011b76a92ba1d24de"
+    },
+    {
+      "old_path": "skills/sermon/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "bytes": 15639,
+      "sha256": "9b8bc237a60c0e5885f0725fe27cac2be63da7736f3de18d12ceb5502b419fa4"
+    },
+    {
+      "old_path": "skills/sermon/references/KNOWLEDGE_ROUTING.md",
+      "canonical_path": "skills/biblical-faith-life/references/KNOWLEDGE_ROUTING.md",
+      "bytes": 3783,
+      "sha256": "4a915cd53cfd2471260a75e0ec71d0785f23174697a4b6b7da301794edb76c60"
+    },
+    {
+      "old_path": "skills/sermon/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "canonical_path": "skills/biblical-faith-life/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "bytes": 243988,
+      "sha256": "ce38c05e2f4ece5b8710f9244692710f3f8b83af35b54e2a6bed886f64b65d25"
+    },
+    {
+      "old_path": "skills/sermon/references/ROLE_WORKFLOWS.md",
+      "canonical_path": "skills/biblical-faith-life/references/ROLE_WORKFLOWS.md",
+      "bytes": 26260,
+      "sha256": "a10813291d8dc2d50442816a5c7d84b0d743a9b66fb68416d8b7e7f5275c36d9"
+    },
+    {
+      "old_path": "skills/sermon/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "bytes": 68859,
+      "sha256": "3c537ab71daaef3e704bf69e1068d8bc6a2a7f647bfef48c123e26938ace6afe"
+    },
+    {
+      "old_path": "skills/sermon/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "bytes": 70579,
+      "sha256": "2975059ecd98409990682524537a42cd810f0be1a44bb6417f99473fd4ff3225"
+    },
+    {
+      "old_path": "skills/sermon/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "bytes": 126056,
+      "sha256": "e325297a499da5687754dde4add85385ae32cd50c69aa40292f373b168ee649d"
+    },
+    {
+      "old_path": "skills/sunday-school/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 32899,
+      "sha256": "f9de84dbc1272748a2c81c4f8d42576057db6923d33ff57ebf4816ad64b294cf"
+    },
+    {
+      "old_path": "skills/sunday-school/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "canonical_path": "skills/biblical-faith-life/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "bytes": 182944,
+      "sha256": "bf5d273e6ff036a57737600abe4e4cd09376158e3e95b5aede00ee08f6f46a7c"
+    },
+    {
+      "old_path": "skills/sunday-school/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 143513,
+      "sha256": "c9e46d903cdba9f1ed37f777b095f7b456b4631aeaf0ea2e70ddc6ed27be28af"
+    },
+    {
+      "old_path": "skills/sunday-school/references/COMMON.md",
+      "canonical_path": "skills/biblical-faith-life/references/COMMON.md",
+      "bytes": 8068,
+      "sha256": "4a2bf792a610742eb1b3e0b78efc253025a21b1649148d55ebc4aaca71a2d24a"
+    },
+    {
+      "old_path": "skills/sunday-school/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "canonical_path": "skills/biblical-faith-life/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "bytes": 17046,
+      "sha256": "f264d8291c44377031a3086a56206ac08e5fee3ba1e86828b70269b101e502c4"
+    },
+    {
+      "old_path": "skills/sunday-school/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "bytes": 10111,
+      "sha256": "d0a89af81d726d94d460c569a32f7acceb5c36b3c406dc8b7680fc220096028f"
+    },
+    {
+      "old_path": "skills/sunday-school/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "bytes": 53936,
+      "sha256": "a20372ef1743cf31e5519e59f5fb9dd1190eeb49d83d08bdb50cc5bf79bf88f2"
+    },
+    {
+      "old_path": "skills/sunday-school/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "bytes": 16421,
+      "sha256": "05c3ff48cf90cca0932dec8856495d2b62f6ac79b393ca4011b76a92ba1d24de"
+    },
+    {
+      "old_path": "skills/sunday-school/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "bytes": 15639,
+      "sha256": "9b8bc237a60c0e5885f0725fe27cac2be63da7736f3de18d12ceb5502b419fa4"
+    },
+    {
+      "old_path": "skills/sunday-school/references/KNOWLEDGE_ROUTING.md",
+      "canonical_path": "skills/biblical-faith-life/references/KNOWLEDGE_ROUTING.md",
+      "bytes": 3783,
+      "sha256": "4a915cd53cfd2471260a75e0ec71d0785f23174697a4b6b7da301794edb76c60"
+    },
+    {
+      "old_path": "skills/sunday-school/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "canonical_path": "skills/biblical-faith-life/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "bytes": 243988,
+      "sha256": "ce38c05e2f4ece5b8710f9244692710f3f8b83af35b54e2a6bed886f64b65d25"
+    },
+    {
+      "old_path": "skills/sunday-school/references/ROLE_WORKFLOWS.md",
+      "canonical_path": "skills/biblical-faith-life/references/ROLE_WORKFLOWS.md",
+      "bytes": 26260,
+      "sha256": "a10813291d8dc2d50442816a5c7d84b0d743a9b66fb68416d8b7e7f5275c36d9"
+    },
+    {
+      "old_path": "skills/sunday-school/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "bytes": 68859,
+      "sha256": "3c537ab71daaef3e704bf69e1068d8bc6a2a7f647bfef48c123e26938ace6afe"
+    },
+    {
+      "old_path": "skills/sunday-school/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "bytes": 70579,
+      "sha256": "2975059ecd98409990682524537a42cd810f0be1a44bb6417f99473fd4ff3225"
+    },
+    {
+      "old_path": "skills/sunday-school/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "bytes": 126056,
+      "sha256": "e325297a499da5687754dde4add85385ae32cd50c69aa40292f373b168ee649d"
+    },
+    {
+      "old_path": "skills/youth-teaching/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/05_CREATIONIST_SCIENCE_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 32899,
+      "sha256": "f9de84dbc1272748a2c81c4f8d42576057db6923d33ff57ebf4816ad64b294cf"
+    },
+    {
+      "old_path": "skills/youth-teaching/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "canonical_path": "skills/biblical-faith-life/references/ALCOHOL_FULL_ARTICLE_FINAL.md",
+      "bytes": 182944,
+      "sha256": "bf5d273e6ff036a57737600abe4e4cd09376158e3e95b5aede00ee08f6f46a7c"
+    },
+    {
+      "old_path": "skills/youth-teaching/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/CLAUDE_ULTRA_SINGLE_UPLOAD_BELIEF_SYSTEM_v1.md",
+      "bytes": 143513,
+      "sha256": "c9e46d903cdba9f1ed37f777b095f7b456b4631aeaf0ea2e70ddc6ed27be28af"
+    },
+    {
+      "old_path": "skills/youth-teaching/references/COMMON.md",
+      "canonical_path": "skills/biblical-faith-life/references/COMMON.md",
+      "bytes": 8068,
+      "sha256": "4a2bf792a610742eb1b3e0b78efc253025a21b1649148d55ebc4aaca71a2d24a"
+    },
+    {
+      "old_path": "skills/youth-teaching/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "canonical_path": "skills/biblical-faith-life/references/DOCTRINAL_PRESERVATION_AUDIT_v9_UA.md",
+      "bytes": 17046,
+      "sha256": "f264d8291c44377031a3086a56206ac08e5fee3ba1e86828b70269b101e502c4"
+    },
+    {
+      "old_path": "skills/youth-teaching/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Jesus_Chronology_Holidays_Amendment_v1.md",
+      "bytes": 10111,
+      "sha256": "d0a89af81d726d94d460c569a32f7acceb5c36b3c406dc8b7680fc220096028f"
+    },
+    {
+      "old_path": "skills/youth-teaching/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Scholar_Expanded_v4(1).md",
+      "bytes": 53936,
+      "sha256": "a20372ef1743cf31e5519e59f5fb9dd1190eeb49d83d08bdb50cc5bf79bf88f2"
+    },
+    {
+      "old_path": "skills/youth-teaching/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Sexuality_Amendment_v6.md",
+      "bytes": 16421,
+      "sha256": "05c3ff48cf90cca0932dec8856495d2b62f6ac79b393ca4011b76a92ba1d24de"
+    },
+    {
+      "old_path": "skills/youth-teaching/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "canonical_path": "skills/biblical-faith-life/references/Fixed_Biblical_Belief_Constitution_Wine_Amendment_v5.md",
+      "bytes": 15639,
+      "sha256": "9b8bc237a60c0e5885f0725fe27cac2be63da7736f3de18d12ceb5502b419fa4"
+    },
+    {
+      "old_path": "skills/youth-teaching/references/KNOWLEDGE_ROUTING.md",
+      "canonical_path": "skills/biblical-faith-life/references/KNOWLEDGE_ROUTING.md",
+      "bytes": 3783,
+      "sha256": "4a915cd53cfd2471260a75e0ec71d0785f23174697a4b6b7da301794edb76c60"
+    },
+    {
+      "old_path": "skills/youth-teaching/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "canonical_path": "skills/biblical-faith-life/references/Pastoral_Scholar_Knowledge_File_v14.md",
+      "bytes": 243988,
+      "sha256": "ce38c05e2f4ece5b8710f9244692710f3f8b83af35b54e2a6bed886f64b65d25"
+    },
+    {
+      "old_path": "skills/youth-teaching/references/ROLE_WORKFLOWS.md",
+      "canonical_path": "skills/biblical-faith-life/references/ROLE_WORKFLOWS.md",
+      "bytes": 26260,
+      "sha256": "a10813291d8dc2d50442816a5c7d84b0d743a9b66fb68416d8b7e7f5275c36d9"
+    },
+    {
+      "old_path": "skills/youth-teaching/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "canonical_path": "skills/biblical-faith-life/references/Scholar_Level_Answer_Quality_Engine_v4(1).md",
+      "bytes": 68859,
+      "sha256": "3c537ab71daaef3e704bf69e1068d8bc6a2a7f647bfef48c123e26938ace6afe"
+    },
+    {
+      "old_path": "skills/youth-teaching/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_SYSTEM_v8.md",
+      "bytes": 70579,
+      "sha256": "2975059ecd98409990682524537a42cd810f0be1a44bb6417f99473fd4ff3225"
+    },
+    {
+      "old_path": "skills/youth-teaching/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "canonical_path": "skills/biblical-faith-life/references/UNIVERSAL_MASTER_BIBLICAL_BELIEF_TRANSFER_v9_PRESERVED.md",
+      "bytes": 126056,
+      "sha256": "e325297a499da5687754dde4add85385ae32cd50c69aa40292f373b168ee649d"
+    }
+  ]
+}
