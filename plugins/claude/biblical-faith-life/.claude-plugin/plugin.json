@@ -1,7 +1,7 @@
 {
   "name": "biblical-faith-life",
-  "version": "2.1.0-claude.5",
-  "description": "Bible study, sermons and teaching grounded in the preserved Church of Christ v9 doctrinal framework. Includes 54 skills, 30 specialist capabilities, six shared engines, a research laboratory, sermon studio, personal biblical knowledge base, visual education studio and draft-first Church UA integration. Ukrainian is the default; English and Russian are supported. Intended for adult teachers, ministers and authors. Local library, persistent workflows and visual exports use the declared local MCP server and require Python 3.9 or later on a compatible desktop host. Church UA submission requires separately configured authorized access; installation grants no congregation access. AI output needs review and does not guarantee theological, historical or factual accuracy.",
+  "version": "2.1.0-claude.6",
+  "description": "Bible study, sermons and teaching grounded in the preserved Church of Christ v9 doctrinal framework. Includes 54 skills, 30 specialist capabilities, six shared engines, a research laboratory, sermon studio, personal biblical knowledge base, visual education studio and draft-first Church UA integration. Ukrainian is the default; English and Russian are supported. Intended for adult teachers, ministers and authors. Local library, persistent workflows and visual exports use the declared local MCP server and require Python 3.9 or later in Claude Code; other hosts use the skills as text-only guidance. Church UA submission requires separately configured authorized access; installation grants no congregation access. AI output needs review and does not guarantee theological, historical or factual accuracy.",
   "author": {
     "name": "Oleksandr Rodichev",
     "email": "alexandr.rodichev@gmail.com"
@@ -19,27 +19,31 @@
     "workspace": {
       "type": "directory",
       "title": "Local workspace",
-      "description": "An existing dedicated directory outside the plugin installation for your own library, checkpoint and visual files. Leave unset for text-only use.",
-      "required": false
+      "description": "Optional. An existing dedicated folder outside the plugin installation for your own library, checkpoint and visual files. Not your home folder. Leave unset for text-only use.",
+      "required": false,
+      "default": ""
     },
     "owner": {
       "type": "string",
       "title": "Local library owner label",
-      "description": "A stable local owner label. Existing libraries require their original owner label.",
-      "default": "local-owner"
+      "description": "Optional. A stable label bound to the libraries you create (default: local-owner). An existing library opens only with its original label.",
+      "default": "local-owner",
+      "required": false
     },
     "church_ua_origin": {
       "type": "string",
       "title": "Church UA HTTPS origin",
       "description": "Optional destination for explicitly authorized Church UA drafts. The model cannot override this destination.",
-      "default": "https://churches.tools"
+      "default": "https://churches.tools",
+      "required": false
     },
     "church_ua_key": {
       "type": "string",
       "title": "Existing Church UA Agent API key",
       "description": "Optional. Share only an existing key you are authorized to use at the configured Church UA origin. No key is needed for study, local tools or draft previews.",
       "sensitive": true,
-      "required": false
+      "required": false,
+      "default": ""
     }
   },
   "mcpServers": {
@@ -56,5 +60,14 @@
         "BFL_CHURCH_UA_KEY": "${user_config.church_ua_key}"
       }
     }
-  }
+  },
+  "keywords": [
+    "bible",
+    "sermon",
+    "theology",
+    "teaching",
+    "ministry",
+    "ukrainian",
+    "church"
+  ]
 }
