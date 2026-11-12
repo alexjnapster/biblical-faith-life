@@ -4,7 +4,7 @@
 
 Bible study, sermons and teaching grounded in the preserved Church of Christ v9 doctrinal framework. Includes 54 skills, 30 specialist capabilities, six shared engines, a research laboratory, sermon studio, personal biblical knowledge base, visual education studio and draft-first Church UA integration. Ukrainian is the default; English and Russian are supported. Intended for adult teachers, ministers and authors. Local library, persistent workflows and Python exports require a host with an available code executor. Church UA submission requires separately configured authorized access; installation grants no congregation access. AI output needs review and does not guarantee theological, historical or factual accuracy.
 
-Publisher: Oleksandr Rodichev. Version: 2.1.0-claude.6. License: MIT for the publisher-provided software and documentation; quoted third-party material and trademarks retain their existing rights.
+Publisher: Oleksandr Rodichev. Version: 2.1.0-claude.7. License: MIT for the publisher-provided software and documentation; quoted third-party material and trademarks retain their existing rights.
 
 ## Installation
 
@@ -52,6 +52,8 @@ An end-to-end audit of the Claude package found and fixed these defects in the l
 - The server version is read from the manifest instead of being repeated in code. The Church UA origin falls back to `https://churches.tools` when unset.
 
 The run passes 41 Python tests, 47 hosted-service tests and 24 public-interface checks, and the Claude Code 2.1.322 plugin and marketplace validators. Launch of the server by Claude Code with unset options was not observed in this audit; the adapter was exercised directly over stdio. Cowork starts a local server only when every plugin option it references has a default, and it does not prompt for values. Up to 2.1.0-claude.5 two options had no default, so the publisher's Claude desktop app 5.1231 reported the server as not started (`user_config_unsupported`). From 2.1.0-claude.6 every option has a default, which is intended to let the server start in Cowork with defaults only: status, validation and offline draft preview work there, while storage tools need a workspace that currently can be set only in Claude Code. This Cowork start has not yet been observed.
+
+Version 2.1.0-claude.7 follows the directory validator's own findings on .6: the server is started without interpreter options, receives each plugin option under the accepted `CLAUDE_PLUGIN_OPTION_<KEY>` name, and no longer reads the manifest (which named the icon). 43 Python tests pass. The validator still holds the plugin for human review because it ships a local Python server and can send the optional Church UA key to the configured Church UA origin; both are disclosed above.
 
 ## November 10 source candidate
 
