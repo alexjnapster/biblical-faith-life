@@ -4,11 +4,11 @@
 
 Bible study, sermons and teaching grounded in the preserved Church of Christ v9 doctrinal framework. Includes 54 skills, 30 specialist capabilities, six shared engines, a research laboratory, sermon studio, personal biblical knowledge base, visual education studio and draft-first Church UA integration. Ukrainian is the default; English and Russian are supported. Intended for adult teachers, ministers and authors. Local library, persistent workflows and Python exports require a host with an available code executor. Church UA submission requires separately configured authorized access; installation grants no congregation access. AI output needs review and does not guarantee theological, historical or factual accuracy.
 
-Publisher: Oleksandr Rodichev. Version: 2.1.0-claude.5. License: MIT for the publisher-provided software and documentation; quoted third-party material and trademarks retain their existing rights.
+Publisher: Oleksandr Rodichev. Version: 2.1.0-claude.6. License: MIT for the publisher-provided software and documentation; quoted third-party material and trademarks retain their existing rights.
 
 ## Installation
 
-In Claude open Customize → Plugins → Add plugin → Upload plugin and choose the Claude ZIP without extracting it. Account and administrator restrictions may apply. For Claude Code, register the repository marketplace, then install `biblical-faith-life@biblical-faith-life`. Once the public listing is approved and published, install from that listing.
+In Claude open Customize → Plugins → Add plugin → Upload plugin and choose the Claude ZIP without extracting it. Account and administrator restrictions may apply. For Claude Code, run `/plugin marketplace add alexjnapster/biblical-faith-life`, then `/plugin install biblical-faith-life@biblical-faith-life`. Once the public listing is approved and published, install from that listing.
 
 Claude Code one-step installation (2.1.275 or later):
 
@@ -41,6 +41,19 @@ The current Claude .4 candidate passes 102 core tests, 24 MCP adapter tests and 
 Contact: alexandr.rodichev@gmail.com. This plugin is published by Oleksandr Rodichev, independently of OpenAI and Anthropic. All original governing source documents are preserved byte-for-byte in the shared library. Original attribution and third-party quotation rights remain applicable.
 
 The ChatGPT source is in `plugins/chatgpt/biblical-faith-life`; the Claude source is in `plugins/claude/biblical-faith-life`.
+
+## November 12 Claude candidate (2.1.0-claude.6)
+
+An end-to-end audit of the Claude package found and fixed these defects in the local MCP adapter; no skill text or governing source changed:
+
+- An unset plugin option that reached the server as an empty value or as the literal `${user_config.NAME}` template was treated as configured. `bfl_status` then reported a workspace and a Church UA credential that did not exist, and the template could become a library owner label. Such values now mean "not configured".
+- `bfl_status` now reports whether the workspace is actually usable and why not, the Python version and which export formats are available, without returning a path or credential.
+- `bfl_library_search` returned the full text of every match, which could exceed the message limit. It now returns a short excerpt and `content_chars`; pass `include_content` for full text.
+- A missing document, and a malformed receipt passed to `bfl_draft_verify`, now produce specific errors before any credential or network use.
+- A visual export that writes no file no longer leaves an empty directory that blocks a retry, and reports `failed` rather than `partial`.
+- The server version is read from the manifest instead of being repeated in code. The Church UA origin falls back to `https://churches.tools` when unset.
+
+The run passes 41 Python tests, 47 hosted-service tests and 24 public-interface checks, and the Claude Code 2.1.322 plugin and marketplace validators. Launch of the server by Claude Code with unset options was not observed in this audit; the adapter was exercised directly over stdio. Cowork starts a local server only when every plugin option it references has a default, and it does not prompt for values. Up to 2.1.0-claude.5 two options had no default, so the publisher's Claude desktop app 5.1231 reported the server as not started (`user_config_unsupported`). From 2.1.0-claude.6 every option has a default, which is intended to let the server start in Cowork with defaults only: status, validation and offline draft preview work there, while storage tools need a workspace that currently can be set only in Claude Code. This Cowork start has not yet been observed.
 
 ## November 10 source candidate
 

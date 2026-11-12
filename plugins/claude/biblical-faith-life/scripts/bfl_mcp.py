@@ -2,6 +2,7 @@
 """Declared, bounded stdio MCP adapter for the existing Biblical Faith Life engines."""
 import contextlib
 import hashlib
+import importlib.util
 import io
 import json
 import os
@@ -20,11 +21,27 @@ from bfl_cli import save_checkpoint
 
 REF = PLUGIN/'skills/biblical-faith-life/references'
 REGISTRY = json.loads((REF/'registry.json').read_text(encoding='utf-8'))
-VERSION = json.loads((PLUGIN/'.claude-plugin/plugin.json').read_text(encoding='utf-8'))['version']
 MAX_MESSAGE = 2*1024*1024
+VERSION = json.loads((PLUGIN/'.claude-plugin/plugin.json').read_text(encoding='utf-8'))['version']
+DEFAULT_OWNER = 'local-owner'
+DEFAULT_ORIGIN = 'https://churches.tools'
+
+def setting(value, default=''):
+    """Normalise one host-supplied option.
+
+    A host that leaves an optional plugin option unset may pass an empty value or
+    the literal, unsubstituted ``${user_config.NAME}`` template. Neither is a
+    user choice, so both mean "not configured" and never become a path, owner
+    label, destination or credential.
+    """
+    if not isinstance(value,str):return default
+    value=value.strip()
+    if not value or '${' in value:return default
+    return value
 STRING = {'type':'string','minLength':1,'maxLength':1000000}
 OBJECT = {'type':'object'}
 BOOL = {'type':'boolean'}
+RECEIPT = {'type':'object','properties':{'id':STRING,'kind':{'type':'string','enum':['article','sermon','reading-plan','lesson','class','devotional']}},'required':['id','kind']}
 
 def schema(properties, required):
     return {'type':'object','properties':properties,'required':required,'additionalProperties':False}
@@ -39,11 +56,11 @@ def tool(name, description, properties, required, readonly=False, network=False)
               'readOnlyHint':readonly,'destructiveHint':False,'openWorldHint':network}}
 
 TOOLS = [
- tool('bfl_status','Show available engines and whether this plugin has an explicitly configured workspace and Church UA credential. Never returns a credential.',{},[],True),
+ tool('bfl_status','Show available engines, whether the configured workspace is usable (with the reason when it is not), optional export support and whether a Church UA credential is configured. Never returns a credential or a path.',{},[],True),
  tool('bfl_count_words','Count the words of a supplied draft (whitespace-separated tokens, the convention used to check requested lengths) and report whether it falls inside an optional range. Count only the text you will send. Local, read-only.',{'text':STRING,'min_words':{'type':'integer','minimum':0,'maximum':100000},'max_words':{'type':'integer','minimum':1,'maximum':100000}},['text'],True),
  tool('bfl_validate','Validate a supplied evidence envelope against the six shared engine gates. Structural validation does not certify theology or scholarship.',{'envelope':OBJECT},['envelope'],True),
  tool('bfl_library_ingest','Store a supplied document and immutable provenance/version history in the configured local workspace. Put optional passage tags in document.metadata, not unknown document fields. Private records require actual boolean consent in document.',{'library':STRING,'document':DOCUMENT},['library','document']),
- tool('bfl_library_search','Search a named existing local library in the configured workspace; returns only matching stored evidence.',{'library':STRING,'query':STRING,'limit':{'type':'integer','minimum':1,'maximum':50}},['library','query'],True),
+ tool('bfl_library_search','Search a named existing local library in the configured workspace. Returns ranked matches with provenance and a short excerpt; read a full document with bfl_library_get, or set include_content only when every full text is needed.',{'library':STRING,'query':STRING,'limit':{'type':'integer','minimum':1,'maximum':50},'include_content':BOOL},['library','query'],True),
  tool('bfl_library_get','Read an actual stored document version from a named existing local library.',{'library':STRING,'doc_id':STRING,'version':{'type':'integer','minimum':1}},['library','doc_id'],True),
  tool('bfl_workflow_start','Create a new persistent research, sermon or other registered studio checkpoint. Does not generate or certify manuscripts.',{'workflow':STRING,'checkpoint':STRING,'language':{'type':'string','enum':['uk','en','ru']},'stages':{'type':'array','items':STRING}},['workflow','checkpoint']),
  tool('bfl_workflow_record','Record a supplied substantive stage or review and invalidate downstream records when inputs change. Actor labels do not establish real review independence.',{'checkpoint':STRING,'stage':STRING,'content':STRING,'actor':STRING,'review':BOOL},['checkpoint','stage','content','actor']),
@@ -51,7 +68,7 @@ TOOLS = [
  tool('bfl_visual_export','Render a supplied source-linked visual specification into a new workspace directory. Set spec.kind, not spec.type. SVG/HTML are built in; PDF/PPTX need separately installed documented dependencies.',{'spec':VISUAL,'output_dir':STRING,'formats':{'type':'array','minItems':1,'maxItems':4,'items':{'type':'string','enum':['svg','html','pdf','pptx']}}},['spec','output_dir']),
  tool('bfl_draft_preview','Prepare and validate a Church UA draft payload without network access or submitting anything.',{'kind':STRING,'payload':OBJECT},['kind','payload'],True),
  tool('bfl_draft_submit','Submit exactly one explicitly authorized, reviewed Church UA draft to the configured origin using only the credential explicitly shared through plugin configuration. Persists an attempt marker before sending; never automatically retries an uncertain outcome. Requires workspace and credential configuration.',{'kind':STRING,'payload':OBJECT,'review_envelope':OBJECT,'authorized_draft':BOOL},['kind','payload','review_envelope','authorized_draft'],False,True),
- tool('bfl_draft_verify','Read back the ID and selected draft-state fields for a prior receipt using the configured Church UA access. Cannot verify the complete body through the bounded listing.',{'receipt':OBJECT},['receipt'],True,True)
+ tool('bfl_draft_verify','Read back the ID and selected draft-state fields for a prior receipt using the configured Church UA access. Cannot verify the complete body through the bounded listing.',{'receipt':RECEIPT},['receipt'],True,True)
 ]
 BY_NAME = {t['name']:t for t in TOOLS}
 
@@ -75,8 +92,22 @@ def check(value, rule):
     if kind=='integer' and not rule.get('minimum',-10**15)<=value<=rule.get('maximum',10**15):raise ValueError('Number is out of bounds')
 
 class Adapter:
-    def __init__(self, workspace='', owner='local-owner', origin='', token=''):
-        self.workspace=workspace;self.owner=owner;self.origin=origin;self._token=token
+    def __init__(self, workspace='', owner=DEFAULT_OWNER, origin='', token=''):
+        self.workspace=setting(workspace);self.owner=setting(owner,DEFAULT_OWNER);self.origin=setting(origin);self._token=setting(token)
+
+    def status(self):
+        ready=False;problem=None
+        if not self.workspace:problem='No workspace is configured; text-only use and offline previews still work'
+        else:
+            try:self.root();ready=True
+            except (ValueError,OSError) as error:problem=str(error) if isinstance(error,ValueError) else 'The configured workspace does not exist or is not accessible'
+        native={}
+        for ext,module in (('pdf','reportlab'),('pptx','pptx')):
+            native[ext]=importlib.util.find_spec(module) is not None
+        native['pptx']=native['pptx'] and native['pdf']
+        return {'server':'biblical-faith-life','version':VERSION,'skills':54,'engines':6,'workflows':len(REGISTRY['workflows']),'python':'.'.join(map(str,sys.version_info[:3])),
+                'workspace_configured':bool(self.workspace),'workspace_ready':ready,'workspace_problem':problem,
+                'export_formats':{'svg':True,'html':True,**native},'church_ua_configured':bool(self.origin and self._token),'network_used':False}
 
     def root(self):
         if not self.workspace:raise ValueError('Configure this plugin workspace before using local storage or sending a draft')
@@ -127,7 +158,7 @@ class Adapter:
     def call(self,name,args):
         if name not in BY_NAME:raise ValueError('Unknown tool')
         check(args,BY_NAME[name]['inputSchema'])
-        if name=='bfl_status':return {'server':'biblical-faith-life','version':VERSION,'skills':54,'engines':6,'workflows':5,'workspace_configured':bool(self.workspace),'church_ua_configured':bool(self.origin and self._token),'network_used':False}
+        if name=='bfl_status':return self.status()
         if name=='bfl_count_words':
             n=len(args['text'].split());lo=args.get('min_words');hi=args.get('max_words')
             out={'words':n}
@@ -139,8 +170,16 @@ class Adapter:
             kb=self.library(args['library'],name!='bfl_library_ingest')
             try:
                 if name=='bfl_library_ingest':return kb.ingest(**args['document'])
-                if name=='bfl_library_search':return {'matches':kb.search(args['query'],args.get('limit',10))}
+                if name=='bfl_library_search':
+                    matches=kb.search(args['query'],args.get('limit',10))
+                    for match in matches:
+                        match['content_chars']=len(match['content'])
+                        if not args.get('include_content',False):del match['content']
+                    return {'matches':matches}
                 return kb.get(args['doc_id'],args.get('version'))
+            except KeyError:
+                # The engine reports an absent record as KeyError; say so plainly.
+                raise ValueError('No such document or version in this library; check doc_id with bfl_library_search') from None
             finally:kb.close()
         if name=='bfl_workflow_start':
             p=self.path(args['checkpoint'])
@@ -167,7 +206,10 @@ class Adapter:
                     files.append({'format':ext,'path':str(target.relative_to(self.root()))})
                 except ImportError:errors.append({'format':ext,'error':'Install the documented optional native-export dependencies before requesting this format'})
                 except (ValueError,OSError):errors.append({'format':ext,'error':'Native export failed; inspect the source specification and documented font/dependency requirements'})
-            return {'status':'partial' if errors else 'created','files':files,'errors':errors,'sha256':rendered['sha256']}
+            if not files:
+                # Nothing was written: do not leave an empty directory that blocks a corrected retry.
+                with contextlib.suppress(OSError):p.rmdir()
+            return {'status':('partial' if files else 'failed') if errors else 'created','files':files,'errors':errors,'sha256':rendered['sha256']}
         if name=='bfl_draft_verify':return self.client().verify(args['receipt'])
         if name=='bfl_draft_submit':
             if args['authorized_draft'] is not True:raise PermissionError('Actual user authorization for this draft is required')
@@ -236,4 +278,4 @@ def serve(adapter,source=None,sink=None):
 if __name__=='__main__':
     # These exact variables are set only by the declared MCP server env bindings.
     # No ambient provider, shell-profile, keychain or credential-file lookup is used.
-    serve(Adapter(os.environ.get('BFL_WORKSPACE',''),os.environ.get('BFL_OWNER','local-owner'),os.environ.get('BFL_CHURCH_UA_ORIGIN',''),os.environ.get('BFL_CHURCH_UA_KEY','')))
+    serve(Adapter(os.environ.get('BFL_WORKSPACE',''),os.environ.get('BFL_OWNER',DEFAULT_OWNER),setting(os.environ.get('BFL_CHURCH_UA_ORIGIN',''),DEFAULT_ORIGIN),os.environ.get('BFL_CHURCH_UA_KEY','')))
