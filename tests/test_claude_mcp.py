@@ -114,7 +114,7 @@ class MCPTests(unittest.TestCase):
             with self.assertRaises(ValueError):a.client()
     def test_subprocess_placeholders_and_default_origin(self):
         frames=[{'jsonrpc':'2.0','id':1,'method':'initialize','params':{}},{'jsonrpc':'2.0','id':2,'method':'tools/call','params':{'name':'bfl_status','arguments':{}}}]
-        env=dict(os.environ,BFL_WORKSPACE='${user_config.workspace}',BFL_OWNER='${user_config.owner}',BFL_CHURCH_UA_ORIGIN='${user_config.church_ua_origin}',BFL_CHURCH_UA_KEY='${user_config.church_ua_key}')
+        env=dict(os.environ,CLAUDE_PLUGIN_OPTION_WORKSPACE='${user_config.workspace}',CLAUDE_PLUGIN_OPTION_OWNER='${user_config.owner}',CLAUDE_PLUGIN_OPTION_CHURCH_UA_ORIGIN='${user_config.church_ua_origin}',CLAUDE_PLUGIN_OPTION_CHURCH_UA_KEY='${user_config.church_ua_key}')
         r=subprocess.run([sys.executable,'-B',str(P/'scripts/bfl_mcp.py')],input=''.join(json.dumps(f)+'\n' for f in frames),text=True,capture_output=True,env=env,timeout=15)
         status=json.loads(json.loads(r.stdout.splitlines()[1])['result']['content'][0]['text'])
         self.assertFalse(status['workspace_configured']);self.assertFalse(status['church_ua_configured']);self.assertEqual(r.stderr,'')
@@ -145,6 +145,19 @@ class MCPTests(unittest.TestCase):
         finally:builtins.__import__=real
         self.assertEqual(r['status'],'failed');self.assertFalse((self.root/'native').exists())
         self.assertEqual(self.a.call('bfl_visual_export',{'spec':s,'output_dir':'native','formats':['svg']})['status'],'created')
+    def test_manifest_uses_directory_accepted_launch_and_env_names(self):
+        m=json.loads((P/'.claude-plugin/plugin.json').read_text());srv=m['mcpServers']['biblical-faith-life']
+        self.assertEqual(srv['args'],['${CLAUDE_PLUGIN_ROOT}/scripts/bfl_mcp.py'])
+        self.assertEqual(srv['env'],{'CLAUDE_PLUGIN_OPTION_'+k.upper():'${user_config.'+k+'}' for k in m['userConfig']})
+        self.assertTrue(all('default' in o for o in m['userConfig'].values()))
+        source=(P/'scripts/bfl_mcp.py').read_text();self.assertNotIn('plugin.json',source)
+        for name in srv['env']:self.assertIn(name,source)
+    def test_subprocess_writes_no_bytecode_into_plugin(self):
+        import shutil
+        for d in P.rglob('__pycache__'):shutil.rmtree(d)
+        env={k:v for k,v in os.environ.items() if k!='PYTHONDONTWRITEBYTECODE'}
+        subprocess.run([sys.executable,str(P/'scripts/bfl_mcp.py')],input='',text=True,capture_output=True,env=env,timeout=15)
+        self.assertEqual(list(P.rglob('__pycache__')),[])
     def frames(self,frames):
         source=io.BytesIO(b''.join(json.dumps(f).encode()+b'\n' for f in frames));sink=io.BytesIO();M.serve(self.a,source,sink);return [json.loads(x) for x in sink.getvalue().splitlines()]
     def test_protocol_handshake_and_tool_call(self):
@@ -158,7 +171,7 @@ class MCPTests(unittest.TestCase):
         sink=io.BytesIO();M.serve(self.a,io.BytesIO(b'x'*(M.MAX_MESSAGE+1)),sink);self.assertIn('too large',json.loads(sink.getvalue())['error']['message'])
     def test_protocol_actual_subprocess_ignores_ambient_key(self):
         frames=[{'jsonrpc':'2.0','id':1,'method':'initialize','params':{'protocolVersion':'2025-11-25'}},{'jsonrpc':'2.0','id':2,'method':'tools/call','params':{'name':'bfl_status','arguments':{}}}]
-        env=dict(os.environ,CHURCH_UA_AGENT_KEY='synthetic-unused-ambient-key',BFL_CHURCH_UA_KEY='',BFL_WORKSPACE='')
+        env=dict(os.environ,CHURCH_UA_AGENT_KEY='synthetic-unused-ambient-key',CLAUDE_PLUGIN_OPTION_CHURCH_UA_KEY='',CLAUDE_PLUGIN_OPTION_WORKSPACE='')
         r=subprocess.run([sys.executable,str(P/'scripts/bfl_mcp.py')],input=''.join(json.dumps(f)+'\n' for f in frames),text=True,capture_output=True,env=env,timeout=15)
         self.assertEqual(r.returncode,0);out=[json.loads(l) for l in r.stdout.splitlines()];status=json.loads(out[1]['result']['content'][0]['text']);self.assertFalse(status['church_ua_configured']);self.assertNotIn('synthetic-unused-ambient-key',r.stdout+r.stderr)
 
