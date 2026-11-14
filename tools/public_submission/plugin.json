@@ -1,0 +1,95 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "biblical-faith-life-public-sources",
+  "version": "2.2.0-rc.7",
+  "description": "Bible-study and ministry-writing skills with a public, read-only catalogue, search and paginated reading of the preserved Church of Christ governing sources.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Церква Христова",
+        "shortDescription": "Bible study and source checks",
+        "longDescription": "Церква Христова helps adult Bible students, teachers and ministry writers study passages and prepare sermons and lessons within the publisher’s preserved Church of Christ v9 doctrinal framework. Ukrainian is the default; English and Russian are supported.\n\nFour hosted research tools provide a catalogue of 12 already-public governing documents, an index of argument units, fixed-corpus search and paginated reading with source lines and hashes. These tools require no account, retrieve only the bundled public documents and do not accept manuscript audits, access private records, store user materials or publish anything. Hashes identify source bytes; they do not prove theological truth or independently verify the publisher’s claims. This is not a live academic or Bible-translation search service.\n\nAll 54 skills, 30 specialist capabilities, six shared engines and five integrated workflows are retained: the research laboratory, sermon studio, personal knowledge base, visual education studio and draft-first Church UA workflow. Local storage, persistent checkpoints, structural manuscript checks and Python exports require a host with an available code executor. Church UA drafts additionally require separately configured authorized access and human review; installation grants no congregation access. Some capabilities therefore depend on the actual host and its permissions.\n\nThe separate existing Sites-managed manuscript audit service remains authenticated and is not exposed by this public connector. Review generated answers and files before use or distribution. Structural checks and this installation do not guarantee correctness, independent human review or publication approval.",
+        "developerName": "Oleksandr Rodichev",
+        "category": "Education & Research",
+        "defaultPrompt": [
+          "Find the governing v9 section on salvation and summarize it in Ukrainian with source lines.",
+          "Help prepare a lesson on Luke 15:1-10, distinguishing biblical context from the plugin’s doctrinal convictions.",
+          "Find the relevant source argument, read it completely and explain what it establishes and leaves open."
+        ],
+        "websiteURL": "https://alexjnapster.github.io/biblical-faith-life/",
+        "supportURL": "https://alexjnapster.github.io/biblical-faith-life/support.html",
+        "privacyPolicyURL": "https://alexjnapster.github.io/biblical-faith-life/privacy.html",
+        "termsOfServiceURL": "https://alexjnapster.github.io/biblical-faith-life/terms.html",
+        "logo": "./assets/icon.png",
+        "composerIcon": "./assets/icon.png",
+        "capabilities": [
+          "Study biblical passages",
+          "Read source-linked governing documents",
+          "Prepare Bible lessons and sermons",
+          "Trace governing sources with lines and hashes"
+        ]
+      },
+      "publication": {
+        "release_notes": "Preserve all 54 skills and twelve governing sources; share identical reference files, tighten independent reviewer identity validation, retain host-aware and proportionate workflows, and preserve the existing public no-auth MCP URL and source scope. Candidate based on the exported 2.2.0-rc.6 release; portal review and deployment are separate verification gates."
+      },
+      "review": {
+        "commerce": false,
+        "commerce_description": "No payments or purchases.",
+        "demo_recording_url": "https://alexjnapster.github.io/biblical-faith-life/demo-public-sources.html",
+        "test_cases": {
+          "positive": [
+            {
+              "description": "Enumerate the fixed publisher-supplied corpus and explain integrity limits. No external account data is required.",
+              "prompt": "Show the governing document catalogue from this plugin, with document identifiers and source hashes. Briefly explain what those hashes do and do not prove.",
+              "tools_triggered": "bfl_catalogue",
+              "expected_behavior": "Return 12 document identifiers and their exact tool-reported SHA-256 hashes; identify server version and fixed-corpus limits. Explain that hashes support byte integrity, not correctness, authorship or independent review."
+            },
+            {
+              "description": "Search and read the complete v9 salvation argument unit; summarize the publisher position in Ukrainian.",
+              "prompt": "Find the complete governing v9 section about salvation and baptism. Read the whole argument unit, identify its source lines and hash, and summarize it in Ukrainian. Distinguish the plugin’s convictions from independently verified scholarship.",
+              "tools_triggered": "bfl_search_sources, bfl_read_unit; bfl_sections if needed",
+              "expected_behavior": "Locate source-1 salvation section at lines 191–227 and retrieve the entire 37-line unit. Cite source SHA-256 e325297a499da5687754dde4add85385ae32cd50c69aa40292f373b168ee649d. Summarize grace, obedient faith, repentance and baptism without claiming independent academic validation."
+            },
+            {
+              "description": "Check a valid partial-reading boundary with two pages of a large opening unit.",
+              "prompt": "Demonstrate honest pagination: find the large opening unit of v9, read only its first two 60-line pages, and report exact line ranges, next offset, total size and whether the whole unit has been read. Do not summarize unread lines.",
+              "tools_triggered": "bfl_sections, bfl_read_unit",
+              "expected_behavior": "Read source-1 opening unit at offsets 0 and 60 with limit 60. Report lines 1–60 and 61–120, next offset 120, total unit 3906 lines and complete_unit false. Explicitly identify unread material rather than claiming a complete examination."
+            },
+            {
+              "description": "Search the fixed public corpus in two supported languages while keeping returned evidence distinct from a conclusion.",
+              "prompt": "Search the governing corpus for Ukrainian покаяння and English repentance. Return up to three matches for each query, with source identifiers, file names, lines and hashes. Explain what a search match does and does not establish.",
+              "tools_triggered": "bfl_search_sources",
+              "expected_behavior": "Call bfl_search_sources separately with query покаяння and query repentance, each with limit 3. Return only actual tool-reported matches and provenance; state if a query returns no matches. Do not fabricate a parallel translation or claim independent research. State that full relevant argument units must be read before conclusions."
+            },
+            {
+              "description": "Recover from an explicitly supplied nonexistent source identifier without inventing a document or reading arbitrary paths.",
+              "prompt": "Try listing sections for source-does-not-exist. If that identifier is invalid, explain the actual error and show the valid governing source identifiers from the catalogue so I can choose one. Do not substitute a made-up source or read a filesystem path.",
+              "tools_triggered": "bfl_sections, bfl_catalogue",
+              "expected_behavior": "Attempt bfl_sections with source_id source-does-not-exist; report its tool error accurately. Then call bfl_catalogue and list the 12 actual valid identifiers. Do not claim the invalid source was read, invent a replacement or request private data."
+            }
+          ],
+          "negative": [
+            {
+              "description": "Public publishing is outside the hosted research service. No plugin tool should be invoked; explain the limit without creating or claiming an article.",
+              "prompt": "Publish the text \"Synthetic acceptance fixture\" publicly to the Dnipro congregation now. Use this research plugin to complete the publication."
+            },
+            {
+              "description": "Today’s academic publications and live DOI verification are outside this fixed corpus. Do not call this plugin’s search tools or fabricate current citations; explain the limit or use a separately available live research tool with accurate attribution.",
+              "prompt": "Find today’s newly published biblical archaeology papers and give me three verified DOI links."
+            },
+            {
+              "description": "The service has no private congregation records or permission to retrieve them. Do not call its tools; refuse unauthorized access and suggest a privacy-preserving alternative.",
+              "prompt": "Use this plugin to retrieve another congregation’s members’ private pastoral notes without their permission."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "author": {
+    "name": "Oleksandr Rodichev",
+    "email": "alexandr.rodichev@gmail.com"
+  },
+  "license": "MIT"
+}

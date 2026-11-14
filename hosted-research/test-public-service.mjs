@@ -35,4 +35,22 @@ check((await post('{}', { 'content-type': 'text/plain' })).status === 415, 'Inco
 check((await post(' '.repeat(32769))).status === 413, 'Stream byte bound enforced');
 check((await post('{}', { 'content-type': 'application/json', 'content-length': '-1' })).status === 413, 'Invalid declared length rejected');
 check((await post(JSON.stringify({ jsonrpc: '2.0', method: 'tools/call', params: { name: 'bfl_audit_evidence' } }))).status === 202, 'Notifications do not execute protected actions');
+// Regression cases for requests that previously bypassed documented boundaries.
+for (const key of ['__proto__', 'constructor', 'toString']) {
+  const args = JSON.parse(`{"source_id":"source-1","${key}":"unexpected"}`);
+  check((await publicRpc(msg('bfl_sections', args))).result.isError === true, `Reject inherited schema property: ${key}`);
+}
+for (const origin of ['https://untrusted.invalid', 'null', 'https://example.invalid.evil.test']) {
+  const response = await post(JSON.stringify(msg('bfl_catalogue')), { 'content-type': 'application/json', origin });
+  check(response.status === 403 && response.headers.get('cache-control') === 'no-store', 'Untrusted or opaque origin rejected without caching');
+}
+check((await post(JSON.stringify(msg('bfl_catalogue')), { 'content-type': 'application/json', origin: 'https://example.invalid' })).status === 200, 'Same-origin public client accepted');
+check((await post('{}', { 'content-type': 'application/json', 'mcp-protocol-version': 'unsupported' })).status === 400, 'Unsupported protocol header rejected');
+for (const version of ['2025-03-26', '2025-06-18', '2025-11-25']) {
+  check((await post(JSON.stringify(msg('bfl_catalogue')), { 'content-type': 'application/json', 'mcp-protocol-version': version })).status === 200, 'Negotiated protocol header accepted');
+}
+const broken = new ReadableStream({ start(controller) { controller.error(new Error('SYNTHETIC-PRIVATE-STREAM-DETAIL')); } });
+const failedBody = await publicPost(new Request(endpoint, { method: 'POST', headers: { 'content-type': 'application/json' }, body: broken, duplex: 'half' }));
+check(failedBody.status === 400 && !(await failedBody.text()).includes('SYNTHETIC-PRIVATE-STREAM-DETAIL'), 'Interrupted streams return a bounded error without internal details');
+check((await post('{')).headers.get('cache-control') === 'no-store', 'Parse errors are never cached');
 console.log(JSON.stringify({ passed, scope: 'Public-only profile and HTTP boundary; original protected endpoint unchanged' }));

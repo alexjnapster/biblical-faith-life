@@ -153,7 +153,7 @@ export const TOOLS=[
 function checkArgs(args,tool) {
   if(!object(args))throw new Error('Tool arguments must be an object');
   const rule=tool.inputSchema;
-  if(rule.required.some(k=>!(k in args))||Object.keys(args).some(k=>!(k in rule.properties)))throw new Error('Required argument missing or unknown argument supplied');
+  if(rule.required.some(k=>!Object.hasOwn(args,k))||Object.keys(args).some(k=>!Object.hasOwn(rule.properties,k)))throw new Error('Required argument missing or unknown argument supplied');
   for(const [k,value] of Object.entries(args)) {
     const p=rule.properties[k];
     if(p.type==='string'&&(!nonempty(value)||value.length>(p.maxLength||1000000)))throw new Error('Invalid text argument');
