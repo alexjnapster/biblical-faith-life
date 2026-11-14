@@ -1,0 +1,3 @@
+### Hosted research tools
+
+For this public-source research installation, read [hosted research scope](references/HOSTED_RESEARCH.md) before choosing a hosted tool. The four anonymous source tools search and read only the fixed, already-public publisher-supplied reference corpus. Requests for current publications, verified DOI identifiers, private libraries, congregation records or manuscript audits are outside this connector. Explain the limit without making an irrelevant source call. Local runtime checks and draft workflows require separately available, authorized host execution; do not claim execution or access that did not occur.

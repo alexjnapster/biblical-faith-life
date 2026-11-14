@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "biblical-faith-life-research": {
+      "type": "streamable-http",
+      "url": "https://biblical-faith-life-public-sources.rodichev-fam-1261.chatgpt.site/api/public-research/mcp"
+    }
+  }
+}

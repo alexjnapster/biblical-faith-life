@@ -2,7 +2,7 @@
 // identity, credential, private library, filesystem path, URL or write action.
 import { rpc } from './bfl-service.mjs';
 
-export const PUBLIC_VERSION = '0.1.0';
+export const PUBLIC_VERSION = '0.1.1';
 const PUBLIC_TOOLS = new Set(['bfl_catalogue', 'bfl_sections', 'bfl_search_sources', 'bfl_read_unit']);
 const MAX_BYTES = 32 * 1024;
 export async function publicRpc(message) {
@@ -22,32 +22,47 @@ export async function publicRpc(message) {
   return result;
 }
 
+const json = (body, options = {}) => Response.json(body, { ...options, headers: { 'cache-control': 'no-store', ...options.headers } });
 export async function publicPost(request) {
+  const origin = request.headers.get('origin');
+  if (origin !== null && origin !== new URL(request.url).origin) {
+    return json({ error: 'Origin is not allowed' }, { status: 403 });
+  }
+  const protocol = request.headers.get('mcp-protocol-version');
+  if (protocol !== null && !['2025-03-26', '2025-06-18', '2025-11-25'].includes(protocol)) {
+    return json({ error: 'Unsupported MCP protocol version' }, { status: 400 });
+  }
   const type = (request.headers.get('content-type') || '').split(';')[0].trim().toLowerCase();
-  if (type !== 'application/json') return Response.json({ error: 'Use application/json' }, { status: 415 });
+  if (type !== 'application/json') return json({ error: 'Use application/json' }, { status: 415 });
   const length = request.headers.get('content-length');
   if (length !== null && (!/^\d+$/.test(length) || Number(length) > MAX_BYTES)) {
-    return Response.json({ error: 'Request too large or invalid length' }, { status: 413 });
+    return json({ error: 'Request too large or invalid length' }, { status: 413 });
   }
   const reader = request.body?.getReader();
-  if (!reader) return Response.json({ error: 'A JSON-RPC body is required' }, { status: 400 });
+  if (!reader) return json({ error: 'A JSON-RPC body is required' }, { status: 400 });
   const chunks = []; let size = 0;
+  try {
   while (true) {
     const { done, value } = await reader.read();
     if (done) break;
     size += value.byteLength;
     if (size > MAX_BYTES) {
       await reader.cancel();
-      return Response.json({ error: 'Request too large' }, { status: 413 });
+      return json({ error: 'Request too large' }, { status: 413 });
     }
     chunks.push(value);
+  }
+  } catch {
+    return json({ error: 'Unable to read request body' }, { status: 400 });
+  } finally {
+    reader.releaseLock();
   }
   const body = new Uint8Array(size); let offset = 0;
   for (const chunk of chunks) { body.set(chunk, offset); offset += chunk.length; }
   let message;
   try { message = JSON.parse(new TextDecoder('utf-8', { fatal: true }).decode(body)); }
-  catch { return Response.json({ jsonrpc: '2.0', id: null, error: { code: -32700, message: 'Invalid UTF-8 JSON' } }, { status: 400 }); }
+  catch { return json({ jsonrpc: '2.0', id: null, error: { code: -32700, message: 'Invalid UTF-8 JSON' } }, { status: 400 }); }
   const result = await publicRpc(message);
-  if (result === null) return new Response(null, { status: 202 });
-  return Response.json(result, { headers: { 'cache-control': 'no-store' } });
+  if (result === null) return new Response(null, { status: 202, headers: { 'cache-control': 'no-store' } });
+  return json(result, { headers: { 'cache-control': 'no-store' } });
 }
