@@ -42,7 +42,7 @@ class PublicSubmissionTests(unittest.TestCase):
         servers=json.loads((self.plugin/'mcp.json').read_text())['mcpServers']
         self.assertEqual(len(servers),1)
         server=next(iter(servers.values()))
-        self.assertEqual(server['extensions']['com.openai']['auth']['type'],'none')
+        self.assertNotIn('extensions',server)  # portable 1.0.0 permits no server extensions; existing portal connection is no-auth
         self.assertTrue(server['url'].endswith('/api/public-research/mcp'))
         self.assertNotIn('headers',server)
         for row in json.loads((self.plugin/'SOURCE_MANIFEST.json').read_text()):

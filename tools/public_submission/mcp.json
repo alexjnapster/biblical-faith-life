@@ -3,14 +3,7 @@
   "mcpServers": {
     "biblical-faith-life-research": {
       "type": "streamable-http",
-      "url": "https://biblical-faith-life-public-sources.rodichev-fam-1261.chatgpt.site/api/public-research/mcp",
-      "extensions": {
-        "com.openai": {
-          "auth": {
-            "type": "none"
-          }
-        }
-      }
+      "url": "https://biblical-faith-life-public-sources.rodichev-fam-1261.chatgpt.site/api/public-research/mcp"
     }
   }
 }
