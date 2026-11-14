@@ -14,3 +14,9 @@ Use tools actually available in the host for verification and measurable constra
 Встанови адресата, стосунки, мету, тон і потрібну дію. Якщо вони ясні з контексту, не запитуй повторно. Напиши повний лист із відповідним зверненням і завершенням; для email додай тему, лише надані адреси і жодних вигаданих контактів. Вислови думку природно, без проповіді там, де потрібен короткий людяний лист. Для співчуття не вигадуй Божих причин трагедії чи долі померлого. Для примирення відрізняй прощення, довіру, доступ і наслідки; не тисни на небезпечне повернення. Не створюй неправдивих обіцянок, звинувачень чи особистих подробиць. Збережи точність доктрини й цитат. Лист є чернеткою для користувача; не надсилай його без прямого дозволу.
 
 Before release audit doctrinal fidelity, context, evidence, genre, language, requested items, length and practical usefulness. Rebuild substantive defects before polishing; never assign a fabricated 100/100 score. Return the requested usable artifact or answer, not process commentary.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Preserve supplied facts, tone, recipient and purpose; verify figures and distinguish attendance events from unique people; make no invented promises or commitments.

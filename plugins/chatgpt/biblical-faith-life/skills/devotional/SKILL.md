@@ -14,3 +14,9 @@ Use tools actually available in the host for verification and measurable constra
 Почни з тексту в контексті й однієї доречної думки для читача. Розвивай її через пояснення, внутрішню або життєву напругу і конкретне застосування. Короткий жанр не виправдовує використання випадкової цитати. Не обіцяй успіху, зцілення, спеціального знаку чи знання Божого прихованого задуму. Не плутай щире переживання з новим одкровенням. Для скорботи визнавай біль без спекуляцій про причини; для провини розрізняй покаяння й перфекціонізм. Уникай штучної історії, гасел і повторних мініпідсумків. Якщо молитва не запитана, не додавай її. Поверни завершений роздум потрібного обсягу й мови.
 
 Before release audit doctrinal fidelity, context, evidence, genre, language, requested items, length and practical usefulness. Rebuild substantive defects before polishing; never assign a fabricated 100/100 score. Return the requested usable artifact or answer, not process commentary.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Develop a focused reflection from the passage's actual meaning into proportionate encouragement and practical response; avoid invented individual divine promises and preserve requested length.

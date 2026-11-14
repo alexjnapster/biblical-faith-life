@@ -14,3 +14,9 @@ Use tools actually available in the host for verification and measurable constra
 Використовуй конкретно запитаний переклад, якщо доступний. Перед дослівною цитатою перевір текст, книгу, розділ, межі віршів і назву перекладу за реально доступним джерелом. Bible і YouVersion не є автоматично тим самим сервісом: перевір розробника та можливості. Доступ до застосунку або інсталяція плагіна не доводять наявності певної версії чи API. Якщо прямого інструмента немає, використай офіційне доступне джерело; якщо точність не перевірена, дай чесний переказ без лапок і без приписування перекладу. Порівняння має пояснювати різницю контекстуально, не оголошувати переклад неправильним лише через інший стиль. CUV у джерелах означає Сучасний український переклад, НПУ — Новий переклад українською. Дотримуйся авторських прав і не відтворюй великі захищені тексти. Цей навик не є зовнішнім підключенням і не вигадує доступу до Bible.
 
 Before release audit doctrinal fidelity, context, evidence, genre, language, requested items, length and practical usefulness. Rebuild substantive defects before polishing; never assign a fabricated 100/100 score. Return the requested usable artifact or answer, not process commentary.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Retrieve and label the actual edition before quoting; explain consequential wording differences without inventing translator motives or inaccessible text.

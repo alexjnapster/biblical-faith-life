@@ -14,3 +14,9 @@ Use tools actually available in the host for verification and measurable constra
 Врахуй знання, питання і готовність співрозмовника. Пояснюй смерть і воскресіння Христа, благодать, відповідь віри, покаяння, визнання та занурення для прощення без твердження, ніби спасіння купують обрядом. Покажи біблійний аргумент, а не тільки перелік віршів. Чесно сформулюй сильне заперечення співрозмовника і дай відповідь; не приписуй усім представникам конфесії однакові мотиви. Для розмови дай природні репліки і наступний крок, а не агресивний сценарій. Розрізняй пояснення й особистий вирок про невідомий стан людини. Не вимагай розкриття приватних переживань, не обіцяй чудес і не підміняй хрещення молитвою грішника. Для попереднього хрещення перевір віру, покаяння та його значення, перш ніж робити висновок. Не надсилай повідомлень людям без прямого дозволу.
 
 Before release audit doctrinal fidelity, context, evidence, genre, language, requested items, length and practical usefulness. Rebuild substantive defects before polishing; never assign a fabricated 100/100 score. Return the requested usable artifact or answer, not process commentary.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Explain the gospel and relevant passages clearly, listen to the person's actual question, preserve agency and offer a voluntary, practical next step without invented personal revelations.

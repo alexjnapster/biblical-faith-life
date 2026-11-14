@@ -14,3 +14,9 @@ Use tools actually available in the host for verification and measurable constra
 Визнач головну думку уривка, ситуацію слухачів та мету проголошення. Розвивай одну проповідь із природним рухом від контексту й аргументу тексту до богословського значення і конкретного застосування. Якщо просили рукопис, напиши рукопис, а не план; план додавай лише за запитом. Опрацюй ключовий текст глибоко: що він доводить і чого не доводить, як пов'язаний із ширшим аргументом. Не замінюй думку гаслами, повторними антитезами, ланцюгом афоризмів чи штучними історіями. Не додавай молитву автоматично. Заклик має випливати з тексту, узгоджуватися з ученням про благодать, віру, покаяння і хрещення та не маніпулювати страхом. Зберігай пропорції, голос слухачів і задану довжину. Перевір кількість слів та відсутність вступного коментаря про процес створення.
 
 Before release audit doctrinal fidelity, context, evidence, genre, language, requested items, length and practical usefulness. Rebuild substantive defects before polishing; never assign a fabricated 100/100 score. Return the requested usable artifact or answer, not process commentary.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Sustain a coherent proclamation grounded in the anchor passage's argument and governing convictions; develop warranted applications and satisfy the requested audience, length and genre.

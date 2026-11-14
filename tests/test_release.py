@@ -20,7 +20,12 @@ class ReleaseTests(unittest.TestCase):
             if slug in rewired:
                 baseline = baseline.replace('(references/', '(../biblical-faith-life/references/').replace("All filenames in routing resolve in this skill's references directory.", 'All filenames in routing resolve in ../biblical-faith-life/references inside this plugin.')
             baseline = baseline.replace('Each skill bundles the complete unchanged original sources; no other skill installation or external app is required.', 'This plugin bundles the complete unchanged original sources once in its shared reference library; no separate plugin installation or external app is required.')
-            self.assertEqual((CHAT/'skills'/slug/'SKILL.md').read_text(), baseline, slug)
+            text = (CHAT/'skills'/slug/'SKILL.md').read_text()
+            # The quality upgrade appends exactly one section; everything before it must stay byte-identical.
+            appended = re.search(r'\n\n\n## Verified answer production\n.*\Z', text, re.S)
+            self.assertIsNotNone(appended, slug)
+            self.assertIn('references/ANSWER_PRODUCTION.md)', appended.group(0), slug)  # link targets are checked below
+            self.assertEqual(text[:appended.start()] + '\n', baseline, slug)
 
     def test_chatgpt_removed_only_identical_references(self):
         for row in BASE['relocations']:

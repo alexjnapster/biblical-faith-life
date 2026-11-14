@@ -15,3 +15,9 @@ Define the program's biblical purpose, audience, congregation owner, resources, 
 Design activities that actually teach or serve the purpose. Supply responsibilities, sequence, realistic workload, accessibility, safeguarding, and contingency arrangements.
 Estimate costs transparently from supplied or verified figures. Mark unknown costs rather than inventing vendor prices or attendance.
 Deliver a practical schedule, resource plan, communication drafts, and evaluation method. Scheduling future reminders, contacting others, and committing funds each require the actual user instruction and supported tools.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work. Apply its editorial release rules to every finished artifact: keep the whole reply inside a requested length (plan for the lower half and give each section a word budget; never state an estimated count), begin and end with the artifact (its title or first sentence is the first line, even right after tool use; no status line or narration of what you are about to do, no mention of the plugin or its instructions, no closing verification or limitations paragraph, no mention of missing tools), keep paraphrases outside quotation marks, and state boundaries positively inside the explanation instead of adding unrequested "what this does not teach/prove" sections or answers to objections nobody raised.
+
+Skill-specific acceptance criteria: Match objectives, staffing, sequence, timing and budget to actual resources; identify unconfirmed arrangements without assigning invented commitments to real people.

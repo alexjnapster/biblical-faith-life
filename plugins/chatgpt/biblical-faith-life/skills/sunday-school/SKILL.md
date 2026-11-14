@@ -14,3 +14,9 @@ Use tools actually available in the host for verification and measurable constra
 Визнач вік, тривалість, уривок і попередні знання. Якщо вік невідомий і він істотно змінює урок, запитай лише про нього; інакше оголоси розумне припущення і створи повний результат. Сформулюй навчальну мету, поясни уривок у контексті та склади послідовність навчання з часом. Дай змістовні запитання, можливі відповіді, одну доступну вправу та спосіб перевірити розуміння. Дитяче спрощення не повинно змінювати зміст тексту. Не плутай біблійну розповідь із вигаданими деталями. Для дітей уникай графічних описів і примусу до особистих зізнань. Для дорослих розвивай аргумент і серйозні альтернативи. Перевір суму хвилин, потрібні матеріали і здійсненність заняття. Видай матеріал, який учитель може використати, а не перелік порад про викладання.
 
 Before release audit doctrinal fidelity, context, evidence, genre, language, requested items, length and practical usefulness. Rebuild substantive defects before polishing; never assign a fabricated 100/100 score. Return the requested usable artifact or answer, not process commentary.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Teach the passage through age-appropriate explanation, voluntary activities and an understanding check; reconcile timing and safeguard private disclosures.

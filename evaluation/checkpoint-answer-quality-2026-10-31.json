@@ -1,0 +1,43 @@
+{
+  "recorded_at": "2026-10-31 (final round)",
+  "status": "repair_verified_on_reviewed_sample_not_pushed",
+  "report": "evaluation/reports/ANSWER_QUALITY_2026-10-31.md",
+  "evidence_root": "<owner-local-outputs>/quality-upgrade.nosync/compare-20261031 (private; not in this repository)",
+  "installed_archive": {
+    "path": "<owner-local-outputs>/church-of-christ-claude-install.zip (private)",
+    "sha256": "f99f4b6205eac3418911d278eb20df90418d37d8ed140d43c5c55d89d0679c46",
+    "modified": false
+  },
+  "variants": {
+    "baseline": "2.1.0-claude.4 @dc2e1c2",
+    "installed": "2.1.0-claude.5",
+    "repaired": "2.1.0-claude.6 local unreleased"
+  },
+  "generated_outputs": 30,
+  "started_without_receipt": [],
+  "reviewer_verdicts": {
+    "baseline-claude.4": "2/7 pass",
+    "candidate-claude.5": "1/10 pass",
+    "repaired-claude.6": "8/8 pass",
+    "repaired-claude.6-iter2": "4/5 pass",
+    "repaired-iter6": "8/9 pass (review D/E)",
+    "repaired-iter7": "3/3 pass (review F)",
+    "candidate-claude.5 rounds 3-4": "0/6 pass"
+  },
+  "bible_commentary_ordinary": "repaired: iter2 output 754 words passed blind review",
+  "suite_cases_unrun": "all 182-case suite items other than the 15 distinct cases run here remain unrun and are not passed",
+  "next": [
+    "Owner decides what to publish; repo is public. Do not push the original branch history: commits 1d3f48c, cdf639f, 2b64858 add absolute local paths. A squashed local branch is prepared for review.",
+    "Expand to remaining skills and repeat runs; port the editorial rules to the ChatGPT and workspace packages through their own processes",
+    "Owner decides whether to install 2.1.0-claude.6 in Desktop",
+    "evaluation/app-helper/ belongs to the app-helper session; keep it out of plugin commits"
+  ],
+  "latest_commits": [
+    "945441c",
+    "266777f",
+    "0e44947",
+    "31db43b",
+    "cf6bfc5"
+  ],
+  "final_candidate_commit": "cf6bfc5 (iteration 7 tree)"
+}

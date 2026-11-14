@@ -14,3 +14,9 @@ Use tools actually available in the host for verification and measurable constra
 Визнач тезу, читача, жанр і очікуваний обсяг. Побудуй одну інтелектуальну або оповідну лінію; не перетворюй статтю на каталог, FAQ чи набір мініпроповідей без запиту. Розвивай ключові аргументи пропорційно їхній важливості, пояснюй механізми, серйозне заперечення, межі висновку і практичне значення. Біблійні опорні тексти потребують екзегези, зовнішні матеріальні факти — перевірки. Не заповнюй текст мотиваційними гаслами, симетричними антитезами або вигаданими історіями. Підзаголовки використовуй лише коли вони допомагають жанру. Збережи голос і призначення користувача, поверни завершену статтю без редакторської самореклами. Перевір обсяг і відповідність джерел фактичним твердженням.
 
 Before release audit doctrinal fidelity, context, evidence, genre, language, requested items, length and practical usefulness. Rebuild substantive defects before polishing; never assign a fabricated 100/100 score. Return the requested usable artifact or answer, not process commentary.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Develop one sustained argument with substantive treatment of anchor passages, natural transitions and warranted applications; preserve the requested article genre and length.

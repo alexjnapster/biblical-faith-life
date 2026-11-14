@@ -14,3 +14,9 @@ Use tools actually available in the host for verification and measurable constra
 Почни з точного питання та визнач вимірюваний об'єкт дослідження. Для важливих наукових тверджень читай первинну працю: метод, вибірку, популяцію, величину ефекту, невизначеність і обмеження. Розрізняй спостереження, модель, асоціацію, причинність, індивідуальний прогноз і світоглядний висновок. Чесно викладай позицію наукової спільноти та причини розбіжності зі збереженим ученням про творіння. Не представляй нерозв'язані креаційні моделі як доведені механізми, не заперечуй спостережувану біологічну зміну і не вигадуй доказів. Генетичну частку популяційної варіації не переносити на відсоток окремої людини; залишкову варіацію не називати автоматично вибором. Емпіричне дослідження саме по собі не визначає моральну норму. Не давай лікувальних призначень або гарантій зміни потягу.
 
 Before release audit doctrinal fidelity, context, evidence, genre, language, requested items, length and practical usefulness. Rebuild substantive defects before polishing; never assign a fabricated 100/100 score. Return the requested usable artifact or answer, not process commentary.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Represent observations, mainstream explanations and the plugin's convictions accurately; distinguish association, causation, models and uncertainty without fabricating empirical support.

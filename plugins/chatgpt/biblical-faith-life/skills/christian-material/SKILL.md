@@ -14,3 +14,9 @@ Use tools actually available in the host for verification and measurable constra
 Визнач формат, аудиторію, спосіб використання й конкретну мету. Обери структуру, за якою читач зможе виконати задачу: послідовність дій, пояснення, приклад або робочий аркуш. Усі запитані складові мають бути реально розроблені, не лише названі. Інструкції для ведучого відділяй від тексту для учасників, коли це допомагає використанню. Чітко вкажи матеріали, час і передумови. Узгодь біблійні пояснення з контекстом і переконаннями; познач неперевірені припущення. Якщо потрібен файл, створи його доступними інструментами й перевір читабельність; не видавай звичайний текст за створений PDF чи презентацію. Уникай зайвих розділів і декоративних елементів.
 
 Before release audit doctrinal fidelity, context, evidence, genre, language, requested items, length and practical usefulness. Rebuild substantive defects before polishing; never assign a fabricated 100/100 score. Return the requested usable artifact or answer, not process commentary.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Deliver the actual usable handout, guide or script with actionable instructions, accurate content and feasible activities; verify any requested length and export.

@@ -14,3 +14,9 @@ Use tools actually available in the host for verification and measurable constra
 Визнач період, обсяг, отримувача і джерела даних. Спочатку перевір записи, числа, одиниці, знаменники, дати й відсутні значення. Не перетворюй припущення на виконану роботу або виміряний результат. Подай висновки, їхню доказову основу, наслідки, обмеження і практичні рекомендації пропорційно доказам. Для служіння відрізняй проведені заходи, участь, результати й оцінку впливу. Не вигадуй навернень, відвідуваності, фінансів чи цитат учасників. Зберігай приватність; не внось імена або історії людей у публічний звіт без наданих підстав. Перевір підсумки і узгодженість таблиць із текстом. Якщо користувач просить аналітичний звіт, розвивай причини та альтернативи, а не тільки список показників.
 
 Before release audit doctrinal fidelity, context, evidence, genre, language, requested items, length and practical usefulness. Rebuild substantive defects before polishing; never assign a fabricated 100/100 score. Return the requested usable artifact or answer, not process commentary.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Reconcile supplied totals and currencies, distinguish activities from demonstrated outcomes, preserve unknowns and avoid invented counts, accomplishments or commitments.

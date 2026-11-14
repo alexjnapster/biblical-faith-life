@@ -14,3 +14,9 @@ Use tools actually available in the host for verification and measurable constra
 Для поточних новин досліджуй перед написанням. Перевір дату події, дату публікації, місце, учасників і статус повідомлення. Віддавай перевагу первинним документам та незалежному підтвердженню; не копіюй пресреліз як доказ усіх його тверджень. Якщо доступні лише заяви сторони, прямо атрибутуй їх. Розрізняй підтверджений факт, звинувачення, чутку, оцінку та власний християнський коментар. Не приписуй Богові пояснення поточних подій як встановлений факт. Дай ясний заголовок, суть, контекст і посилання; не приховуй невизначеність у кінцевій примітці. Якщо нових перевірених даних немає або немає пошуку, не вигадуй новину: поясни межу і працюй із наданим матеріалом. Не публікуй без дозволу.
 
 Before release audit doctrinal fidelity, context, evidence, genre, language, requested items, length and practical usefulness. Rebuild substantive defects before polishing; never assign a fabricated 100/100 score. Return the requested usable artifact or answer, not process commentary.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Verify the event date, publication date and source; attribute reported claims and separate them from established facts or commentary; do not turn a missing report into a confirmed absence.

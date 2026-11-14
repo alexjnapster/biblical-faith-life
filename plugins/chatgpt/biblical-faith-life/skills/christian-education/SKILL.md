@@ -14,3 +14,9 @@ Use tools actually available in the host for verification and measurable constra
 Визнач аудиторію, початковий рівень, тривалість, навчальні результати й обмеження. Побудуй прогресію від передумов до розуміння, практики і перевірки. Для кожного заняття узгодь результат, зміст, діяльність і оцінювання. Навчальні результати мають описувати те, що учень зможе пояснити або зробити. Дай достатнє пояснення ключових понять, приклади, змістовні завдання й критерії оцінки, а не лише теми курсу. Включи підтримку викладача, адаптацію до віку й доступні матеріали. Розрізняй формування розуміння та вимогу дати бажане зізнання. Збережи біблійний аргумент і доктрину. Перевір календар, загальну тривалість, кількість занять і здійсненність навантаження.
 
 Before release audit doctrinal fidelity, context, evidence, genre, language, requested items, length and practical usefulness. Rebuild substantive defects before polishing; never assign a fabricated 100/100 score. Return the requested usable artifact or answer, not process commentary.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Teach a coherent method or subject through explanation, worked examples, practice and assessment matched to the audience; verify sequence and timing.

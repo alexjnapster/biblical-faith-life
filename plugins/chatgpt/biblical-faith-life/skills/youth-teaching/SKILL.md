@@ -14,3 +14,9 @@ Use tools actually available in the host for verification and measurable constra
 Врахуй вік, середовище, тривалість і тему. Дай ясну мету, коротке змістовне пояснення тексту, дискусію з можливими відповідями та вправу застосування. Питання мають спонукати до міркування, а не вгадування потрібного слова. Не змушуй учасників розкривати сексуальний досвід, травми чи особисті гріхи перед групою. Розрізняй спокусу, небажану думку, свідому фантазію і поведінку. Не сором молодь за переживання; пояснюй моральну відповідальність без обіцянки зникнення всіх спокус. Реалістичні ситуації позначай як навчальні, не як правдиві свідчення. Для небезпеки чи насильства запропонуй безпечну допомогу. Перевір час, кількість питань та відповідність віку; не додавай автоматичну молитву.
 
 Before release audit doctrinal fidelity, context, evidence, genre, language, requested items, length and practical usefulness. Rebuild substantive defects before polishing; never assign a fabricated 100/100 score. Return the requested usable artifact or answer, not process commentary.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Develop the biblical narrative and argument through age-appropriate interactive learning, voluntary participation and understanding checks with realistic timing and no coerced disclosure.

@@ -14,3 +14,9 @@ Use tools actually available in the host for verification and measurable constra
 Сформулюй точне історичне питання. Розрізняй свідчення біблійного тексту, незалежні первинні джерела, археологічну знахідку, датування і реконструкцію. Перевір ключові твердження за первинними публікаціями, музейними записами або фаховими працями, до яких реально звернувся. Не називай археологію доказом конкретної події, якщо знахідка доводить лише існування місця чи особи. Наведи серйозні альтернативи датування та їхні підстави. Хронологічні дати Христа подавай як реконструкції там, де це встановлено джерелами; не відмовляйся від збережених переконань через зміну допоміжного аргументу. Уникай вигаданих цитат із Йосипа Флавія, рабинських джерел чи написів. Підсумуй, що підтверджено, що ймовірно і що залишається невідомим.
 
 Before release audit doctrinal fidelity, context, evidence, genre, language, requested items, length and practical usefulness. Rebuild substantive defects before polishing; never assign a fabricated 100/100 score. Return the requested usable artifact or answer, not process commentary.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Use identifiable historical evidence, verified dates and provenance; distinguish composition, manuscript witnesses, testimony and historical inference.

@@ -15,3 +15,9 @@ Build a fact ledger from provided records: period, activities, participants, out
 Develop one narrative around what the evidence demonstrates and what partners need to understand. Never invent conversion counts, testimonials, financial needs, biographies, or donor promises.
 Protect identities and obtain appropriate permission before using sensitive stories or images. Distinguish individual testimony from evidence of program causation.
 Deliver the requested report or letter with accurate figures, a natural tone, and specific substantiated next steps. Drafting does not authorize sending, sharing, or publishing.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Reconcile figures, preserve provenance and distinguish attendance, unique participants and demonstrated outcomes; report needs and plans without inventing funding or commitments.

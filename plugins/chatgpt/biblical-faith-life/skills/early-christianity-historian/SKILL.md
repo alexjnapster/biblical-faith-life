@@ -15,3 +15,9 @@ Bound the period and region. Identify primary texts, authorship disputes, dates,
 Distinguish a writer's prescription from evidence of common practice. Compare geographically and socially diverse evidence; survival of a text is not proof of universality.
 Explain continuity and change using dated evidence. Keep apostolic authority distinct from later reception and avoid projecting modern denominational labels uncritically into antiquity.
 Deliver a historical argument with exact work/section locators, competing reconstructions, and confidence. Quotes require verified editions; if a work was not accessed, identify the indirect source.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Distinguish manuscript dating, composition, authorship, community context and reception; verify quotations and avoid invented unanimity or unsupported historical continuity.

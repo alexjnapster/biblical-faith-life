@@ -59,6 +59,7 @@ def tool(name, description, properties, required, readonly=False, network=False)
 
 TOOLS = [
  tool('bfl_status','Show available engines, whether the configured workspace is usable (with the reason when it is not), optional export support and whether a Church UA credential is configured. Never returns a credential or a path.',{},[],True),
+ tool('bfl_count_words','Count the words of a supplied draft (whitespace-separated tokens, the convention used to check requested lengths) and report whether it falls inside an optional range. Count only the text you will send. Local, read-only.',{'text':STRING,'min_words':{'type':'integer','minimum':0,'maximum':100000},'max_words':{'type':'integer','minimum':1,'maximum':100000}},['text'],True),
  tool('bfl_validate','Validate a supplied evidence envelope against the six shared engine gates. Structural validation does not certify theology or scholarship.',{'envelope':OBJECT},['envelope'],True),
  tool('bfl_library_ingest','Store a supplied document and immutable provenance/version history in the configured local workspace. Put optional passage tags in document.metadata, not unknown document fields. Private records require actual boolean consent in document.',{'library':STRING,'document':DOCUMENT},['library','document']),
  tool('bfl_library_search','Search a named existing local library in the configured workspace. Returns ranked matches with provenance and a short excerpt; read a full document with bfl_library_get, or set include_content only when every full text is needed.',{'library':STRING,'query':STRING,'limit':{'type':'integer','minimum':1,'maximum':50},'include_content':BOOL},['library','query'],True),
@@ -160,6 +161,11 @@ class Adapter:
         if name not in BY_NAME:raise ValueError('Unknown tool')
         check(args,BY_NAME[name]['inputSchema'])
         if name=='bfl_status':return self.status()
+        if name=='bfl_count_words':
+            n=len(args['text'].split());lo=args.get('min_words');hi=args.get('max_words')
+            out={'words':n}
+            if lo is not None or hi is not None:out['within_range']=(lo is None or n>=lo) and (hi is None or n<=hi);out['range']=[lo,hi]
+            return out
         if name=='bfl_validate':return validate(args['envelope'],REF)
         if name=='bfl_draft_preview':return prepare(args['kind'],args['payload'])
         if name.startswith('bfl_library_'):

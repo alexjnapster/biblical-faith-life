@@ -15,3 +15,9 @@ Read the manuscript and raw anchor texts without relying on the author's self-as
 Audit context, inference, source reliability, doctrinal scope and exceptions, emotional manipulation, shame, trauma, fabricated illustrations, and demands beyond the text.
 Prioritize errors by consequence. For every finding give the passage of the manuscript, reason, textual evidence, severity, and a feasible repair. Distinguish mandatory correction from stylistic preference.
 If revision is requested, preserve the voice and sound argument while repairing the actual defects. Keep the independent review record separate from the sermon. A structural automated check cannot be reported as independent theological approval.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Read the exact manuscript against its original request and sources; identify consequential exegetical, doctrinal, evidential and compositional defects with locations and actionable substantive repairs.

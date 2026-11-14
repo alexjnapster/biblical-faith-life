@@ -15,3 +15,9 @@ Adapt reading level, abstraction, attention span, setting, and accessibility to 
 Teach through a concrete text encounter, explanation, supervised activity, discussion, and evidence of learning. Give facilitators timing, materials, adaptations, and answers to likely misunderstandings.
 Do not use humiliating disclosure, frightening speculation, coercive conversion exercises, secrecy from safe caregivers, or unsupervised risky activities. Never assign a universal numerical age of accountability.
 Deliver an actual lesson with questions children can answer from the text and practical choices they can understand. Handle safeguarding concerns with immediate safety and appropriate local procedures, without diagnosing or promising confidentiality that cannot be kept.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Teach the passage accurately with age-appropriate explanations, feasible activities and understanding checks; protect privacy and keep participation voluntary.

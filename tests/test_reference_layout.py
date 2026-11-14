@@ -34,7 +34,7 @@ class ReferenceLayoutTests(unittest.TestCase):
             self.assertEqual(hashlib.sha256(raw).hexdigest(),row['sha256'])
             self.assertEqual(len(raw),row['bytes'])
 
-    def test_skill_changes_are_only_declared_reference_rewrites(self):
+    def test_original_skill_content_preserved_before_quality_addendum(self):
         for slug,digest in BASE['skill_hashes'].items():
             baseline=BASE['skill_texts'][slug]
             self.assertEqual(hashlib.sha256(baseline.encode()).hexdigest(),digest,slug)
@@ -43,7 +43,9 @@ class ReferenceLayoutTests(unittest.TestCase):
                 expected=expected.replace('(references/','(../biblical-faith-life/references/').replace("All filenames in routing resolve in this skill's references directory.",'All filenames in routing resolve in ../biblical-faith-life/references inside this plugin.')
             if slug in BASE['rewired_skills'] or slug=='biblical-faith-life':
                 expected=expected.replace('Each skill bundles the complete unchanged original sources; no other skill installation or external app is required.','This plugin bundles the complete unchanged original sources once in its shared reference library; no separate plugin installation or external app is required.')
-            self.assertEqual((PLUGIN/'skills'/slug/'SKILL.md').read_text(),expected,slug)
+            actual=(PLUGIN/'skills'/slug/'SKILL.md').read_text()
+            original=actual.split('\n\n## Verified answer production\n')[0]
+            self.assertEqual(original,expected,slug)
 
     def test_all_declared_skill_links_resolve_inside_package(self):
         for f in (PLUGIN/'skills').glob('*/SKILL.md'):

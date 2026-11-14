@@ -17,3 +17,9 @@ Specialist entrypoints:
 
 - [church-ua-content-publisher](../church-ua-content-publisher/SKILL.md)
 - [christian-publication-editor](../christian-publication-editor/SKILL.md)
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Distinguish offline preparation, tool execution, authenticated draft submission, readback and publication; preserve configured origin, existing key scope and retry protections.

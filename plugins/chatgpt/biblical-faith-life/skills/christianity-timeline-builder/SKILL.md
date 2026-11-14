@@ -15,3 +15,9 @@ Define temporal, geographic, and thematic boundaries. Gather dated primary evide
 Record ranges and disputed chronology; never convert approximate dates into precise years for visual convenience. Separate developments in different regions.
 Explain causal claims only where evidence supports them. Co-occurrence or chronological succession alone does not show influence.
 Deliver a sourced timeline with event descriptions, date confidence, regional context, and interpretive notes. Use accessible visual output when useful and preserve a text equivalent.
+
+
+## Verified answer production
+Read [the answer production workflow](../biblical-faith-life/references/ANSWER_PRODUCTION.md) for substantial work.
+
+Skill-specific acceptance criteria: Verify dates and primary evidence; distinguish composition, reception, institutional decisions and gradual development; label disputed chronology and avoid retrospective simplification.

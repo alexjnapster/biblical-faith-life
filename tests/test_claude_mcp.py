@@ -18,8 +18,14 @@ class MCPTests(unittest.TestCase):
         self.assertEqual(r[0]['result']['serverInfo']['version'],version)
     def test_status_no_secret(self):
         a=M.Adapter(token='synthetic-private-value');r=a.call('bfl_status',{});self.assertFalse(r['church_ua_configured']);self.assertNotIn(a._token,json.dumps(r))
+    def test_count_words_matches_whitespace_convention(self):
+        r=self.a.call('bfl_count_words',{'text':'Один  два\nтри — чотири','min_words':3,'max_words':4});self.assertEqual(r,{'words':5,'within_range':False,'range':[3,4]})
+        self.assertEqual(self.a.call('bfl_count_words',{'text':'a b c'}),{'words':3})
+        self.assertTrue(M.BY_NAME['bfl_count_words']['annotations']['readOnlyHint'])
+    def test_status_reports_manifest_version(self):
+        manifest=json.loads((P/'.claude-plugin/plugin.json').read_text());self.assertEqual(self.a.call('bfl_status',{})['version'],manifest['version'])
     def test_all_tools_have_strict_schemas_and_annotations(self):
-        self.assertEqual(len(M.TOOLS),12)
+        self.assertEqual(len(M.TOOLS),13)
         for t in M.TOOLS:
             self.assertFalse(t['inputSchema']['additionalProperties'])
             for key in ['readOnlyHint','destructiveHint','openWorldHint']:self.assertIs(type(t['annotations'][key]),bool)
@@ -161,7 +167,7 @@ class MCPTests(unittest.TestCase):
     def frames(self,frames):
         source=io.BytesIO(b''.join(json.dumps(f).encode()+b'\n' for f in frames));sink=io.BytesIO();M.serve(self.a,source,sink);return [json.loads(x) for x in sink.getvalue().splitlines()]
     def test_protocol_handshake_and_tool_call(self):
-        r=self.frames([{'jsonrpc':'2.0','id':1,'method':'initialize','params':{'protocolVersion':'2025-11-25'}},{'jsonrpc':'2.0','method':'notifications/initialized'},{'jsonrpc':'2.0','id':2,'method':'tools/list'},{'jsonrpc':'2.0','id':3,'method':'tools/call','params':{'name':'bfl_status','arguments':{}}}]);self.assertEqual(len(r),3);self.assertEqual(len(r[1]['result']['tools']),12);self.assertFalse(r[2]['result']['isError'])
+        r=self.frames([{'jsonrpc':'2.0','id':1,'method':'initialize','params':{'protocolVersion':'2025-11-25'}},{'jsonrpc':'2.0','method':'notifications/initialized'},{'jsonrpc':'2.0','id':2,'method':'tools/list'},{'jsonrpc':'2.0','id':3,'method':'tools/call','params':{'name':'bfl_status','arguments':{}}}]);self.assertEqual(len(r),3);self.assertEqual(len(r[1]['result']['tools']),13);self.assertFalse(r[2]['result']['isError'])
     def test_protocol_notifications_cannot_execute_tools(self):
         r=self.frames([{'jsonrpc':'2.0','method':'tools/call','params':{'name':'bfl_library_ingest','arguments':{'library':'bad','document':self.doc()}}}]);self.assertEqual(r,[]);self.assertFalse((self.root/'bad').exists())
     def test_protocol_requires_initialize_and_unknown_method(self):
